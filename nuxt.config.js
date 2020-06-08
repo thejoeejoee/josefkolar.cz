@@ -1,12 +1,9 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   mode: 'universal',
   /*
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
     meta: [
       {charset: 'utf-8'},
@@ -24,7 +21,9 @@ export default {
   /*
   ** Global CSS
   */
-  css: [],
+  css: [
+    {src: 'latex.css/style.css', lang: 'css'}
+  ],
   /*
   ** Plugins to load before mounting the App
   */
@@ -33,8 +32,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxt/typescript-build',
-    '@nuxtjs/vuetify'
+    '@nuxt/typescript-build'
   ],
   /*
   ** Nuxt.js modules
@@ -42,26 +40,6 @@ export default {
   modules: [
     '@nuxtjs/pwa'
   ],
-  /*
-  ** vuetify module configuration
-  ** https://github.com/nuxt-community/vuetify-module
-  */
-  vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      themes: {
-        light: {
-          primary: colors.purple.darken1,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
-  },
   /*
   ** Build configuration
   */

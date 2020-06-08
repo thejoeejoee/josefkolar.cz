@@ -1,16 +1,60 @@
 <template>
-  <v-container fluid>
-    <h1>Ahoj!</h1>
+  <div>
+    <h1>Ahoj, já jsem Joe!</h1>
 
-    <v-alert color="primary" text outlined prominent icon="mdi-clock" min-height="8em">
-      Hola hola
-      <br>
-      Test
-    </v-alert>
+    <p>
 
-  </v-container>
+      <img src="/jk.jpg" alt="Joe">
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facilis fuga officia quibusdam rerum tempore totam
+      voluptatum? Accusantium aliquam atque distinctio, doloribus iure laboriosam nostrum praesentium quisquam rerum
+      sint voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem debitis dolor dolores
+      eaque, illum incidunt ipsum minus perspiciatis possimus quae, quod sint sunt temporibus veniam! Assumenda debitis
+      laudantium ullam.
+
+    </p>
+
+    <h3>Kdo jsem?</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquid culpa deleniti dolore earum ex, illo
+      ipsum iste magnam maiores maxime molestias necessitatibus odit provident quibusdam repudiandae tenetur vitae!</p>
+
+    <h3>Co dělám?</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquid culpa deleniti dolore earum ex, illo
+      ipsum iste magnam maiores maxime molestias necessitatibus odit provident quibusdam repudiandae tenetur vitae!</p>
+
+    <h3>Co mě baví?</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquid culpa deleniti dolore earum ex, illo
+      ipsum iste magnam maiores maxime molestias necessitatibus odit provident quibusdam repudiandae tenetur vitae!</p>
+
+    <h3>Kde jsem?</h3>
+
+    <ul>
+      <li>položka 1</li>
+      <li>položka 2</li>
+      <li>položka 3</li>
+      <li>položka 4</li>
+      <li>položka 5</li>
+    </ul>
+  </div>
 </template>
 
-<script>
-  export default {}
+<script lang="ts">
+  import Vue from 'vue'
+
+  export default Vue.extend({
+    components: {}
+  })
 </script>
+
+<style>
+  img {
+    max-width: 15em;
+    margin-left: 1em;
+    float: right;
+    box-shadow: 0 0 3px #555;
+  }
+
+</style>
