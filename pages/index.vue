@@ -2,6 +2,16 @@
   <div>
     <h1>Ahoj, já jsem Joe!</h1>
 
+    <p class="author">
+      Josef Kolář |
+      {{ (new Date(compileTimestamp)).toLocaleDateString(undefined, { year: 'numeric', month: 'long' }) }}
+    </p>
+
+    <div class="abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur cum cupiditate
+      dolor dolorum eum expedita facilis nemo nulla odit pariatur, rem suscipit voluptatum? Aliquid asperiores eveniet
+      hic placeat sapiente.
+    </div>
+
     <p>
 
       <img src="/jk.jpg" alt="Joe">
@@ -45,7 +55,12 @@
   import Vue from 'vue'
 
   export default Vue.extend({
-    components: {}
+    components: {},
+    async asyncData({env}) {
+      return {
+        compileTimestamp: env.compileTimestamp || new Date(),
+      }
+    }
   })
 </script>
 

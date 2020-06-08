@@ -1,10 +1,11 @@
 export default {
   mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+
   head: {
     title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'cs',
+    },
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -14,39 +15,29 @@ export default {
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
+
+  env: {
+    compileTimestamp: new Date(),
+  },
+
   loading: {color: '#fff'},
-  /*
-  ** Global CSS
-  */
+
   css: [
     {src: 'latex.css/style.css', lang: 'css'}
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+
   plugins: [],
-  /*
-  ** Nuxt.js dev-modules
-  */
+
   buildModules: [
     '@nuxt/typescript-build'
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
   modules: [
     '@nuxtjs/pwa'
   ],
-  /*
-  ** Build configuration
-  */
+
   build: {
-    /*
-    ** You can extend webpack config here
-    */
+
     extend(config, ctx) {
     }
   }
