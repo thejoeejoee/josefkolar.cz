@@ -30,7 +30,7 @@
         </div>
 
         <figure>
-            <img src="/jk.jpg" alt="Joe">
+            <img src="~/assets/jk.jpg" alt="Joe">
             <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption>
         </figure>
 
