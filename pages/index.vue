@@ -64,7 +64,7 @@
                 administátorsky ovládám a sám provozuji Debian i CentOS.
             </li>
             <li>
-                <em>co dál?</em> – LaTeX, skriptování v Bashi, ???
+                <em>co dál?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, skriptování v Bashi, ???
             </li>
         </ul>
 
