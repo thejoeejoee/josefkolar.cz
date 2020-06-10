@@ -30,7 +30,7 @@
         </div>
 
         <figure>
-            <img src="~/assets/jk.jpg" alt="Joe">
+            <img src="~assets/jk.jpg" alt="Joe">
             <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption>
         </figure>
 
@@ -64,7 +64,16 @@
                 administátorsky ovládám a sám provozuji Debian i CentOS.
             </li>
             <li>
-                <em>co dál?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, skriptování v Bashi, ???
+                <strong>SQL</strong> – PostgreSQL je láska, &hellip;
+            </li>
+            <li>
+                <strong>C/Cpp</strong> – &hellip;
+            </li>
+            <li>
+                <strong>PHP</strong> – Nette &hellip;
+            </li>
+            <li>
+                <em>co dál?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, VHDL, ASMx86
             </li>
         </ul>
 
@@ -76,9 +85,13 @@
             <li>
                 <h5>Litovel MINICUP 2013-20??</h5>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at fugit illo laborum non
-                    odit! Nihil, obcaecati reiciendis. Amet atque dolores et in laboriosam necessitatibus nesciunt
-                    numquam optio quisquam voluptates.
+                    &hellip;
+                </p>
+            </li>
+            <li>
+                <h5>IFJ-toolkit</h5>
+                <p>
+                    &hellip;
                 </p>
             </li>
         </ul>
@@ -136,7 +149,7 @@
 
         <ul>
             <li>
-                určitě na e-mailu <strong><a :href="`mailto:${email}?subject=Dotaz z webu`" v-text="email"></a></strong>
+                určitě na mém e-mailu <strong><Mailto :mail='email' subject="Dotaz z webu" /></strong>
             </li>
             <li>mám profil na Githubu <a href="https://github.com/thejoeejoee">@thejoeejoee</a>
                 (či stručné <a href="https://resume.github.io/?thejoeejoee">resumé</a>)
@@ -208,6 +221,11 @@
     figure {
         max-width: 80%;
         margin: auto;
+        text-align: center;
+    }
+
+    small {
+        font-size: .8em;
     }
 
     .vue-typer .custom.char.typed {

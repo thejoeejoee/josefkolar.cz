@@ -1,52 +1,53 @@
 export default {
-  mode: 'universal',
+    mode: 'universal',
 
-  head: {
-    title: process.env.npm_package_name || '',
-    htmlAttrs: {
-      lang: 'cs'
+    head: {
+        title: process.env.npm_package_name || '',
+        htmlAttrs: {
+            lang: 'cs'
+        },
+        meta: [
+            {charset: 'utf-8'},
+            {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+            {hid: 'description', name: 'description', content: process.env.npm_package_description || ''}
+        ],
+        link: [
+            {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+        ]
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+
+    env: {
+        compileTimestamp: new Date()
+    },
+
+    loading: {color: '#fff'},
+
+    css: [
+        {src: 'latex.css/style.css', lang: 'css'}
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
 
-  env: {
-    compileTimestamp: new Date()
-  },
+    plugins: [{src: './plugins/vue-typer.client.ts', mode: 'client'}],
 
-  loading: { color: '#fff' },
+    buildModules: [
+        '@nuxt/typescript-build'
+    ],
 
-  css: [
-    { src: 'latex.css/style.css', lang: 'css' }
-  ],
+    modules: [
+        '@nuxtjs/pwa',
+        '@nuxtjs/style-resources',
+        'nuxt-protected-mailto',
 
-  plugins: [{ src: './plugins/vue-typer.client.ts', mode: 'client' }],
+    ],
+    styleResources: {
+        scss: [
+            'assets/scss/file/_path.scss',
+            'assets/scss/file/_path-two.scss'
+        ]
+    },
 
-  buildModules: [
-    '@nuxt/typescript-build'
-  ],
+    build: {
 
-  modules: [
-    '@nuxtjs/pwa',
-    '@nuxtjs/style-resources'
-
-  ],
-  styleResources: {
-    scss: [
-      'assets/scss/file/_path.scss',
-      'assets/scss/file/_path-two.scss'
-    ]
-  },
-
-  build: {
-
-    extend (config, ctx) {
+        extend(config, ctx) {
+        }
     }
-  }
 }
