@@ -26,7 +26,11 @@ export default {
         {src: 'latex.css/style.css', lang: 'css'}
     ],
 
-    plugins: [{src: './plugins/vue-typer.client.ts', mode: 'client'}],
+    plugins: [
+        {src: './plugins/vue-typer.client.ts', mode: 'client'},
+        {src: './plugins/vue-rough-notation.client.ts', mode: 'client'},
+        {src: './plugins/vue-intersection-observer.client.ts', mode: 'client'},
+    ],
 
     buildModules: [
         '@nuxt/typescript-build'

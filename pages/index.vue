@@ -50,8 +50,8 @@
 
         <ul>
             <li>
-                <strong>Python</strong> – můj denní chleba už víc jak osm let – především ve spojení s&nbsp;frameworkem
-                Django,
+                <strong>Python</strong> – můj denní chleba už víc jak osm let – především ve spojení
+                s&nbsp;<Highlight>frameworkem Django</Highlight>,
                 ale rozhodně se neztratím ve Flasku, numpy, PyQt či Kerasu.
             </li>
             <li>
@@ -64,7 +64,7 @@
                 administátorsky ovládám a sám provozuji Debian i CentOS.
             </li>
             <li>
-                <strong>databáze</strong> – relačně mám nejvíc zkušeností s PostgreSQL,
+                <strong>databáze</strong> – relačně mám nejvíc zkušeností s <Highlight>PostgreSQL</Highlight>,
                 ale s MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
             </li>
             <li>
@@ -88,7 +88,7 @@
             <li>
                 <h5>Litovel MINICUP 2013-20??</h5>
                 <p>
-                    &hellip;
+                    Na začátku tohoto turnaje v miniházené pro děti byl požadavek na stránky
                 </p>
             </li>
             <li>
@@ -104,27 +104,36 @@
             <li>
                 <h5>Magisterské studium na FIT VUT v Brně</h5>
                 <p>
-                    &hellip;
+                    Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
+                    ve specializaci <em>Počítačové sítě</em> a hned první akademický ročník vyjel na Erasmus na
+                    <em>University of Latvia</em>; předpokládané dokončení je aktuálně v&nbsp;roce 2022.
                 </p>
             </li>
             <li>
                 <h5>Magisterské studium na <em>University of Latvia</em> v Rize</h5>
+                <!-- TODO: add link to blog with Erasmus tag -->
                 <p>
-                    V rámci svého výjezdu do zahraniční jsem strávil dva semestry na <em>Faculty of Computing</em>
-                    na lotyšské univerzitě – &hellip;
+                    V rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
+                    do Lotyšska na <em>Faculty of Computing</em> na <Highlight><em>University of Latvia</em></Highlight>.
+                    Nabitých deset měsíců pobytu v Rize jsem naplnil studiem, prozkoumáváním celé dvoumilionové země,
+                    výpomocí pro
+                    <abbr title="Erasmus Student Network, dobrovolnická organizace věnující se přijíždějícím studentům">
+                        ESN Riga
+                    </abbr> a seznamováním se s dalšími zahraničními studenty.
                 </p>
             </li>
             <li>
                 <h5>Bakalářské studium na FIT VUT v Brně</h5>
                 <p>
-                    Na oboru Aplikovaná informatika jsem si prošel pěknou řádkou předmětů a hodnotných projektů včetně
-                    vlastní implementace DNS resolveru, kompletní aplikace programovatelné kalkulačky
-                    s multiplatformním instalátorem a uživatelskou dokumentací, kompilátoru a interpretu vlastního
+                    Na oboru <em>Aplikovaná informatika</em> jsem si prošel pěknou řádkou předmětů a hodnotných
+                    projektů včetně vlastní implementace DNS resolveru, kompletní aplikace programovatelné kalkulačky
+                    s&nbsp;multiplatformním instalátorem a uživatelskou dokumentací, kompilátoru a interpretu vlastního
                     derivátu jazyka FreeBASIC, sond pro měření parametrů sítě či simulací modelů cvrččí farmy.
-                    V posledních dvou semestrech jsem se v rámci mé bakalářské práce věnoval koordinaci
-                    IoT pomocí otevřeného nástroje Node-RED, díky čemuž vznikla platforma zahrnující komunikační protokol,
-                    firmware pro minipočítače ESP32 a rozšíření pro zmíněný nástroj, kde jednotlivé bloky reprezentují
-                    přímo IoT uzly.
+                </p>
+                <p>
+                    V rámci mé <a href="https://www.vutbr.cz/studenti/zav-prace/detail/121991?zp_id=121991">bakalářské práce</a> jsem se věnoval vývoji
+                    <Highlight>otevřené&nbsp;platformy</Highlight> pro koordinaci IoT uzlů v&nbsp;nástroji vizuálního programování Node-RED, jejíž součástí byl i firmware
+                    pro mikropočítače ESP32.
                 </p>
             </li>
             <li>
@@ -141,7 +150,7 @@
         <p>
             Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro děti –
             malé kapacitou, velké zážitkem. Každý rok jinde, takže výběr tábořiště, dostatek informací zájemcům,
-            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu, to je moje, to mě naplňuje.
+            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu, to je moje, <Highlight>to mě naplňuje.</Highlight>
             Během samotného týdne v&nbsp;lesích pak táborový program a vizuální vzpomínky pro účastníky
             a další propagaci. Je mi ctí pokračovat ve více jak dvacetileté tradici rytířských táborů, na které
             jsem sám jezdil a utvářely mě.
@@ -161,7 +170,9 @@
 
         <ul>
             <li>
-                určitě na mém e-mailu <strong><Mailto :mail='email' subject="Dotaz z webu" /></strong>
+                určitě na mém e-mailu <strong>
+                <Mailto :mail='email' subject="Dotaz z webu"/>
+            </strong>
             </li>
             <li>mám profil na Githubu <a href="https://github.com/thejoeejoee">@thejoeejoee</a>
                 (či stručné <a href="https://resume.github.io/?thejoeejoee">resumé</a>)
@@ -185,8 +196,10 @@
 
 <script lang="ts">
     import Vue from 'vue'
+    import Highlight from "~/components/Highlight.vue";
 
     export default Vue.extend({
+        components: {Highlight},
         asyncData({env}) {
             return {
                 compileTimestamp: env.compileTimestamp || new Date(),
