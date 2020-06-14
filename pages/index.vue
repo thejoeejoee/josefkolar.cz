@@ -64,13 +64,16 @@
                 administátorsky ovládám a sám provozuji Debian i CentOS.
             </li>
             <li>
-                <strong>SQL</strong> – PostgreSQL je láska, &hellip;
+                <strong>databáze</strong> – relačně mám nejvíc zkušeností s PostgreSQL,
+                ale s MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
             </li>
             <li>
-                <strong>C/Cpp</strong> – &hellip;
+                <strong>PHP</strong> – než jsem se definitině zamiloval do Djanga, stavěl jsem projekty na Nette,
+                které mají můj servis stále.
             </li>
             <li>
-                <strong>PHP</strong> – Nette &hellip;
+                <strong>C/Cpp</strong> – nejsou to úplně mé primární jazyky, ale vyznám se a pár projektů už mám také
+                za sebou; znalost C se v případě nativní implementace Pythonu hodí.
             </li>
             <li>
                 <em>co dál?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, VHDL, ASMx86
@@ -114,7 +117,14 @@
             <li>
                 <h5>Bakalářské studium na FIT VUT v Brně</h5>
                 <p>
-                    Na oboru Aplikovaná informatika &hellip;
+                    Na oboru Aplikovaná informatika jsem si prošel pěknou řádkou předmětů a hodnotných projektů včetně
+                    vlastní implementace DNS resolveru, kompletní aplikace programovatelné kalkulačky
+                    s multiplatformním instalátorem a uživatelskou dokumentací, kompilátoru a interpretu vlastního
+                    derivátu jazyka FreeBASIC, sond pro měření parametrů sítě či simulací modelů cvrččí farmy.
+                    V posledních dvou semestrech jsem se v rámci mé bakalářské práce věnoval koordinaci
+                    IoT pomocí otevřeného nástroje Node-RED, díky čemuž vznikla platforma zahrnující komunikační protokol,
+                    firmware pro minipočítače ESP32 a rozšíření pro zmíněný nástroj, kde jednotlivé bloky reprezentují
+                    přímo IoT uzly.
                 </p>
             </li>
             <li>
@@ -142,7 +152,9 @@
             <a href="https://www.csfd.cz/uzivatel/726493-thejoeejoee/hodnoceni/">drama, scifi a podobné</a>,
             bez hudby si nedokážu představit den,
             na <a href="https://open.spotify.com/user/11147151576?si=f-6UCuBoSaCyYsT51-mteg">Spotify</a> vyhledávám
-            většinou rock všechn možných typů, ale daleko to nemám k žádnému hudebnímu žánru.
+            většinou rock všech možných typů, ale daleko to nemám k žádnému hudebnímu žánru.
+            Když mám náladu, jdu si zaběhat, když ji mám fakt dobrou a velmi namotivovovanou, dám si i nějaké ty
+            <abbr title="orientační běh, takové to zdánlivě zmatené pobíhání po lese mezi barevnými stojánky">lampiony</abbr>.
         </p>
 
         <h2>Kde mě najdete?</h2>
@@ -154,7 +166,6 @@
             <li>mám profil na Githubu <a href="https://github.com/thejoeejoee">@thejoeejoee</a>
                 (či stručné <a href="https://resume.github.io/?thejoeejoee">resumé</a>)
             </li>
-
             <li>příležitostně <a href="https://blog.josefkolar.cz">bloguju</a></li>
             <li>občas twítuju <a href="https://twitter.com/thejoeejoee">@thejoeejoee</a></li>
             <li>jsem i na <a href="https://www.linkedin.com/in/josef-kol%C3%A1%C5%99-69b988133/">LinkedIn</a>u</li>
