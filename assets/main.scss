@@ -1,0 +1,25 @@
+body {
+  min-width: 40ch;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+figure {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+small {
+  font-size: .8em;
+}

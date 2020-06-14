@@ -23,7 +23,8 @@ export default {
     loading: {color: '#fff'},
 
     css: [
-        {src: 'latex.css/style.css', lang: 'css'}
+        {src: 'latex.css/style.css', lang: 'css'},
+        '@/assets/main.scss'
     ],
 
     plugins: [

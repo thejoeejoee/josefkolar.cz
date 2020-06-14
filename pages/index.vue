@@ -88,13 +88,19 @@
             <li>
                 <h5>Litovel MINICUP 2013-20??</h5>
                 <p>
-                    Na začátku tohoto turnaje v miniházené pro děti byl požadavek na stránky
+                    Na začátku tohoto turnaje v miniházené pro děti byl požadavek na stránky se základními informacemi a
+                    výsledky zápasů na turnaji.
                 </p>
             </li>
             <li>
-                <h5>IFJ-toolkit</h5>
+                <h5>IFJ2017-toolkit</h5>
                 <p>
-                    &hellip;
+                    Během projektu vývoje kompilátoru na FIT VUT jsme se rozhodli v týmu
+                    stvořit i volně <a href="https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit">
+                    dostupnou sadu nástrojů</a> pro podporu vývoje těchto kompilátorů.
+                    Vzniklo tak IDE s debuggerem pro zadaný jazyk, množina více
+                    než 800 integračních testů pro vyvíjené kompilátory i plugin
+                    pro zvýrazňování syntaxe výstupního jazyka.
                 </p>
             </li>
         </ul>
@@ -105,7 +111,7 @@
                 <h5>Magisterské studium na FIT VUT v Brně</h5>
                 <p>
                     Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
-                    ve specializaci <em>Počítačové sítě</em> a hned první akademický ročník vyjel na Erasmus na
+                    ve specializaci <Highlight><em>Počítačové sítě</em></Highlight> a hned první akademický ročník vyjel na Erasmus na
                     <em>University of Latvia</em>; předpokládané dokončení je aktuálně v&nbsp;roce 2022.
                 </p>
             </li>
@@ -242,16 +248,6 @@
 </script>
 
 <style lang="scss">
-    figure {
-        max-width: 80%;
-        margin: auto;
-        text-align: center;
-    }
-
-    small {
-        font-size: .8em;
-    }
-
     .vue-typer .custom.char.typed {
         color: #4A148C;
     }
