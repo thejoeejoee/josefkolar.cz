@@ -9168,9 +9168,9 @@ vue-observe-visibility@^0.4.6:
   resolved "https://registry.yarnpkg.com/vue-observe-visibility/-/vue-observe-visibility-0.4.6.tgz#878cb8ebcf3078e40807af29774e97105ebd519e"
   integrity sha512-xo0CEVdkjSjhJoDdLSvoZoQrw/H2BlzB5jrCBKGZNXN2zdZgMuZ9BKrxXDjNP2AxlcCoKc8OahI3F3r3JGLv2Q==
 
-"vue-rough-notation@ssh://git@github.com:thejoeejoee/vue-rough-notation#fix-ts-compilation-error":
+"vue-rough-notation@https://github.com/thejoeejoee/vue-rough-notation#fix-ts-compilation-error":
   version "0.1.8"
-  resolved "ssh://git@github.com:thejoeejoee/vue-rough-notation#02d627646a3516745ab3e76277fda0c85e513e40"
+  resolved "https://github.com/thejoeejoee/vue-rough-notation#02d627646a3516745ab3e76277fda0c85e513e40"
   dependencies:
     rough-notation "^0.3.0"
 
