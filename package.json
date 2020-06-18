@@ -21,7 +21,7 @@
     "nuxt-protected-mailto": "^0.0.6",
     "sass-loader": "^8.0.2",
     "vue-observe-visibility": "^0.4.6",
-    "vue-rough-notation": "https://github.com/thejoeejoee/vue-rough-notation#fix-ts-compilation-error",
+    "vue-rough-notation": "^0.1.10",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {

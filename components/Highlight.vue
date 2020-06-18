@@ -28,7 +28,7 @@
                     '#4a148c', '#8D0981', '#637B00', '#807600'
                 ]),
                 type: _.sample([
-                    'box', 'box', 'circle'
+                    'box', 'box'// , 'circle'
                 ]),
             }
         }

@@ -51,8 +51,7 @@
         <ul>
             <li>
                 <strong>Python</strong> – můj denní chleba už víc jak osm let – především ve spojení
-                s&nbsp;<Highlight>frameworkem Django</Highlight>
-                ,
+                s&nbsp;<Highlight>frameworkem Django</Highlight>,
                 ale rozhodně se neztratím ve Flasku, numpy, PyQt či Kerasu.
             </li>
             <li>
@@ -66,8 +65,7 @@
             </li>
             <li>
                 <strong>databáze</strong> – relačně mám nejvíc zkušeností s
-                <Highlight>PostgreSQL</Highlight>
-                ,
+                <Highlight>PostgreSQL</Highlight>,
                 ale s MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
             </li>
             <li>
@@ -79,17 +77,29 @@
                 za sebou; znalost C se v případě nativní implementace Pythonu hodí.
             </li>
             <li>
-                <em>co dál?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, VHDL, ASMx86
+                <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, základní znalosti
+                VHDL, ASMx86, Qt či
             </li>
         </ul>
 
 
         <h2>Co je za mnou?</h2>
 
-        <h3>Projekty</h3>
+        <h4>OLC Systems</h4>
+
+        <p>
+            Původně brigáda v této <a href="https://www.olc.cz/">olomoucké společnosti</a> se rozrostla do dlouhodobé
+            spolupráce, během které jsem čerpal zkušenosti v oblastech informačních systémů včetně těch sportovních,
+            matričních či výrobních. Podílel jsem se na <i>Full-Stack</i> vývoji projektů mj. pro Český florbal,
+            Mobilní pohotovost či Českou jezdeckou federaci založených na firemním řešení postaveným nad frameworkem
+            Django. V dalších letech jsem se věnoval <Highlight>integraci moderních JS nástrojů</Highlight>
+            do firemních řešení, tedy především přechod na Webpack a uživatelská rozhraní ve Vue.js.
+        </p>
+
+        <h3>Vlastní projekty</h3>
         <ul>
             <li>
-                <h5>Litovel MINICUP 2013-20XX</h5>
+                <h5>Litovel MINICUP 2013-2019</h5>
                 <p>
                     Na začátku tohoto třídenního turnaje v miniházené pro děti byl požadavek na stránky se základními
                     informacemi a
@@ -97,8 +107,9 @@
                     funkcionality, vyhodnocovač výsledků, tagování fotek, sociální sítě i rozšířené statistiky.
                 </p>
                 <p>
-                    V roce 2017 jsme k informačnímu a foto servisu přidali i první verzi přímých přenosů, nejprve
-                    na úrovni použité mobilní aplikace se třemi kamerami, komentářem a turnajovým Facebookem jakožto
+                    V roce 2017 jsme k informačnímu a foto servisu přidali i první verzi
+                    <Highlight>přímých&nbsp;přenosů</Highlight>, nejprve na úrovni použité mobilní aplikace se
+                    třemi kamerami, komentářem a turnajovým Facebookem jakožto
                     výstupním rozhraním.
                     Další ročník jsme chtěli zachovat bezdrátovost a zároveň přidat informační grafiku,
                     vyvinuli jsme tedy <a href="https://github.com/litovel-minicup/camera-stream-transmitter">iOS
@@ -109,15 +120,20 @@
                     Správa výsledků na turnaji prošla kompletní digitalizací díky
                     <a href="https://github.com/litovel-minicup/live-service">samostatné službě</a> (Django+Vue.js)
                     pro jejich zapisování a distribuci - jak na přímo na web, tak do živých přenosů v podobě
-                    infografiky.
+                    <Highlight>informační grafiky s aktuální časomírou</Highlight>,
+                    stavem utkání i signalizací střelců či soupisek.
                     O tu se postaral můj dlouholetý kolega a kamarád S. H. Nguyen s pomocí scén naskriptovaných v jazyce
                     QML.
                 </p>
                 <p>
                     Pro sedmý ročník turnaje došlo k další modernizaci, přidali jsme Instagramový profil a pozici
-                    živé reportérky, vzdali se bezdrátového řešení pro přenosy a díky tomu mohli zvýšit kvalitu obrazu
-                    na FullHD a přidat Youtube mezi distribuční kanály. Ročník 2019 byl tedy zdokumentován více jak
-                    desíti hodinami živého obsahu &hellip;
+                    živé reportérky, přešli na
+                    <abbr title="Serial digital interface, poloprofesionální rozhraní pro přenos obrazu">SDI</abbr>
+                    řešení, zvýšili kvalitu obrazu na FullHD a přidali Youtube
+                    mezi distribuční kanály. Ročník 2019 byl tedy zdokumentován více jak
+                    <a href="https://www.youtube.com/channel/UCyBgHxMdJBYp6aqNFEsjT7g/videos">desíti hodinami</a> živého
+                    obsahu s komentářem, infografikou, rozhovory s účastníky i
+                    <a href="https://www.fit.vut.cz/study/thesis/21523/.cs">mapováním vizuálů přímo na herní povrch</a>.
                 </p>
             </li>
             <li>
@@ -126,9 +142,11 @@
                     Během projektu vývoje kompilátoru na FIT VUT jsme se rozhodli v týmu
                     stvořit i volně <a href="https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit">
                     dostupnou sadu nástrojů</a> pro podporu vývoje těchto kompilátorů.
-                    Vzniklo tak IDE s debuggerem pro zadaný jazyk, množina více
+                    Vzniklo tak <Highlight>IDE s debuggerem</Highlight> pro zadaný jazyk, množina více
                     než 800 integračních testů pro vyvíjené kompilátory i plugin
-                    pro zvýrazňování syntaxe výstupního jazyka.
+                    pro zvýrazňování syntaxe výstupního jazyka. Výsledkem tak byl
+                    mj. orientační přehled o efektivitě generované kódu ostatních týmů,
+                    díky kterému se nám podařilo zvítězit ve vedlejší optimalizační soutěži.
                 </p>
             </li>
         </ul>
@@ -180,7 +198,7 @@
                 <h5>Střední odborná škola elektrotechnická</h5>
 
                 <p>
-                    &hellip;
+                    <Highlight>TODO: střední, Linux, DMP</Highlight>
                 </p>
             </li>
         </ul>
@@ -190,11 +208,15 @@
         <p>
             Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro děti –
             malé kapacitou, velké zážitkem. Každý rok jinde, takže výběr tábořiště, dostatek informací zájemcům,
-            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu, to je moje,
-            <Highlight>to mě naplňuje.</Highlight>
+            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu,
+            <Highlight>to mě baví a naplňuje</Highlight>.
             Během samotného týdne v&nbsp;lesích pak táborový program a vizuální vzpomínky pro účastníky
             a další propagaci. Je mi ctí pokračovat ve více jak dvacetileté tradici rytířských táborů, na které
             jsem sám jezdil a utvářely mě.
+        </p>
+
+        <p>
+            <Highlight>TODO: focení</Highlight>
         </p>
 
         <p>

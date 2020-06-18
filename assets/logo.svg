@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="210mm"
+   viewBox="0 0 210 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/thejoeejoee/projs/josefkolar.cz/static/favicon.ico.png"
+   inkscape:export-xdpi="3.8699999"
+   inkscape:export-ydpi="3.8699999">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="558.40084"
+     inkscape:cy="438.17267"
+     inkscape:document-units="mm"
+     inkscape:current-layer="flowRoot818"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1413"
+     inkscape:window-x="0"
+     inkscape:window-y="-10"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.56499994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect815"
+       width="210"
+       height="210"
+       x="0"
+       y="87" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Vrstva 2">
+    <g
+       id="flowRoot818"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'High School USA Sans';-inkscape-font-specification:'High School USA Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(4.069176,0,0,4.069176,1884.6341,115.055)"
+       aria-label="J">
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Roman Dunhill';-inkscape-font-specification:'Latin Modern Roman Dunhill';fill:#000000;stroke-width:15.37956238"
+         d="m 142.10547,94.769531 v 19.070309 h 22.14648 c 60.28789,0 56.75354,7.99791 56.75354,29.5293 v 419.55469 c 0,61.51826 -21.68839,123.03515 -59.82971,123.03515 -33.21985,0 -63.362157,-26.45248 -73.205077,-65.20898 3.075913,0.61518 4.920389,1.23047 10.457031,1.23047 17.225106,0 34.451176,-12.30264 34.451176,-34.44922 0,-22.14657 -15.9957,-34.45117 -34.451176,-34.45117 -12.30365,0 -34.449218,6.76811 -34.449218,36.29687 0,52.9057 38.139844,110.11719 98.427734,110.11719 54.13606,0 119.60148,-47.98515 125.13812,-126.72852 0.61518,-3.69109 0.61523,-4.9203 0.61523,-32.60351 v -383.875 c 0,-25.22248 1.1e-4,-26.45138 1.23047,-28.91211 4.71912,-16.29125 7.57835,-13.09766 23.77539,-13.09766 29.49701,-3.26836 38.9986,5.61379 38.9986,29.57422 v 506.5586 c 0,22.65356 -1.25942,29.57617 -49.71289,29.57617 h -15.10156 v 19.50781 c 22.0243,-1.8878 68.58985,-1.88867 92.50195,-1.88867 23.9121,0 71.10656,8.7e-4 93.13086,1.88867 v -19.50781 h -15.10156 c -48.45347,0 -49.71289,-6.92261 -49.71289,-29.57617 V 473.58789 L 482.42188,373.5332 608.9043,638.45508 c 3.77559,7.55119 3.77467,8.80926 5.0332,14.47265 0,0 0.62891,1.88724 0.62891,4.4043 0,22.65357 -30.20339,22.6543 -43.41797,22.6543 v 19.50781 c 22.65357,-1.8878 64.1836,-1.88867 88.0957,-1.88867 l 70.47852,1.88867 v -19.50781 c -31.46329,0 -45.30742,-1.25829 -61.03907,-34.60938 L 516.40234,327.59766 644.77148,153.91992 c 28.31696,-38.38521 62.92605,-39.01331 76.14063,-39.64258 V 94.769531 c -16.99018,1.887798 -36.49615,1.886719 -53.48633,1.886719 -22.0243,0 -57.89207,0.0011 -79.28711,-1.886719 v 19.507809 c 31.46329,1.25854 40.90235,18.87742 40.90235,28.31641 0,5.03413 -1.88811,9.43817 -6.29297,15.10156 L 408.16797,447.1582 V 143.85156 c 0,-22.65357 1.25942,-29.57422 49.71289,-29.57422 h 15.10156 V 94.769531 c -101.00412,3.785715 -204.49991,3.118816 -330.87695,0 z"
+         transform="matrix(0.06502135,0,0,0.06502135,-463.14883,-28.274766)"
+         id="path897"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccsssscssssscssccsssccsccssccccsccccccccccsccsccssccc" />
+    </g>
+    <g
+       id="flowRoot818-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'High School USA Sans';-inkscape-font-specification:'High School USA Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(4.1623309,0,0,4.1623309,1987.8234,117.11491)"
+       aria-label="K" />
+  </g>
+</svg>

@@ -25,7 +25,7 @@
     data() {
       return {
         pageNotFound: 'Nenalezeno',
-        otherError: 'An error occurred'
+        otherError: 'Něco se nepovedlo'
       }
     },
     head() {
