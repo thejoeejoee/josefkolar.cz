@@ -51,7 +51,8 @@
         <ul>
             <li>
                 <strong>Python</strong> – můj denní chleba už víc jak osm let – především ve spojení
-                s&nbsp;<Highlight>frameworkem Django</Highlight>,
+                s&nbsp;<Highlight>frameworkem Django</Highlight>
+                ,
                 ale rozhodně se neztratím ve Flasku, numpy, PyQt či Kerasu.
             </li>
             <li>
@@ -64,7 +65,9 @@
                 administátorsky ovládám a sám provozuji Debian i CentOS.
             </li>
             <li>
-                <strong>databáze</strong> – relačně mám nejvíc zkušeností s <Highlight>PostgreSQL</Highlight>,
+                <strong>databáze</strong> – relačně mám nejvíc zkušeností s
+                <Highlight>PostgreSQL</Highlight>
+                ,
                 ale s MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
             </li>
             <li>
@@ -86,10 +89,35 @@
         <h3>Projekty</h3>
         <ul>
             <li>
-                <h5>Litovel MINICUP 2013-20??</h5>
+                <h5>Litovel MINICUP 2013-20XX</h5>
                 <p>
-                    Na začátku tohoto turnaje v miniházené pro děti byl požadavek na stránky se základními informacemi a
-                    výsledky zápasů na turnaji.
+                    Na začátku tohoto třídenního turnaje v miniházené pro děti byl požadavek na stránky se základními
+                    informacemi a
+                    výsledky zápasů na turnaji. K této kostře aplikace v Nette se každý rok nabalovaly další
+                    funkcionality, vyhodnocovač výsledků, tagování fotek, sociální sítě i rozšířené statistiky.
+                </p>
+                <p>
+                    V roce 2017 jsme k informačnímu a foto servisu přidali i první verzi přímých přenosů, nejprve
+                    na úrovni použité mobilní aplikace se třemi kamerami, komentářem a turnajovým Facebookem jakožto
+                    výstupním rozhraním.
+                    Další ročník jsme chtěli zachovat bezdrátovost a zároveň přidat informační grafiku,
+                    vyvinuli jsme tedy <a href="https://github.com/litovel-minicup/camera-stream-transmitter">iOS
+                    aplikaci</a>
+                    pro bezdrátový přenos obrazu a s pomocí <kbd>ffmpeg</kbd>u a OBS Studia stříhali živáky.
+                </p>
+                <p>
+                    Správa výsledků na turnaji prošla kompletní digitalizací díky
+                    <a href="https://github.com/litovel-minicup/live-service">samostatné službě</a> (Django+Vue.js)
+                    pro jejich zapisování a distribuci - jak na přímo na web, tak do živých přenosů v podobě
+                    infografiky.
+                    O tu se postaral můj dlouholetý kolega a kamarád S. H. Nguyen s pomocí scén naskriptovaných v jazyce
+                    QML.
+                </p>
+                <p>
+                    Pro sedmý ročník turnaje došlo k další modernizaci, přidali jsme Instagramový profil a pozici
+                    živé reportérky, vzdali se bezdrátového řešení pro přenosy a díky tomu mohli zvýšit kvalitu obrazu
+                    na FullHD a přidat Youtube mezi distribuční kanály. Ročník 2019 byl tedy zdokumentován více jak
+                    desíti hodinami živého obsahu &hellip;
                 </p>
             </li>
             <li>
@@ -111,7 +139,9 @@
                 <h5>Magisterské studium na FIT VUT v Brně</h5>
                 <p>
                     Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
-                    ve specializaci <Highlight><em>Počítačové sítě</em></Highlight> a hned první akademický ročník vyjel na Erasmus na
+                    ve specializaci
+                    <Highlight><em>Počítačové sítě</em></Highlight>
+                    a hned první akademický ročník vyjel na Erasmus na
                     <em>University of Latvia</em>; předpokládané dokončení je aktuálně v&nbsp;roce 2022.
                 </p>
             </li>
@@ -120,7 +150,9 @@
                 <!-- TODO: add link to blog with Erasmus tag -->
                 <p>
                     V rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
-                    do Lotyšska na <em>Faculty of Computing</em> na <Highlight><em>University of Latvia</em></Highlight>.
+                    do Lotyšska na <em>Faculty of Computing</em> na
+                    <Highlight><em>University of Latvia</em></Highlight>
+                    .
                     Nabitých deset měsíců pobytu v Rize jsem naplnil studiem, prozkoumáváním celé dvoumilionové země,
                     výpomocí pro
                     <abbr title="Erasmus Student Network, dobrovolnická organizace věnující se přijíždějícím studentům">
@@ -137,9 +169,11 @@
                     derivátu jazyka FreeBASIC, sond pro měření parametrů sítě či simulací modelů cvrččí farmy.
                 </p>
                 <p>
-                    V rámci mé <a href="https://www.vutbr.cz/studenti/zav-prace/detail/121991?zp_id=121991">bakalářské práce</a> jsem se věnoval vývoji
-                    <Highlight>otevřené&nbsp;platformy</Highlight> pro koordinaci IoT uzlů v&nbsp;nástroji vizuálního programování Node-RED, jejíž součástí byl i firmware
-                    pro mikropočítače ESP32.
+                    V rámci mé <a href="https://www.vutbr.cz/studenti/zav-prace/detail/121991?zp_id=121991">
+                    bakalářské práce</a> jsem se věnoval vývoji
+                    <Highlight>otevřené&nbsp;platformy</Highlight>
+                    pro koordinaci IoT uzlů v&nbsp;nástroji vizuálního programování Node-RED, jejíž součástí byl
+                    i firmware pro mikropočítače ESP32.
                 </p>
             </li>
             <li>
@@ -156,7 +190,8 @@
         <p>
             Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro děti –
             malé kapacitou, velké zážitkem. Každý rok jinde, takže výběr tábořiště, dostatek informací zájemcům,
-            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu, to je moje, <Highlight>to mě naplňuje.</Highlight>
+            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu, to je moje,
+            <Highlight>to mě naplňuje.</Highlight>
             Během samotného týdne v&nbsp;lesích pak táborový program a vizuální vzpomínky pro účastníky
             a další propagaci. Je mi ctí pokračovat ve více jak dvacetileté tradici rytířských táborů, na které
             jsem sám jezdil a utvářely mě.
@@ -190,8 +225,8 @@
 
         <div class="footnotes">
             <p>
-                Sestaveno s&nbsp;<a href="https://nuxtjs.org/">Nuxt.js</a> z&nbsp;GitHub repozitáře
-                <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/josefkolar.cz</a>
+                Sestaveno z&nbsp;GitHub repozitáře
+                <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
                 a nasazeno {{ (new Date(compileTimestamp)).toLocaleString().replace(/ /g, '&nbsp;') }} pomocí
                 služby
                 <a href="https://vercel.com">Vercel</a>.

@@ -15,6 +15,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/style-resources": "^1.0.0",
     "latex.css": "^1.1.0",
+    "lodash": "^4.17.15",
     "node-sass": "^4.14.1",
     "nuxt": "^2.0.0",
     "nuxt-protected-mailto": "^0.0.6",

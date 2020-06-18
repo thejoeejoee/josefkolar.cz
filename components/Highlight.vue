@@ -1,10 +1,10 @@
 <template>
     <client-only
     ><span
-            v-observe-visibility="{once: true, throttle: 300, callback: changed}"
+            v-observe-visibility="{once: true, throttle: 400, callback: changed}"
     ><RoughNotation
-            type="box"
-            color="#4A148C"
+            :type="type"
+            :color="color"
             :animate="true"
             :strokeWidth="2"
             :is-show="is"
@@ -12,6 +12,8 @@
 </template>
 
 <script>
+    import _ from 'lodash'
+
     export default {
         name: "Highlight",
         methods: {
@@ -22,6 +24,12 @@
         data() {
             return {
                 is: false,
+                color: _.sample([
+                    '#4a148c', '#8D0981', '#637B00', '#807600'
+                ]),
+                type: _.sample([
+                    'box', 'box', 'circle'
+                ]),
             }
         }
     }
