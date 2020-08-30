@@ -23,29 +23,14 @@
         </p>
 
         <div class="abstract">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur cum cupiditate
-            dolor dolorum eum expedita facilis nemo nulla odit pariatur, rem suscipit voluptatum? Aliquid asperiores
-            eveniet
-            hic placeat sapiente.
+            Jsem Joe a jsem vývojář z Generace Z. Počítače, internety, aplikace, online svět.
         </div>
 
         <figure>
             <img src="~assets/jk.jpg" alt="Joe">
             <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption>
         </figure>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facilis fuga officia quibusdam rerum tempore
-            totam
-            voluptatum? Accusantium aliquam atque distinctio, doloribus iure laboriosam nostrum praesentium quisquam
-            rerum
-            sint voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem debitis dolor
-            dolores
-            eaque, illum incidunt ipsum minus perspiciatis possimus quae, quod sint sunt temporibus veniam! Assumenda
-            debitis
-            laudantium ullam.
-        </p>
-
+      
         <h2>Co umím?</h2>
 
         <ul>
@@ -74,7 +59,7 @@
             </li>
             <li>
                 <strong>C/Cpp</strong> – nejsou to úplně mé primární jazyky, ale vyznám se a pár projektů už mám také
-                za sebou; znalost C se v případě nativní implementace Pythonu hodí.
+                za sebou; znalost C se pro psaní Python programů hodí.
             </li>
             <li>
                 <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, základní znalosti
@@ -114,7 +99,7 @@
                     Další ročník jsme chtěli zachovat bezdrátovost a zároveň přidat informační grafiku,
                     vyvinuli jsme tedy <a href="https://github.com/litovel-minicup/camera-stream-transmitter">iOS
                     aplikaci</a>
-                    pro bezdrátový přenos obrazu a s pomocí <kbd>ffmpeg</kbd>u a OBS Studia stříhali živáky.
+                    pro bezdrátový přenos obrazu a s pomocí <kbd>ffmpeg</kbd>u a OBS stříhali živáky.
                 </p>
                 <p>
                     Správa výsledků na turnaji prošla kompletní digitalizací díky
@@ -128,9 +113,8 @@
                 <p>
                     Pro sedmý ročník turnaje došlo k další modernizaci, přidali jsme Instagramový profil a pozici
                     živé reportérky, přešli na
-                    <abbr title="Serial digital interface, poloprofesionální rozhraní pro přenos obrazu">SDI</abbr>
-                    řešení, zvýšili kvalitu obrazu na FullHD a přidali Youtube
-                    mezi distribuční kanály. Ročník 2019 byl tedy zdokumentován více jak
+                    Blackmagic řešení ve FullHD a přidali Youtube mezi distribuční kanály.
+                    Ročník 2019 byl tedy zdokumentován více jak
                     <a href="https://www.youtube.com/channel/UCyBgHxMdJBYp6aqNFEsjT7g/videos">desíti hodinami</a> živého
                     obsahu s komentářem, infografikou, rozhovory s účastníky i
                     <a href="https://www.fit.vut.cz/study/thesis/21523/.cs">mapováním vizuálů přímo na herní povrch</a>.
@@ -169,8 +153,7 @@
                 <p>
                     V rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
                     do Lotyšska na <em>Faculty of Computing</em> na
-                    <Highlight><em>University of Latvia</em></Highlight>
-                    .
+                    <Highlight><em>University of Latvia.</em></Highlight>
                     Nabitých deset měsíců pobytu v Rize jsem naplnil studiem, prozkoumáváním celé dvoumilionové země,
                     výpomocí pro
                     <abbr title="Erasmus Student Network, dobrovolnická organizace věnující se přijíždějícím studentům">
@@ -195,18 +178,25 @@
                 </p>
             </li>
             <li>
-                <h5>Střední odborná škola elektrotechnická</h5>
-
+                <h5>Střední průmyslová škola elektrotechnická v Olomouci</h5>
                 <p>
-                    <Highlight>TODO: střední, Linux, DMP</Highlight>
+                    <i>Už od mala jsem kutil, kreslil si vynálezy do sešitu a řešil infrastrukturu v SimCity 2000.</i>
+                    Výběr eleprůmyslovky potom byl jasnou volbou, postupem času jsem začal inklinovat spíše k IT,
+                    ale <Highlight>znalost vyhlášky č. 50</Highlight> se hodí.
+                    Také jsem poprvé potkal Linux a byla to láska na první instalaci.
+                </p>
+                <p>
+                    Jako dlouhodobou maturitní práci jsem si vybral
+                    <a href="https://github.com/spseol/pybots-server">vývoj prostředí pro střet botů</a>,
+                    které programovali další studenti - výsledkem byl kromě textové části práce Pythoní server
+                    vizualizující herní mapy, konfiguraci her a statistiky z nich.
                 </p>
             </li>
         </ul>
 
-
         <h2>Co dělám ve volném čase?</h2>
         <p>
-            Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro děti –
+            Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro mládež –
             malé kapacitou, velké zážitkem. Každý rok jinde, takže výběr tábořiště, dostatek informací zájemcům,
             organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu,
             <Highlight>to mě baví a naplňuje</Highlight>.
@@ -216,7 +206,9 @@
         </p>
 
         <p>
-            <Highlight>TODO: focení</Highlight>
+            Fotím a fotodokumentuji, nejčastěji z radosti ze samotné údálosti či dobrovolnického
+            <Highlight>nadšení</Highlight>. Kromě vlastních výletů a uspořádaných akcí taky například studentsky
+            pro ESN - k nahlédnutí ne příliš zodpovědně udržovaný <a href="https://blog.josefkolar.cz/photos/">seznam výtvorů</a>.
         </p>
 
         <p>
@@ -247,7 +239,7 @@
 
         <div class="footnotes">
             <p>
-                Sestaveno z&nbsp;GitHub repozitáře
+                Sestaveno z&nbsp;GH repozitáře
                 <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
                 a nasazeno {{ (new Date(compileTimestamp)).toLocaleString().replace(/ /g, '&nbsp;') }} pomocí
                 služby

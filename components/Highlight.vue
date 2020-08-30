@@ -25,7 +25,7 @@
             return {
                 is: false,
                 color: _.sample([
-                    '#4a148c', '#8D0981', '#637B00', '#807600'
+                    '#4a148c', '#8D0981', '#637B00', '#807600', '#19c476'
                 ]),
                 type: _.sample([
                     'box', 'box'// , 'circle'
