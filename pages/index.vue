@@ -92,7 +92,7 @@
             <li>
                 <h5>Litovel MINICUP 2013-2019</h5>
                 <p>
-                    Na začátku tohoto třídenního turnaje v&nbsp;miniházené pro děti byl požadavek na stránky se základními
+                    Na začátku příprav tohoto turnaje v&nbsp;miniházené pro děti byl požadavek na stránky se základními
                     informacemi a
                     výsledky zápasů na turnaji. K&nbsp;této kostře aplikace v&nbsp;Nette se každý rok nabalovaly další
                     funkcionality, vyhodnocovač výsledků, tagování fotek, sociální sítě i rozšířené statistiky.
@@ -250,11 +250,9 @@
 
         <div class="footnotes">
             <p>
-                Sestaveno z&nbsp;GH repozitáře
-                <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
+                Sestaveno z&nbsp;repozitáře <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
                 a nasazeno {{ (new Date(compileTimestamp)).toLocaleString().replace(/ /g, '&nbsp;') }} pomocí
-                služby
-                <a href="https://vercel.com">Vercel</a>.
+                služby <a href="https://vercel.com">Vercel</a>.
             </p>
         </div>
     </article>
