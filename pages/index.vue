@@ -22,15 +22,16 @@
             {{ (new Date(compileTimestamp)).toLocaleDateString(undefined, { year: 'numeric', month: 'long' }) }}
         </p>
 
-        <div class="abstract">
-            Jsem Joe a jsem vývojář z Generace Z. Počítače, internety, aplikace, online svět.
+        <div class="abstract strong">
+            Ahoj! Jsem Joe a jsem z&nbsp;Generace Z. <br>
+            Počítače, internety, aplikace, online prostor, to je můj svět.
         </div>
 
         <figure>
             <img src="~assets/jk.jpg" alt="Joe">
-            <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption>
+            <!-- <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption> -->
         </figure>
-      
+
         <h2>Co umím?</h2>
 
         <ul>
@@ -40,18 +41,17 @@
                 ale rozhodně se neztratím ve Flasku, numpy, PyQt či Kerasu.
             </li>
             <li>
-                <strong>webový frontend</strong> – Vue.js ideálně s Typescriptem
+                <strong>webový frontend</strong> – Vue.js ideálně s&nbsp;Typescriptem
                 <em>(s nostalgií vzpomínám na první verzi </em><kbd>ng-</kbd><em>Angularu)</em>.
-                Se styly si rozumím také, ale na webový design koukám raději z povzdálí.
+                Se styly si rozumím také, ale k&nbsp;webovému designu to nemám úplně blízko.
             </li>
             <li>
                 <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár *buntu distribucí,
                 administátorsky ovládám a sám provozuji Debian i CentOS.
             </li>
             <li>
-                <strong>databáze</strong> – relačně mám nejvíc zkušeností s
-                <Highlight>PostgreSQL</Highlight>,
-                ale s MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
+                <strong>databáze</strong> – relačně mám nejvíc zkušeností s&nbsp;<Highlight>PostgreSQL</Highlight>,
+                ale s&nbsp;MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
             </li>
             <li>
                 <strong>PHP</strong> – než jsem se definitině zamiloval do Djanga, stavěl jsem projekty na Nette,
@@ -63,22 +63,28 @@
             </li>
             <li>
                 <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, základní znalosti
-                VHDL, ASMx86, Qt či
+                VHDL, ASMx86, Qt či <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
             </li>
         </ul>
-
 
         <h2>Co je za mnou?</h2>
 
         <h4>OLC Systems</h4>
-
         <p>
-            Původně brigáda v této <a href="https://www.olc.cz/">olomoucké společnosti</a> se rozrostla do dlouhodobé
-            spolupráce, během které jsem čerpal zkušenosti v oblastech informačních systémů včetně těch sportovních,
+            Původně brigáda v&nbsp;této <a href="https://www.olc.cz/">olomoucké společnosti</a> se rozrostla do dlouhodobé
+            spolupráce, během které jsem čerpal zkušenosti v&nbsp;oblastech informačních systémů včetně těch sportovních,
             matričních či výrobních. Podílel jsem se na <i>Full-Stack</i> vývoji projektů mj. pro Český florbal,
             Mobilní pohotovost či Českou jezdeckou federaci založených na firemním řešení postaveným nad frameworkem
-            Django. V dalších letech jsem se věnoval <Highlight>integraci moderních JS nástrojů</Highlight>
+            Django. V&nbsp;dalších letech jsem se věnoval <Highlight>integraci moderních JS nástrojů</Highlight>
             do firemních řešení, tedy především přechod na Webpack a uživatelská rozhraní ve Vue.js.
+        </p>
+
+        <h4>Prezentační weby</h4>
+        <p>
+            Mám v&nbsp;portfoliu řadu prezentačních webů pro mé klienty, od počátečního návrhu přes grafický design,
+            realizaci až k&nbsp;finálnímu zveřejnění – to vše v&nbsp;širokém spektru oborů zahrnujících autoškoly,
+            cestovní agentury či zakázkovou výrobu dortů. Každému klientovi samozřejmě
+            na <Highlight>míru se vším všudy,</Highlight> s&nbsp;administrací pro úpravu obsahu i následným servisem.
         </p>
 
         <h3>Vlastní projekty</h3>
@@ -86,50 +92,50 @@
             <li>
                 <h5>Litovel MINICUP 2013-2019</h5>
                 <p>
-                    Na začátku tohoto třídenního turnaje v miniházené pro děti byl požadavek na stránky se základními
+                    Na začátku tohoto třídenního turnaje v&nbsp;miniházené pro děti byl požadavek na stránky se základními
                     informacemi a
-                    výsledky zápasů na turnaji. K této kostře aplikace v Nette se každý rok nabalovaly další
+                    výsledky zápasů na turnaji. K&nbsp;této kostře aplikace v&nbsp;Nette se každý rok nabalovaly další
                     funkcionality, vyhodnocovač výsledků, tagování fotek, sociální sítě i rozšířené statistiky.
                 </p>
                 <p>
-                    V roce 2017 jsme k informačnímu a foto servisu přidali i první verzi
+                    V&nbsp;roce 2017 jsme k&nbsp;informačnímu a foto servisu přidali i první verzi
                     <Highlight>přímých&nbsp;přenosů</Highlight>, nejprve na úrovni použité mobilní aplikace se
                     třemi kamerami, komentářem a turnajovým Facebookem jakožto
                     výstupním rozhraním.
                     Další ročník jsme chtěli zachovat bezdrátovost a zároveň přidat informační grafiku,
                     vyvinuli jsme tedy <a href="https://github.com/litovel-minicup/camera-stream-transmitter">iOS
                     aplikaci</a>
-                    pro bezdrátový přenos obrazu a s pomocí <kbd>ffmpeg</kbd>u a OBS stříhali živáky.
+                    pro bezdrátový přenos obrazu a s&nbsp;pomocí <kbd>ffmpeg</kbd>u a OBS stříhali živáky.
                 </p>
                 <p>
                     Správa výsledků na turnaji prošla kompletní digitalizací díky
                     <a href="https://github.com/litovel-minicup/live-service">samostatné službě</a> (Django+Vue.js)
-                    pro jejich zapisování a distribuci - jak na přímo na web, tak do živých přenosů v podobě
-                    <Highlight>informační grafiky s aktuální časomírou</Highlight>,
+                    pro jejich zapisování a distribuci – jak na přímo na web, tak do živých přenosů v&nbsp;podobě
+                    <Highlight>informační grafiky s&nbsp;aktuální časomírou</Highlight>,
                     stavem utkání i signalizací střelců či soupisek.
-                    O tu se postaral můj dlouholetý kolega a kamarád S. H. Nguyen s pomocí scén naskriptovaných v jazyce
+                    O&nbsp;tu se postaral můj dlouholetý kolega a kamarád S. H. Nguyen s&nbsp;pomocí scén naskriptovaných v&nbsp;jazyce
                     QML.
                 </p>
                 <p>
-                    Pro sedmý ročník turnaje došlo k další modernizaci, přidali jsme Instagramový profil a pozici
+                    Pro sedmý ročník turnaje došlo k&nbsp;další modernizaci, přidali jsme Instagramový profil a pozici
                     živé reportérky, přešli na
                     Blackmagic řešení ve FullHD a přidali Youtube mezi distribuční kanály.
                     Ročník 2019 byl tedy zdokumentován více jak
                     <a href="https://www.youtube.com/channel/UCyBgHxMdJBYp6aqNFEsjT7g/videos">desíti hodinami</a> živého
-                    obsahu s komentářem, infografikou, rozhovory s účastníky i
+                    obsahu s&nbsp;komentářem, infografikou, rozhovory s&nbsp;účastníky i
                     <a href="https://www.fit.vut.cz/study/thesis/21523/.cs">mapováním vizuálů přímo na herní povrch</a>.
                 </p>
             </li>
             <li>
                 <h5>IFJ2017-toolkit</h5>
                 <p>
-                    Během projektu vývoje kompilátoru na FIT VUT jsme se rozhodli v týmu
+                    Během projektu vývoje kompilátoru na FIT VUT jsme se rozhodli v&nbsp;týmu
                     stvořit i volně <a href="https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit">
                     dostupnou sadu nástrojů</a> pro podporu vývoje těchto kompilátorů.
-                    Vzniklo tak <Highlight>IDE s debuggerem</Highlight> pro zadaný jazyk, množina více
+                    Vzniklo tak <Highlight>IDE s&nbsp;debuggerem</Highlight> pro zadaný jazyk, množina více
                     než 800 integračních testů pro vyvíjené kompilátory i plugin
                     pro zvýrazňování syntaxe výstupního jazyka. Výsledkem tak byl
-                    mj. orientační přehled o efektivitě generované kódu ostatních týmů,
+                    mj. orientační přehled o&nbsp;efektivitě generované kódu ostatních týmů,
                     díky kterému se nám podařilo zvítězit ve vedlejší optimalizační soutěži.
                 </p>
             </li>
@@ -138,7 +144,7 @@
         <h3>Studia</h3>
         <ul>
             <li>
-                <h5>Magisterské studium na FIT VUT v Brně</h5>
+                <h5>Magisterské studium na FIT VUT v&nbsp;Brně</h5>
                 <p>
                     Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
                     ve specializaci
@@ -148,21 +154,21 @@
                 </p>
             </li>
             <li>
-                <h5>Magisterské studium na <em>University of Latvia</em> v Rize</h5>
+                <h5>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize</h5>
                 <!-- TODO: add link to blog with Erasmus tag -->
                 <p>
-                    V rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
+                    V&nbsp;rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
                     do Lotyšska na <em>Faculty of Computing</em> na
                     <Highlight><em>University of Latvia.</em></Highlight>
-                    Nabitých deset měsíců pobytu v Rize jsem naplnil studiem, prozkoumáváním celé dvoumilionové země,
+                    Nabitých deset měsíců pobytu v&nbsp;Rize jsem naplnil studiem, prozkoumáváním celé dvoumilionové země,
                     výpomocí pro
                     <abbr title="Erasmus Student Network, dobrovolnická organizace věnující se přijíždějícím studentům">
                         ESN Riga
-                    </abbr> a seznamováním se s dalšími zahraničními studenty.
+                    </abbr> a seznamováním se s&nbsp;dalšími zahraničními studenty.
                 </p>
             </li>
             <li>
-                <h5>Bakalářské studium na FIT VUT v Brně</h5>
+                <h5>Bakalářské studium na FIT VUT v&nbsp;Brně</h5>
                 <p>
                     Na oboru <em>Aplikovaná informatika</em> jsem si prošel pěknou řádkou předmětů a hodnotných
                     projektů včetně vlastní implementace DNS resolveru, kompletní aplikace programovatelné kalkulačky
@@ -170,7 +176,7 @@
                     derivátu jazyka FreeBASIC, sond pro měření parametrů sítě či simulací modelů cvrččí farmy.
                 </p>
                 <p>
-                    V rámci mé <a href="https://www.vutbr.cz/studenti/zav-prace/detail/121991?zp_id=121991">
+                    V&nbsp;rámci mé <a href="https://www.vutbr.cz/studenti/zav-prace/detail/121991?zp_id=121991">
                     bakalářské práce</a> jsem se věnoval vývoji
                     <Highlight>otevřené&nbsp;platformy</Highlight>
                     pro koordinaci IoT uzlů v&nbsp;nástroji vizuálního programování Node-RED, jejíž součástí byl
@@ -178,18 +184,18 @@
                 </p>
             </li>
             <li>
-                <h5>Střední průmyslová škola elektrotechnická v Olomouci</h5>
+                <h5>Střední průmyslová škola elektrotechnická v&nbsp;Olomouci</h5>
                 <p>
-                    <i>Už od mala jsem kutil, kreslil si vynálezy do sešitu a řešil infrastrukturu v SimCity 2000.</i>
-                    Výběr eleprůmyslovky potom byl jasnou volbou, postupem času jsem začal inklinovat spíše k IT,
+                    <i>Už od mala jsem kutil, kreslil si vynálezy do sešitu a řešil infrastrukturu v&nbsp;SimCity 2000.</i>
+                    Výběr eleprůmyslovky potom byl jasnou volbou, postupem času jsem začal inklinovat spíše k&nbsp;IT,
                     ale <Highlight>znalost vyhlášky č. 50</Highlight> se hodí.
                     Také jsem poprvé potkal Linux a byla to láska na první instalaci.
                 </p>
                 <p>
                     Jako dlouhodobou maturitní práci jsem si vybral
                     <a href="https://github.com/spseol/pybots-server">vývoj prostředí pro střet botů</a>,
-                    které programovali další studenti - výsledkem byl kromě textové části práce Pythoní server
-                    vizualizující herní mapy, konfiguraci her a statistiky z nich.
+                    které programovali další studenti – výsledkem byl kromě textové části práce Pythoní server
+                    vizualizující herní mapy, konfiguraci her a statistiky z&nbsp;nich.
                 </p>
             </li>
         </ul>
@@ -198,7 +204,7 @@
         <p>
             Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro mládež –
             malé kapacitou, velké zážitkem. Každý rok jinde, takže výběr tábořiště, dostatek informací zájemcům,
-            organizace přesunů, komunikace s rodiči, spoluautorství táborového příběhu,
+            organizace přesunů, komunikace s&nbsp;rodiči, spoluautorství táborového příběhu,
             <Highlight>to mě baví a naplňuje</Highlight>.
             Během samotného týdne v&nbsp;lesích pak táborový program a vizuální vzpomínky pro účastníky
             a další propagaci. Je mi ctí pokračovat ve více jak dvacetileté tradici rytířských táborů, na které
@@ -206,9 +212,9 @@
         </p>
 
         <p>
-            Fotím a fotodokumentuji, nejčastěji z radosti ze samotné údálosti či dobrovolnického
+            Fotím a fotodokumentuji, nejčastěji z&nbsp;radosti ze samotné údálosti či dobrovolnického
             <Highlight>nadšení</Highlight>. Kromě vlastních výletů a uspořádaných akcí taky například studentsky
-            pro ESN - k nahlédnutí ne příliš zodpovědně udržovaný <a href="https://blog.josefkolar.cz/photos/">seznam výtvorů</a>.
+            pro ESN – k&nbsp;nahlédnutí ne příliš zodpovědně udržovaný <a href="https://blog.josefkolar.cz/photos/">seznam výtvorů</a>.
         </p>
 
         <p>
@@ -216,7 +222,7 @@
             <a href="https://www.csfd.cz/uzivatel/726493-thejoeejoee/hodnoceni/">drama, scifi a podobné</a>,
             bez hudby si nedokážu představit den,
             na <a href="https://open.spotify.com/user/11147151576?si=f-6UCuBoSaCyYsT51-mteg">Spotify</a> vyhledávám
-            většinou rock všech možných typů, ale daleko to nemám k žádnému hudebnímu žánru.
+            většinou rock všech možných typů, ale daleko to nemám k&nbsp;žádnému hudebnímu žánru.
             Když mám náladu, jdu si zaběhat, když ji mám fakt dobrou a velmi namotivovovanou, dám si i nějaké ty
             <abbr title="orientační běh, takové to zdánlivě zmatené pobíhání po lese mezi barevnými stojánky">lampiony</abbr>.
         </p>
@@ -226,7 +232,7 @@
         <ul>
             <li>
                 určitě na mém e-mailu <strong>
-                <Mailto :mail='email' subject="Dotaz z webu"/>
+                <Mailto :mail='email' subject="Dotaz z~webu"/>
             </strong>
             </li>
             <li>mám profil na Githubu <a href="https://github.com/thejoeejoee">@thejoeejoee</a>
@@ -262,13 +268,15 @@
                 eraseDelay: 70,
                 roles: [
                     ', vývojář',
-                    ' a rád fotím',
+                    ' a fotím',
                     ', student',
                     ' a pořádám tábory',
                     ', erasmák',
+                    ' a píšu',
                     ', dobrovolník',
                     ', ESNer',
-                    ' a jsem z Moravy',
+                    ', nadšenec',
+                    ' a su z~Hané',
                 ]
             }
         },

@@ -6,10 +6,6 @@
     <h1 v-else>
       {{ otherError }}
     </h1>
-
-    <NuxtLink to="/">
-      Home page
-    </NuxtLink>
   </div>
 </template>
 
@@ -24,8 +20,8 @@
     },
     data() {
       return {
-        pageNotFound: 'Nenalezeno',
-        otherError: 'Něco se nepovedlo'
+        pageNotFound: 'Nenalezeno.',
+        otherError: 'Něco se nepovedlo.'
       }
     },
     head() {
