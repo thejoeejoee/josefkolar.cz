@@ -125,6 +125,11 @@
                     obsahu s&nbsp;komentářem, infografikou, rozhovory s&nbsp;účastníky i
                     <a href="https://www.fit.vut.cz/study/thesis/21523/.cs">mapováním vizuálů přímo na herní povrch</a>.
                 </p>
+
+              <p>
+                <em>Pro litovelský Tatran to není zdaleka jediný projekt, který realizuji – také například spravuji
+                  infrastrukturu pro běh webových prezentací.</em>
+              </p>
             </li>
             <li>
                 <h5>IFJ2017-toolkit</h5>
