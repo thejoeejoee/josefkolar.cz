@@ -44,7 +44,7 @@ export default {
         '@nuxtjs/pwa',
         '@nuxtjs/style-resources',
         'nuxt-protected-mailto',
-
+        'nuxt-responsive-loader',
     ],
     styleResources: {
         scss: [

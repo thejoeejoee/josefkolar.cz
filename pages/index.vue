@@ -28,7 +28,7 @@
         </div>
 
         <figure>
-            <img src="~assets/jk.jpg" alt="Joe">
+            <img :srcset="require('~/assets/jk.jpg').srcSet" alt="má maličkost"/>
             <!-- <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption> -->
         </figure>
 
