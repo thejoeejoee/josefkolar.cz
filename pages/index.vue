@@ -90,11 +90,11 @@
         <h3>Vlastní projekty</h3>
         <ul>
             <li>
-                <h5>Litovel MINICUP 2013-2019</h5>
+                <h5>Litovel MINICUP <small class="right">2013-2019</small></h5>
                 <p>
                     Na začátku příprav tohoto turnaje v&nbsp;miniházené pro děti byl požadavek na stránky se základními
-                    informacemi a
-                    výsledky zápasů na turnaji. K&nbsp;této kostře aplikace v&nbsp;Nette se každý rok nabalovaly další
+                    informacemi a výsledky zápasů na turnaji.
+                    K&nbsp;této kostře aplikace v&nbsp;Nette se každý rok nabalovaly další
                     funkcionality, vyhodnocovač výsledků, tagování fotek, sociální sítě i rozšířené statistiky.
                 </p>
                 <p>
@@ -149,17 +149,17 @@
         <h3>Studia</h3>
         <ul>
             <li>
-                <h5>Magisterské studium na FIT VUT v&nbsp;Brně</h5>
+                <h5>Magisterské studium na FIT VUT v&nbsp;Brně  <small class="right">2019-<abbr title="plánovaně">2022</abbr></small></h5>
                 <p>
                     Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
                     ve specializaci
                     <Highlight><em>Počítačové sítě</em></Highlight>
                     a hned první akademický ročník vyjel na Erasmus na
-                    <em>University of Latvia</em>; předpokládané dokončení je aktuálně v&nbsp;roce 2022.
+                    <em>University of Latvia</em>; předpokládané dokončení je v&nbsp;roce 2022.
                 </p>
             </li>
             <li>
-                <h5>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize</h5>
+                <h5>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize <small class="right">2019-2020</small></h5>
                 <!-- TODO: add link to blog with Erasmus tag -->
                 <p>
                     V&nbsp;rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
@@ -173,7 +173,7 @@
                 </p>
             </li>
             <li>
-                <h5>Bakalářské studium na FIT VUT v&nbsp;Brně</h5>
+                <h5>Bakalářské studium na FIT VUT v&nbsp;Brně  <small class="right">2016-2019</small></h5>
                 <p>
                     Na oboru <em>Aplikovaná informatika</em> jsem si prošel pěknou řádkou předmětů a hodnotných
                     projektů včetně vlastní implementace DNS resolveru, kompletní aplikace programovatelné kalkulačky
@@ -189,7 +189,7 @@
                 </p>
             </li>
             <li>
-                <h5>Střední průmyslová škola elektrotechnická v&nbsp;Olomouci</h5>
+                <h5>Střední průmyslová škola elektrotechnická v&nbsp;Olomouci <small class="right">2012-2016</small></h5>
                 <p>
                     <i>Už od mala jsem kutil, kreslil si vynálezy do sešitu a řešil infrastrukturu v&nbsp;SimCity 2000.</i>
                     Výběr eleprůmyslovky potom byl jasnou volbou, postupem času jsem začal inklinovat spíše k&nbsp;IT,
@@ -228,24 +228,26 @@
             bez hudby si nedokážu představit den,
             na <a href="https://open.spotify.com/user/11147151576?si=f-6UCuBoSaCyYsT51-mteg">Spotify</a> vyhledávám
             většinou rock všech možných typů, ale daleko to nemám k&nbsp;žádnému hudebnímu žánru.
+            Přirozeně mě to táhne k zájmu o kryptoměny, které aktivně zkoumám.
             Když mám náladu, jdu si zaběhat, když ji mám fakt dobrou a velmi namotivovovanou, dám si i nějaké ty
             <abbr title="orientační běh, takové to zdánlivě zmatené pobíhání po lese mezi barevnými stojánky">lampiony</abbr>.
         </p>
 
         <h2>Kde mě najdete?</h2>
 
-        <ul>
-            <li>
-                určitě na mém e-mailu <strong>
-                <Mailto :mail='email' subject="Dotaz z~webu"/>
-            </strong>
-            </li>
-            <li>mám profil na Githubu <a href="https://github.com/thejoeejoee">@thejoeejoee</a>
-                (či stručné <a href="https://resume.github.io/?thejoeejoee">resumé</a>)
+        <ul class="big">
+            <li>určitě na mém e-mailu <strong><Mailto :mail='email' subject="Dotaz z~webu"/></strong></li>
+            <li>či na <a href="https://t.me/thejoeejoee">Telegramu</a></li>
+            <li>na profilu na  <a href="https://github.com/thejoeejoee">Githubu</a>
+                (či stručné <a href="https://resume.github.io/?thejoeejoee">GH resumé</a>)
             </li>
             <li>příležitostně <a href="https://blog.josefkolar.cz">bloguju</a></li>
-            <li>občas twítuju <a href="https://twitter.com/thejoeejoee">@thejoeejoee</a></li>
-            <li>jsem i na <a href="https://www.linkedin.com/in/josef-kol%C3%A1%C5%99-69b988133/">LinkedIn</a>u</li>
+            <li>občas <a href="https://twitter.com/thejoeejoee">twítuju</a></li>
+            <li>jsem i na <a href="https://www.linkedin.com/in/josef-kol%C3%A1%C5%99-69b988133/">LinkedInu</a></li>
+            <li class="hidden">
+              souhrně pak v <a href="https://thejoeejoee.github.io/resume/resume-cs.pdf">CV</a>
+              (<a href="https://thejoeejoee.github.io/resume/resume.pdf">english</a>)
+            </li>
         </ul>
 
         <div class="footnotes">
@@ -279,7 +281,7 @@
                     ', dobrovolník',
                     ', ESNer',
                     ', nadšenec',
-                    ' a su z~Hané',
+                    ' a su z Hané',
                 ]
             }
         },

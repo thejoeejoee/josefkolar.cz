@@ -20,10 +20,18 @@ figure {
   text-align: center;
 }
 
-small {
+small, .small {
   font-size: .8em;
 }
 
-.abstract {
+.abstract, .big {
   font-size: 1.2em;
+}
+
+.right {
+  float: right;
+}
+
+.hidden {
+  display: none;
 }
