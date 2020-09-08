@@ -46,8 +46,8 @@
                 Se styly si rozumím také, ale k&nbsp;webovému designu to nemám úplně blízko.
             </li>
             <li>
-                <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár *buntu distribucí,
-                administátorsky ovládám a sám provozuji Debian i CentOS.
+                <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár distribucí,
+                administátorsky ovládám a sám provozuji Ubuntu, Debian i CentOS.
             </li>
             <li>
                 <strong>databáze</strong> – relačně mám nejvíc zkušeností s&nbsp;<Highlight>PostgreSQL</Highlight>,
@@ -62,8 +62,9 @@
                 za sebou; znalost C se pro psaní Python programů hodí.
             </li>
             <li>
-                <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, základní znalosti
-                VHDL, ASMx86, Qt či <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
+                <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, Docker,
+                zkušenosti s&nbsp;VHDL, ASMx86, Qt či
+                <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
             </li>
         </ul>
 
