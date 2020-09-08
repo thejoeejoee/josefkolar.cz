@@ -48,8 +48,6 @@ export default {
     ],
     styleResources: {
         scss: [
-            'assets/scss/file/_path.scss',
-            'assets/scss/file/_path-two.scss'
         ]
     },
 

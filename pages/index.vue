@@ -62,7 +62,7 @@
                 za sebou; znalost C se pro psaní Python programů hodí.
             </li>
             <li>
-                <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, Docker,
+                <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, Git, Docker,
                 zkušenosti s&nbsp;VHDL, ASMx86, Qt či
                 <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
             </li>
