@@ -245,9 +245,9 @@
             <li>příležitostně <a href="https://blog.josefkolar.cz">bloguju</a></li>
             <li>občas <a href="https://twitter.com/thejoeejoee">twítuju</a></li>
             <li>jsem i na <a href="https://www.linkedin.com/in/josef-kol%C3%A1%C5%99-69b988133/">LinkedInu</a></li>
-            <li class="hidden">
+            <li>
               souhrně pak v <a href="https://thejoeejoee.github.io/resume/resume-cs.pdf">CV</a>
-              (<a href="https://thejoeejoee.github.io/resume/resume.pdf">english</a>)
+              <!-- (<a href="https://thejoeejoee.github.io/resume/resume.pdf">english</a>) -->
             </li>
         </ul>
 
