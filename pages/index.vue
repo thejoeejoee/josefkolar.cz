@@ -129,7 +129,7 @@
 
               <p>
                 <em>Pro litovelský Tatran to není zdaleka jediný projekt, který realizuji – také například spravuji
-                  infrastrukturu pro běh webových prezentací.</em>
+                  infrastrukturu pro běh webových prezentací či se starám o vizuál a realizaci přímých přenosů.</em>
               </p>
             </li>
             <li>
