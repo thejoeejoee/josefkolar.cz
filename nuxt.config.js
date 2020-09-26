@@ -9,7 +9,17 @@ export default {
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: 'Osobní stránky jednoho IT nadšence'}
+            {hid: 'description', name: 'description', content: 'Osobní stránky jednoho IT nadšence'},
+
+            {hid: 'og:type', name: 'og:type', content: 'website'},
+            {hid: 'og:url', name: 'og:url', content: 'https://josefkolar.cz/'},
+            {hid: 'og:title', name: 'og:title', content: 'josefkolar.cz'},
+            {hid: 'og:description', name: 'og:description', content: 'Osobní stránky jednoho IT nadšence'},
+
+            {hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
+            {hid: 'twitter:url', name: 'twitter:url', content: 'https://josefkolar.cz/'},
+            {hid: 'twitter:title', name: 'twitter:title', content: 'josefkolar.cz'},
+            {hid: 'twitter:description', name: 'twitter:description', content: 'Osobní stránky jednoho IT nadšence'},
         ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
