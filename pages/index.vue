@@ -70,7 +70,7 @@
 
         <h2>Co je za mnou?</h2>
 
-        <h4>OLC Systems</h4>
+        <h3>OLC Systems</h3>
         <p>
             Původně brigáda v&nbsp;této <a href="https://www.olc.cz/">olomoucké společnosti</a> se rozrostla do dlouhodobé
             spolupráce, během které jsem čerpal zkušenosti v&nbsp;oblastech informačních systémů včetně těch sportovních,
@@ -80,7 +80,7 @@
             do firemních řešení, tedy především přechod na Webpack a uživatelská rozhraní ve Vue.js.
         </p>
 
-        <h4>Prezentační weby</h4>
+        <h3>Prezentační weby</h3>
         <p>
             Mám v&nbsp;portfoliu řadu prezentačních webů pro mé klienty, od počátečního návrhu přes grafický design,
             realizaci až k&nbsp;finálnímu zveřejnění – to vše v&nbsp;širokém spektru oborů zahrnujících autoškoly,
@@ -91,7 +91,7 @@
         <h3>Co dělám?</h3>
         <ul>
             <li>
-              <h5>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h5>
+              <h4>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h4>
 
               <p>
                 <i>Ich bin ein ESNer</i>, tedy jsem ESNer, člen Erasmus Student Network, největší evropské studentské organizace.
@@ -120,7 +120,7 @@
               </p>
             </li>
             <li>
-                <h5>Litovel MINICUP <small class="right">2013-2019</small></h5>
+                <h4>Litovel MINICUP <small class="right">2013-2019</small></h4>
                 <p>
                     Na začátku příprav tohoto turnaje v&nbsp;miniházené pro děti byl požadavek na stránky se základními
                     informacemi a výsledky zápasů na turnaji.
@@ -162,7 +162,7 @@
               </p>
             </li>
             <li>
-                <h5>IFJ2017-toolkit</h5>
+                <h4>IFJ2017-toolkit</h4>
                 <p>
                     Během projektu vývoje kompilátoru na FIT VUT jsme se rozhodli v&nbsp;týmu
                     stvořit i volně <a href="https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit">
@@ -179,7 +179,7 @@
         <h3>Studia</h3>
         <ul>
             <li>
-                <h5>Magisterské studium na FIT VUT v&nbsp;Brně  <small class="right">2019-<abbr title="plánovaně">2022</abbr></small></h5>
+                <h4>Magisterské studium na FIT VUT v&nbsp;Brně  <small class="right">2019-<abbr title="plánovaně">2022</abbr></small></h4>
                 <p>
                     Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
                     ve specializaci
@@ -189,7 +189,7 @@
                 </p>
             </li>
             <li>
-                <h5>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize <small class="right">2019-2020</small></h5>
+                <h4>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize <small class="right">2019-2020</small></h4>
                 <!-- TODO: add link to blog with Erasmus tag -->
                 <p>
                     V&nbsp;rámci prvního ročníku magisterského studia jsem se vydal na dvousemestrální zahraniční výjezd
@@ -203,7 +203,7 @@
                 </p>
             </li>
             <li>
-                <h5>Bakalářské studium na FIT VUT v&nbsp;Brně  <small class="right">2016-2019</small></h5>
+                <h4>Bakalářské studium na FIT VUT v&nbsp;Brně  <small class="right">2016-2019</small></h4>
                 <p>
                     Na oboru <em>Aplikovaná informatika</em> jsem si prošel pěknou řádkou předmětů a hodnotných
                     projektů včetně vlastní implementace DNS resolveru, kompletní aplikace programovatelné kalkulačky
@@ -219,7 +219,7 @@
                 </p>
             </li>
             <li>
-                <h5>Střední průmyslová škola elektrotechnická v&nbsp;Olomouci <small class="right">2012-2016</small></h5>
+                <h4>Střední průmyslová škola elektrotechnická v&nbsp;Olomouci <small class="right">2012-2016</small></h4>
                 <p>
                     <i>Už od mala jsem kutil, kreslil si vynálezy do sešitu a řešil infrastrukturu v&nbsp;SimCity 2000.</i>
                     Výběr eleprůmyslovky potom byl jasnou volbou, postupem času jsem začal inklinovat spíše k&nbsp;IT,
