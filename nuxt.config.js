@@ -45,6 +45,7 @@ export default {
 
     buildModules: [
         '@nuxt/typescript-build',
+        '@nuxtjs/pwa',
         ['@nuxtjs/google-analytics', {
             id: 'UA-108072995-4'
         }]
@@ -62,8 +63,19 @@ export default {
     },
 
     build: {
-
         extend(config, ctx) {
         }
+    },
+
+    pwa: {
+        meta: {
+            theme_color: '#4a148c',
+        }
+    },
+
+    responsiveLoader: {
+        min: 540,
+        max: 1080,
+        quality: 65,
     }
 }
