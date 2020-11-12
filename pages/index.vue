@@ -88,8 +88,37 @@
             na <Highlight>míru se vším všudy,</Highlight> s&nbsp;administrací pro úpravu obsahu i následným servisem.
         </p>
 
-        <h3>Vlastní projekty</h3>
+        <h3>Co dělám?</h3>
         <ul>
+            <li>
+              <h5>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h5>
+
+              <p>
+                <i>Ich bin ein ESNer</i>, tedy jsem ESNer, člen Erasmus Student Network, největší evropské studentské organizace.
+                Začalo to nevinně na mých zahraničních studiích v Lotyšsku výpomocí u sekce <Highlight>ESN Riga</Highlight>
+                při organizování a fotodokumentování pořádaných událostí.
+                Mladí Lotyši byli velmi inspirativní a i díky dalším ESNerům a ESNerkám
+                (především těm pražským, i když si tak neříkají) jsem začal pozorovat, že tohle by mě mohlo bavit a naplňovat.
+              </p>
+              <p>
+                Nyní to pokračuje <Highlight>dobrovolnictvím u ESN VUT Brno</Highlight>,
+                sekce mé <i>alma mater</i> – po mém nástupu
+                zaujal jsem promptně zaujal pozici <i>Knowledge Manager</i> (sekční Google Drive je můj nový domov),
+                starám se o vývoj systému <a href="https://github.com/ESNcz/Fiesta">Fiesta</a>, nástroje pro celobrněnský
+                <abbr title="zahraniční studenti si mohou zažádat o buddyho, tedy místního studenta, který jim pomůže s novým prostředím či papírováním">buddy systém</abbr>
+                a podílím se na online prezentaci a výsledcích celé sekce při VUT.
+              </p>
+              <p>
+                A protože online doba pokračuje, ujal jsem se pozice <Highlight><i>Multimedia Manager</i></Highlight>
+                a produkuji společně s celým <i>Communication</i> týmem přímé přenosy pro veřejnost,
+                ale i interní eventy s přenosem přímo do konferenční místnosti.
+                A s nadšením vzhlížím k době, kdy budu opět více řešit, kdo bude akce fotit, než to, kdo bude mít
+                pod palcem celou online událost.
+              </p>
+              <p class="center">
+                <Highlight><strong>Once Erasmus, always Erasmus.</strong></Highlight>
+              </p>
+            </li>
             <li>
                 <h5>Litovel MINICUP <small class="right">2013-2019</small></h5>
                 <p>
