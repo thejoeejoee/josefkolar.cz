@@ -24,6 +24,10 @@ export default {
         ]
     },
 
+    components: [
+        '~/components/global/',
+    ],
+
     env: {
         compileTimestamp: new Date()
     },
@@ -75,18 +79,26 @@ export default {
     responsiveLoader: {
         min: 540,
         max: 1080,
+        steps: 3,
         quality: 65,
     },
 
     hooks: {
+        'content:file:beforeParse': (file) => {
+            if (file.extension !== '.md') return
+            file.data = file.data.replace(/<!-- MORE -->/g, '<!--more-->')
+        },
         'content:file:beforeInsert': (document) => {
-            const reg = /(\d{4})-(\d{2})-(\d{2})-(\w+)/
+            const reg = /^(\d{4})-(\d{2})-(\d{2})-(\S+)$/g
+            const match = reg.exec(document.slug);
+            if (!match) return;
 
-            document.slug = document.slug.replace(reg, '$1/$2/$3/$4')
+            const [_, year, month, day, title] = match;
+            const slug = `${year}/${month}/${day}/${title}`
 
-            document.path = '/' + document.slug.replace(reg, '$1/$2/$3/$4')
-
-            // console.log(document)
+            document.slug = slug
+            document.path = `/${slug}`
+            document.createdAt = new Date(year, month, day)
         },
         'content:options': (opts/*: IContentOptions*/) => {
             opts.markdown.remarkPlugins.push(  {
