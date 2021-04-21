@@ -12,13 +12,14 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
     "@nuxtjs/pwa": "^3.2.2",
     "@nuxtjs/style-resources": "^1.0.0",
     "@types/underscore": "^1.10.24",
     "latex.css": "^1.1.0",
     "lodash": "^4.17.21",
     "node-sass": "^4.14.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.14.12",
     "nuxt-protected-mailto": "^0.0.6",
     "nuxt-responsive-loader": "^2.0.1",
     "require-context": "^1.1.0",
@@ -29,7 +30,7 @@
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^1.0.2",
+    "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^1.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
     "@nuxtjs/google-analytics": "^2.4.0",
