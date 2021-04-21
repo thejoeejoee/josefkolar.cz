@@ -1,6 +1,4 @@
 export default {
-    mode: 'universal',
-
     head: {
         title: 'Josef Kolář',
         htmlAttrs: {
@@ -54,6 +52,7 @@ export default {
     modules: [
         '@nuxtjs/pwa',
         '@nuxtjs/style-resources',
+        "@nuxt/content",
         'nuxt-protected-mailto',
         'nuxt-responsive-loader',
     ],
@@ -77,5 +76,17 @@ export default {
         min: 540,
         max: 1080,
         quality: 65,
+    },
+
+    hooks: {
+        'content:file:beforeInsert': (document) => {
+            const reg = /(\d{4})-(\d{2})-(\d{2})-(\w+)/
+
+            document.slug = document.slug.replace(reg, '$1/$2/$3/$4')
+
+            document.path = '/' + document.slug.replace(reg, '$1/$2/$3/$4')
+
+            console.log(document)
+        }
     }
 }
