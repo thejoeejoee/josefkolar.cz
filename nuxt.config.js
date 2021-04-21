@@ -86,7 +86,16 @@ export default {
 
             document.path = '/' + document.slug.replace(reg, '$1/$2/$3/$4')
 
-            console.log(document)
-        }
+            // console.log(document)
+        },
+        'content:options': (opts/*: IContentOptions*/) => {
+            opts.markdown.remarkPlugins.push(  {
+                instance: require('./utils/remark-unjekyll-images'),
+                name: 'remark-unjekyll-images',
+                options: undefined
+            })
+
+            return opts;
+        },
     }
 }
