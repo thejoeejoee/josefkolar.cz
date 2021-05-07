@@ -23,7 +23,7 @@
     "nuxt-responsive-loader": "^2.0.1",
     "require-context": "^1.1.0",
     "sass-loader": "^8.0.2",
-    "underscore": "^1.12.0",
+    "underscore": "^1.12.1",
     "vue-observe-visibility": "^0.4.6",
     "vue-rough-notation": "^0.1.10",
     "vue-typer": "^1.2.0"
