@@ -83,6 +83,10 @@ export default {
         quality: 65,
     },
 
+    content: {
+        liveEdit: false,
+    },
+
     hooks: {
         'content:file:beforeParse': (file) => {
             if (file.extension !== '.md') return
