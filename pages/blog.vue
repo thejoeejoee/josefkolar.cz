@@ -1,0 +1,35 @@
+<template>
+    <main>
+      <ul>
+        <li v-for="post in posts">
+          <h4><nuxt-link :to="post.path">{{ post.title }}</nuxt-link></h4>
+          <blockquote>
+            {{ post.description }}
+            <cite>{{ (new Date(post.createdAt)).toLocaleDateString('cs') }}</cite>
+          </blockquote>
+        </li>
+      </ul>
+    </main>
+</template>
+
+<script lang="ts">
+    import Vue from 'vue'
+    import PhotosGrid from "~/components/PhotosGrid.vue";
+    import _ from 'underscore'
+
+    export default Vue.extend({
+      components: {},
+      async asyncData({ $content }) {
+        return {
+          posts: await $content({deep: true}).fetch()
+        }
+      }
+
+    })
+</script>
+
+<style lang="scss">
+cite {
+  float: right;
+}
+</style>

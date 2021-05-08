@@ -1,5 +1,5 @@
 <template>
-  <img :srcset="source.srcSet" :alt="alt" :title="title" />
+  <img :srcset="source ? source.srcSet : null" :alt="alt" :title="title" />
 </template>
 
 <script>
