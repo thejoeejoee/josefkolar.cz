@@ -42,8 +42,8 @@
             </li>
             <li>
                 <strong>webový frontend</strong> – Vue.js ideálně s&nbsp;Typescriptem
-                <em>(s nostalgií vzpomínám na první verzi </em><kbd>ng-</kbd><em>Angularu)</em>.
-                Se styly si rozumím také, ale k&nbsp;webovému designu to nemám úplně blízko.
+                <em>(s nostalgií vzpomínám na první verzi </em><kbd>ng-</kbd><em>Angularu)</em> – ale s Reactem fakt
+                problém nemám. Se styly si rozumím také, ale k&nbsp;webovému designu to nemám úplně blízko.
             </li>
             <li>
                 <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár distribucí,
@@ -90,6 +90,19 @@
 
         <h3>Co dělám?</h3>
         <ul>
+            <li>
+              <h4>Covid bez bariér <small class="right">duben 2021</small></h4>
+
+              <p>
+                V rámci školního projektu týkajícího se využívání veřejně dostupných API jsme s&nbsp;kolegou
+                vytvořili projekt <a href="https://covidbezbarier.cz">covidbezbarier.cz</a> – webovou aplikaci
+                umožňující vyhledávat na mapě bezbariérová místa pro Covid-19 testování a očkování.
+                SPA jsme postavili nad Nuxt.js, kterému pro stylování sekundoval Tailwind CSS, data poskytoval ÚZIS ČR
+                a jako mapové poklady posloužily OSM. Aplikací se <a
+                  href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739">pochlubilo i VUT</a>,
+                a díky kontaktům v komunitě hendikepovaných se povedlo o aplikaci informovat i tam.
+              </p>
+            </li>
             <li>
               <h4>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h4>
 
