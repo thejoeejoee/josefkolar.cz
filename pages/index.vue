@@ -96,7 +96,7 @@
               <p>
                 V rámci školního projektu týkajícího se využívání veřejně dostupných API jsme s&nbsp;kolegou
                 vytvořili projekt <a href="https://covidbezbarier.cz">covidbezbarier.cz</a> – webovou aplikaci
-                umožňující vyhledávat na mapě bezbariérová místa pro Covid-19 testování a očkování.
+                umožňující vyhledávat na <Highlight>mapě bezbariérová místa pro Covid-19 testování a očkování</Highlight>.
                 SPA jsme postavili nad Nuxt.js, kterému pro stylování sekundoval Tailwind CSS, data poskytoval ÚZIS ČR
                 a jako mapové poklady posloužily OSM. Aplikací se <a
                   href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739">pochlubilo i VUT</a>,
@@ -252,8 +252,8 @@
         <p>
             Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro mládež –
             malé kapacitou, velké zážitkem. Každý rok jinde, takže výběr tábořiště, dostatek informací zájemcům,
-            organizace přesunů, komunikace s&nbsp;rodiči, spoluautorství táborového příběhu,
-            <Highlight>to mě baví a naplňuje</Highlight>.
+            organizace přesunů, komunikace s&nbsp;rodiči, spoluautorství táborového příběhu a her,
+            <Highlight>to mě baví a naplňuje</Highlight> už pět let.
             Během samotného týdne v&nbsp;lesích pak táborový program a vizuální vzpomínky pro účastníky
             a další propagaci. Je mi ctí pokračovat ve více jak dvacetileté tradici rytířských táborů, na které
             jsem sám jezdil a utvářely mě.
@@ -324,6 +324,7 @@
                     ', dobrovolník',
                     ', ESNer',
                     ', nadšenec',
+                    'a rád běhám',
                     ' a su z Hané',
                 ]
             }
