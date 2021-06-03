@@ -1,27 +1,5 @@
 <template>
     <article>
-        <h1>
-            <!-- @formatter:off -->
-            Jsem Joe<client-only><vue-typer
-                        :text="formattedRoles"
-                        :repeat="Infinity"
-                        initial-action="typing"
-                        :pre-type-delay="70"
-                        :type-delay="70"
-                        :pre-erase-delay="2000"
-                        :erase-delay="eraseDelay"
-                        erase-style="backspace"
-                        caret-animation="smooth"
-                        @typed="onTyped"
-            /></client-only>
-            <!-- @formatter:on -->
-        </h1>
-
-        <p class="author">
-            Josef Kolář |
-            {{ (new Date(compileTimestamp)).toLocaleDateString(undefined, { year: 'numeric', month: 'long' }) }}
-        </p>
-
         <div class="abstract strong">
             Ahoj! Jsem Joe a jsem z&nbsp;Generace Z. <br>
             Počítače, internety, aplikace, online prostor, to je můj svět.
@@ -292,14 +270,6 @@
               <!-- (<a href="https://thejoeejoee.github.io/resume/resume.pdf">english</a>) -->
             </li>
         </ul>
-
-        <div class="footnotes">
-            <p>
-                Sestaveno z&nbsp;repozitáře <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
-                a nasazeno {{ (new Date(compileTimestamp)).toLocaleString().replace(/ /g, '&nbsp;') }} pomocí
-                služby <a href="https://vercel.com">Vercel</a>.
-            </p>
-        </div>
     </article>
 </template>
 
@@ -309,46 +279,16 @@
 
     export default Vue.extend({
         components: {Highlight},
-        asyncData({env}) {
+        data() {
+            return {
+                email: 'mail@josefkolar.cz',
+                compileTimestamp: new Date(),
+            }
+        },
+        async asyncData({env}) {
             return {
                 compileTimestamp: env.compileTimestamp || new Date(),
-                email: 'mail@josefkolar.cz',
-                eraseDelay: 70,
-                roles: [
-                    ', vývojář',
-                    ' a fotím',
-                    ', student',
-                    ' a pořádám tábory',
-                    ', erasmák',
-                    ' a píšu',
-                    ', dobrovolník',
-                    ', ESNer',
-                    ', nadšenec',
-                    'a rád běhám',
-                    ' a su z Hané',
-                ]
             }
-        },
-        computed: {
-            formattedRoles() {
-                // @ts-ignore
-                return this.roles.map((v: string) => `${v}.`);
-            }
-        },
-        data() {
-            return {}
-        },
-        methods: {
-            onTyped(what: string) {
-                // @ts-ignore
-                this.eraseDelay = what.indexOf(' ') >= 0 ? 40 : 70;
-            }
-        },
-        created() {
-            setTimeout(() => {
-                // @ts-ignore
-                this.roles = [...this.roles, ' a jsem vegan']
-            }, 1000 * 60 * 5); // 5 minutes
         }
     })
 </script>
@@ -356,5 +296,11 @@
 <style lang="scss">
     .vue-typer .custom.char.typed {
         color: #4A148C;
+    }
+</style>
+
+<style lang="scss" scoped>
+    article {
+        max-width: 80ch;
     }
 </style>

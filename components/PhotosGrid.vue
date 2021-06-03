@@ -1,17 +1,16 @@
 <template>
-  <main>
-    <h2>< Zpět</h2>
+  <div class="Photos__container">
     <template v-for="set in photos">
       <div class="Photos">
         <div
-            v-for="photo in set"
-            class="Photos__photo"
+          v-for="photo in set"
+          class="Photos__photo"
         >
-          <img :srcset="photo.srcSet">
+          <img :srcset="photo.srcSet" :src="photo.src">
         </div>
       </div>
     </template>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -31,7 +30,7 @@ export default {
   line-height: 0;
 
   column-count: 3;
-  column-gap: .5em;
+  column-gap: .5rem;
 
   @media (max-width: 960px) {
     column-count: 2;
@@ -40,19 +39,29 @@ export default {
     column-count: 1;
   }
 
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+
+  &__container {
+    margin-top: 1rem;
+  }
+
   &__photo {
     transition: all 400ms ease;
     overflow: hidden;
 
     transform: scale(1);
+
     &:hover {
       z-index: 100;
       transform: scale(1);
+
       img {
         transform: scale(1.05);
       }
     }
-    margin-bottom: .5em;
+
+    margin-bottom: .5rem;
   }
 
   img {
@@ -63,28 +72,4 @@ export default {
   }
 }
 
-</style>
-
-<style lang="scss">
-body {
-  max-width: 60vw;
-}
-
-@media (max-width: 960px) {
-  body {
-    max-width: 90vw;
-  }
-}
-
-@media (max-width: 1440px) {
-  body {
-    max-width: 80vw;
-  }
-}
-
-@media (max-width: 1920px) {
-  body {
-    max-width: 70vw;
-  }
-}
 </style>
