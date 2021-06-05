@@ -1,5 +1,7 @@
 <template>
+  <article>
       <PhotosGrid></PhotosGrid>
+  </article>
 </template>
 
 <script lang="ts">
@@ -11,21 +13,3 @@
       components: {PhotosGrid},
     })
 </script>
-
-
-<style lang="scss">
-article, body {
-    max-width: 60vw;
-    @media (max-width: 960px) {
-        max-width: 90vw;
-    }
-
-    @media (max-width: 1440px) {
-        max-width: 80vw;
-    }
-
-    @media (max-width: 1920px) {
-        max-width: 70vw;
-    }
-}
-</style>

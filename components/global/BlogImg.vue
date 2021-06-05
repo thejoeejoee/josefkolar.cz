@@ -10,7 +10,7 @@ const requireFromAssets = (assetsPath) => {
   let result;
   const ext = path.extname(assetsPath);
   const name = path.basename(assetsPath, ext);
-  const dir = path.dirname(assetsPath);
+  const dir = path.dirname(assetsPath).toLowerCase();
   // IMPORTANT
   // Every fixed string parts of the following require calls, like folder name, path separators
   // and file extensions, are crucial for narrowing down the required module path before the
@@ -18,19 +18,11 @@ const requireFromAssets = (assetsPath) => {
   // https://webpack.js.org/guides/dependency-management/#require-with-expression
   switch (ext) {
     case ".svg":
-      result = require(`~/assets/blog/${path.join(dir, name)}.svg`);
-      break;
     case ".png":
-      result = require(`~/assets/blog/${path.join(dir, name)}.png`);
-      break;
     case ".jpg":
-      result = require(`~/assets/blog/${path.join(dir, name)}.jpg`);
-      break;
     case ".jpeg":
-      result = require(`~/assets/blog/${path.join(dir, name)}.jpeg`);
-      break;
     case ".gif":
-      result = require(`~/assets/blog/${path.join(dir, name)}.gif`);
+      result = require(`~/assets/blog/${path.join(dir, name)}${ext}`);
       break;
     default:
       result = null;
