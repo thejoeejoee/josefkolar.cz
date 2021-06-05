@@ -28,6 +28,7 @@ function replaceImages() {
         // NEW: <blog-img> ~assets/2018-01-26-messenger.png
 
         props.src = '~/assets/' + src.slice(12);
+        props.title = '~/assets/' + src.slice(12);
         node.tagName = 'blog-img';
     }
 }
