@@ -18,7 +18,7 @@ Pondělí kromě teorie her, kde řešíme etiku křižovatek a ceně toho, že 
 Středu kromě povyku nad letními botami v poprašku sněhu zlepšuje vege burger v jednom z našich oblíbených podniků, Ježkovi v mlze. Ježko v hmle, Ezītis miglā. Také tam dostáváme kamarádské placky za naše poctivé ježko-návštěvy za posledních pár měsíců - slevička se vždy hodí. Po radostné večerní lotyštině míříme společně na basketball, na který se nám podařilo vyemailovat volné vstupy a díky klubu Nymburku přicházíme k hrací ploše vybaveni i klubovými tričky, děkujeme! Tristně poloprázdnou halu se nám daří naplňovat tlakovými produkty našich hlasivek a za výborného výkonu mužů z Nymburka si užíváme zápasu se mohutným českým zastoupením. Večer zakončujeme v ježkovi někdy nad ránem a úkoly do lotyštiny, se kterými mi pomáhá celé zbylé osazenstvo baru i barmanka.   
 
  <figure> 
- <img src="{{ site.baseurl }}/assets/img/IMG_1589.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_1589.jpg" alt="" class="img-center"> 
    <figcaption>Posledních 14 dní jsme trénovali pravidla basketu a fandění, omlute tedy prosím orientace vlajek. <i>Tichá závist lotyšům, u jejichž vlajky neexistuje špatná orientace.</i> P.S. Není lotyšská vlajka a rotace/překlopení nad ní něco jako grupa?</figcaption>
  </figure>
 

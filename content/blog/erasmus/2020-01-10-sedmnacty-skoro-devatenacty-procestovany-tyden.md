@@ -17,7 +17,7 @@ Předvánoční pondělí a první zkouška semestru! Tu se moc neřeší předt
 Úterní ráno, teda s naším spánkovým režimem spíš dopoledne, patří rozlučkovému bruslení s holkama v nedaleké Akropoli, nákupním středisku v oblíbené čtvrti Ķengarags. Stojím na bruslích po pár letech, takže je to trochu zvykání, ale nakonec se mi daří dát pár koleček v liduprázdném uzavřeném kluzišti a vzpomínám si i na překládání (jen na jednu stranu, ale tím bych se moc nechlubil). K bruslení nám hrají, takže není problém si zatančit trochu kraslobruslařsky a pak i nastoupit na modré čáry a slavnostně si zatroubit hymny před zápasem - no, sranda musí být. Menší oběd, poslední Maxima, dojemné rozloučení na kraji Maskačky (to, že bylo dojemné, je mi řečeno až zpětně - obecně mám některé emoce trochu zpožděné), poslední balení, pápá Reznas, pápá Riga, check-in, vlhký Dannyho ze Zplzně ručník do mého příručáku, řada na gate, spousta češtiny okolo, strašným způsobem ukecaná Švédka tázající se na party tipy v Praze Moraváka a Ostraváka, a také na těžení nějakého podivného minerálu v českých zemích, a už si to svištíme směr Praha. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2893.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2893.jpg" alt="" class="img-center"> 
    <figcaption>Je čas udělat Rize na chvíli pápá ve formě akropolského bruslení.</figcaption>
  </figure>
 
@@ -48,7 +48,7 @@ Nad Rigou je toho dne poněkud neklidné počasí, approach je mírně houpavý 
 Novoroční středa není kromě data v ničem speciální, večer jedeme dojíst spoustu vege dobrot ke Kike (a hlavně dobrotkovou střechu a cukroví) [a už myslím, že slova dobrotka či dobrota bylo dost] a také naplánovat druhého, kdy chceme vyjet na severzápad Lotyšska s vypůjčeným auťákem.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_3458.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_3458.jpg" alt="" class="img-center"> 
    <figcaption>Už si pár měsíců semtam říkám, jestli se v Rize nezastavil čas - a ono fakt! O jednu hodinu dopředu a taky o osmnáct let dozadu!</figcaption>
  </figure>
 
@@ -69,7 +69,7 @@ Pátek, co jsme vlastně dělali v pátek přes den? No asi nic podstatného, ta
 Ani sobota toho moc nepobrala, ale přece jenom jednu zajímavou věc má - rižské hnutí/spolek/organizace [Pilsēta cilvēkiem](https://www.pilsetacilvekiem.lv/), tedy v přímém překladu něco jako "Město lidem", organizuje každou první sobotu v měsíci odpolední blokádu autům jedné z ulic města, a pro první sobotu roku 2020 vybírá Terbatas iela, teda ulici pojmenovanou podle estonského města Tartu. Se slovenskou zástupkyní jdeme prázdnou ulicí a je to vážně zvláštní, dost často se otáčím, jestli za námi něco nejede či něčemu nezavazíme. A myslím, že je akce celkem úspěšná, společně s námi se prochází ulicí další stovky a to jsme na místě až k večeru, odpoledne to teprve muselo krásné. Večer si trénuji mozek a konečně se učím, jak se vyplňují ty magické tečkované křížovky (jejichž řešení je nejspíš NP kompletní, ale ověření krásně v polynomiálním čase - to jen kdybyste někdo rozuměli třídám složitostí).
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_3506.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_3506.jpg" alt="" class="img-center"> 
    <figcaption>Bylo by velmi zajímavé algoritmizovat řešení těchto křížovek.</figcaption>
  </figure>
 

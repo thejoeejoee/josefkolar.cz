@@ -16,21 +16,21 @@ Pondělí startuje někde v rižském zálivu na trajektu ze Stockholmu, množin
 Úterý jsem rád, že vůbec vstávám, a tak kromě vaření se den smrskává na večerní zápas florbalu na mistrovství světa žen, kde naše reprezentantky vyzývají své slovenské sestřičky, u čehož samozřejmě nesmíme chybět, neboť Slovenka Kika má známou ve slovenské bráně. Na sledování se scházíme s Hankou a Kikou v jednom, pro nás novém, ježkovi s takovým až laboratorním umístěním.  Utkání rozehrávají reprezentantky ve Švýcarsku ve velkém tempu a ve stejném tempu nám na stole přistávají i lahve vína. Kromě florbalu, který se velmi rychle přelil na českou stranu, probíráme lotyšskou literaturu, která na nás kouká z parapetu okna. Ježek nás každopádně moc nepřesvědčuje, ne zcela útulné prostředí s přebytkem světla v kombinaci s vysokými stropy udělalo svoje. Slovenskou náladu z prohry a českou z nekrásného ježka je nutno spravit ve známějším ježkovi, kam se rádi přesunujeme a trávíme v něm i zbytek večera - noc potom zimním pochodem až na Maskačku a pozorováním rotace země vůči Měsíci.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2687.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2687.jpg" alt="" class="img-center"> 
    <figcaption>Opravdu vedeme o 11, i když si to (nejspíš bratrská) infografika úplně nemyslí.</figcaption>
  </figure>
 
 Středa proběhnutí třeba, řídím se tímto krásným byť umělým příslovím a kromě výpočetní složitosti si dávám odpoledne i menší běh - podvečer pak jedna z posledních lotyštin a (poslední) večeře v oblíbeném velkém maskačském Lidu. Večer také začnu pomalu tvořit prezentaci na páteční obhajobu v předmětu o Linuxu, spíš jen tak, že vytvořím úvodní snímek.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2711.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2711.jpg" alt="" class="img-center"> 
    <figcaption>Lotyština je láska, už bych si, zatím teoreticky, měl být schopen říct v obchodě, co bych si rád koupil.</figcaption>
  </figure>
 
 Čtvrtek na produktivitě také moc nepřidal, předvánočně útočím na jeden z místních obchodů, abych mohl doma udělat radost lotyšskými sladkostmi, slanostmi a rižskými balzámostmi. Večer kromě chutě na šampióny s těstovinami přichází i vlasochvíle, svěřuji svůj stav ovlasení do rukou spoluerasmačky Hanky, která se s ním dvě hodiny pere za pomoci tří druhů nůžek - díky Hanko! Poté se také konečně pouštím do výroby finální prezentace do jednoho z předmětů, konkrétně do pokročilých témat z operačního systémů na základě UNIXu - vzhledem k tomu, že *NIXové systémy používám už pár let, beru téma prezentace mírně osobně a prezentuji mnou nejpoužívanější konzolové utility - vtípek na začátek i na konec a pár slajdů je hotových (když teda pomineme tu hromádku prokrastinace ležící v rohu, která zapříčinila dokončení někdy kolem páté).
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2775.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2775.jpg" alt="" class="img-center"> 
    <figcaption>Kolejní saláti chystají brsaláty.</figcaption>
  </figure>
 
@@ -39,14 +39,14 @@ Hodinka spánku a mířím ještě za tmy na prezentaci, kterou s poklidem zvlá
 Sobota, dlouho očekávaný den celého československého jádra a s ní i plánovaná vánoční večeře. Den zahajuji polednem, po kterém valím pomoci jediné mi známé erasmové vegance s [nekapry ovesnými](https://vanocebeznasili.cz/recepty/nekapr-ovesny), kterých se po prvních testech s tvarem smažených objektů daří naplnit celá krabička (ne tak krásných, jak je uvedeno v receptu, ale na to se zas tolik nehledí. Velmi silně pršící Rigou se přesouváme do nejoblíbenějšího z ježků na Avotu iela - místa, kde nám s radostí a úsměvem zarezervovali půl pokojíčku i s nádobím a jsou tam na nás prostě hodní, děkujeme! V upřímně příjemné atmosféře otevíráme krabičky s cukrovím, salátem a kapry i nekapry a chystáme si na talíře - atmošku uvozují zapálené svíčky, nalité víno i čekající dárky. Navzájem testujeme (a chválíme si samozřejmě) saláty i další výtvory, diskutujeme o rozdílnostech při štědrovečerních večeřích v jednotlivých částech našich zemí a užíváme prostě posledních společných okamžiků v tomto počtu. Následujícím a také posledním oficiálním bodem programu je tajný Santa, spíš tajný Ježíšek řeklo by se - už to bude nějaký pátek, co jsme si každý vylosovali někoho z množiny, kterému jsme na večeři přinesli dárek. A škála dárků je opravdu široká, od dojemných v podobě fotoalb, přes podepsanou lotyšskou vlajku, přes vyšité Riga je láska, až k praktickým dárkům v podobě sady černého nářadí v oranžovém obalu - díky, Danny! Dalším, už spontánním, bodem je rekapitulace těch všech našich společných zážitků, takže se znovu a moc rádi smějeme nad společným seznamováním se, výlety k majákům, na pláže, do Latgale, do Ķemeri, ale i nad dalšími horami zážitků a vzpomínek ze všech denních i nočních akcí - dost z nich je tu nepublikovaných (a nepublikovatelných), ale v nás prostě zůstanou. _Ještě bych snad i dodal, že nemálo očích zůstalo suchých, ale to už by bylo příliš patetické a navíc bych téměř lhal, protože bych nedodal, že oči nezůstaly suché vinou smíchu._ Večer pokračuje mnoha loučeními a jedním i radostným znovupřivítáním, spousty lahvemi vína, přáním ke svátku i poloprofesionálním vysíláním televize TRJ, Televize Rižské Jádro. Na cestu zpět by se hodili nejspíše Wohnouti se svým nejznámějším výtvorem o ranních návratech, kdy se z přímek stávají zatáčky a sousedka u toho peče koláčky.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2800.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2800.jpg" alt="" class="img-center"> 
    <figcaption>Poslední večeře v jádře, prosinec 2019, RGB na bitmapě, kolorováno.</figcaption>
  </figure>
 
 Neděle nestojí za řeč, servisní den, počátek vánočního balení se domů a skromná večeře ve vánočním Lidu. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2796.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2796.jpg" alt="" class="img-center"> 
    <figcaption>Výtvor šikovné Míši, který toho říká hodně. Riga je láska.</figcaption>
  </figure>
 

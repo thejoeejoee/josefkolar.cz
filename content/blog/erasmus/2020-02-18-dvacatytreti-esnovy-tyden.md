@@ -35,7 +35,7 @@ Středa, královský event ESN celého týdne, sám velký Pub Crawl. Přes den 
 Čtvrtek, po dopoledních synchronizacích všech novinek a zpráv pomocí videohovorů tak různě po Evropě a domácí správce sáněk mého blesku nás čeká giveaway od odjíždějícího Šimonka, darovanou sůl se nejdříve daří Hance rozsypat hned po překročení jeho prahu, mě se tak naši sůl daří rozsypat mně do postele, takže přemýšlíme, kdo to zprasil více. Na čtvrteční akci razím téměř sám, bowling není úplně nejoblíbenější akcí Slovanů, ale i přesto, že jsem na sé čtvrté ESN akci, už jsem cílem hromady dotazů na otevírací hodiny ESN kanceláře a dalších ESN věcí. Přitom jsem chtěl jen fotit - no nevadí, Alexandrs jakožto kápo, dostává celou skupinu do centra, záhraňáci smaží bowling, s technikou poletuju okolo nich a snažím se v tom šíleně divně barevně nasvíceném prostoru bez stropu vymyslet se světlem něco, aby všichni nevyp li úplně jako mořské příšery postavené na práh bowlingové dráhy.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_4741.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_4741.jpg" alt="" class="img-center"> 
    <figcaption>Domácí opravy s nulovou výbavou jsou sranda - tentokrát pomohl celkem starý erární žlutý nůž z kuchyňky - sáňky již drží, blesk bude fungovat a nebude jezdit! <i>(zvláštní paradox, spravením sáněk přestane blesk jezdit)</i></figcaption>
  </figure>
 
@@ -49,7 +49,7 @@ Pátek opět skáču do kolečka _večer vyfotit-přes den zpracovat_, takže to
 Sobota slouží k dojezení věcí, které Kika, která letí na zkoušky domů, nestihne sníst, děláme tedy salát (olivy ftw), který konzumujeme jedině s úsměvem a vyrážíme jí pomoci s nákupem vánočních dárků na její únorové Vánoční svátky doma. Krupicová kaše (díky Hančo) je našim obědem, jedeme se rozloučit s odlétajícím Šimonkem a Kikou na letiště, kde rovnou chytáme právě vystoupeného Slovana z přistáté B737-800 aerolinek Ryanair a pak tradá, focení Welcome party, jakožto sobotní ESN akce. Klidný začátek musí startovat členové ESN, především Ray, který se tance na prázdném parketu opravdu nebojí. Nakonec se daří, zvláštními tanci, roztancovat celý erasmácký parket, na který se samozřejmě připojují i místní. Kolem jedné mám na kartě ke 400 snímkům, balím techniku a netuším, že mě čeká ještě jedno dobrodružství. Před klubem je skupina Slovanek, z niž jedné není nejlépe a se slovy, že "už nikdy nebude pít", ji Boltem dopravuji na koleje - to nám ten [suchej únor](https://suchejunor.cz/) začíná s radostí.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_4850.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_4850.jpg" alt="" class="img-center"> 
    <figcaption>Nebylo by to loučení bez podivných selfíček v jednom v Lidu s druhým nejlepším výhledem (hned po maskačkovém), v tom letištním. </figcaption>
  </figure>
 

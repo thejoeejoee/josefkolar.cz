@@ -36,7 +36,7 @@ Sobota patří zodpovědnému prozkoumání rižského festivalu v ulicích, pro
 Neděle sedmnáctého listopadu je prostě svým způsobem speciální. Osmdesát a třicet let a hyperdůležitých událostí v naší republice - bez kterých bych rozhodně nemohl být vycestovaný na studia do zahraničí takto jednoduše. Kromě ranního poklidného a symbolického setkání se na nesouhlas s vedením našeho státu provázím návštěvu po druhém břehu Daugavy. Večer nás čeká československé setkání v malém rižském ostrůvku našich zemí v hospůdce Sveiks, Švejk! Žádného pamětníka listopadových událostí mezi sebou nemáme, i když k tomu tedy mají někteří mnohem blíž než já, tak zmiňujeme alespoň Movember, korelaci kvality Slovenštiny se zeměpisnou délkou a dalším. Slavnostní večer končíme kde jinde než v ježkovi, večer před největším lotyšským svátkem. 
 
 <figure> 
- <img src="{{ site.baseurl }}/assets/img/IMG_1907.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_1907.jpg" alt="" class="img-center"> 
    <figcaption>Estonská návstěva v Rize a protestní se zastavení na náměstí černohlavců. #neninamtojedno</figcaption>
  </figure>
 

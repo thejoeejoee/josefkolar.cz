@@ -21,7 +21,7 @@ Středa se točí okolo tří nesouvisejících akcí - vyzvedávám se výhern�
 Čtvrtek se line na lince znovuobjevování centra Rigy a neustávajícího výletování. Sraz máme u Mildy (opravdu se mu tak přezdívá, žádná Matilda, František nebo Jolene), tedy památníku svobody, kde zrovna probíhá uvádění nových městských policistů do služby, máme to tedy i s hudební vložkou. Pro příchozí taliňačku a ty, kteří nebyli v centru na prohlídce, si vzpomínám na legendy o historickém centru a znovu tak procházíme kolem kostela sv. Petra, domů černohlavců i lotyšského parlamentu. Na poslední zmíněném místě se zastavujeme kousek od kouřících pánů v oblecích s přiblblým nápadem, že se s nimi vyfotíme a potom budeme zjišťovat, jestli jsou to poslanci. Nakonec z něj upouštíme, co kdyby tam byl nějaký lotyšský [Pitomio](https://zpravy.aktualne.cz/domaci/prezdivka-pitomio-se-dal-smi-pouzivat-okamura-neuspel-ani-u/r~c2f38562543211e8a72bac1f6b220ee8/). Po propovídaném obědě v Lidu se přesunujeme šalinou na kraj oblasti pojmenované jako Mežaparks, teda v překladu něco jako lesní park - parku, který jsem měl na seznamu už před Erasmem. Velmi příjemná procházka alejí, kolem dětských hřišť (kde jsme se rádi vyblbli) až k největšímu amfiteátru v pobaltí, kam se dostáváme nejspíš trochu nelegálně, abychom si tam hodinku a půl na trávě dáchli a potom museli otevírat zamčenou bránu - holt stane se. Čvrtek končíme prolezením pár vintage butiků, kde si dělám radost svetrem a následně míříme do našich dočasných domovů připravit se na první větší výlet. _Po paralelně vedeném workoutu se nám vypíná Slovan Šimon, který ulehá do postele okolo půl čtvrté - pro následující den důležité._
 
  <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_0323.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_0323.jpg" alt="" class="img-center"> 
    <figcaption>Prozatím jediná fotka, kterou s lotyšskými metazákonodárci máme.</figcaption>
  </figure>
 
@@ -34,7 +34,7 @@ Sobotní vstávání před osmou na snídani nebylo pro všechny zcela reálné,
 V neděli se loučíme s odjíždějící taliňačkou Luckou, dáváme kávu v jedné z kaváren a jak parta invalidů chodíme do lékárny pro léky na čelospáleniny a kašel. Odpoledne poté naplněno odpočinkem po celém výletě a probíráním fotek. 
 
  <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_0509.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_0509.jpg" alt="" class="img-center"> 
    <figcaption>Když z toho není fotka, nestalo se to - takže loučení se s Luckou se určitě stalo. Také nutno povšimnout, kdo musí fotit, aby nebyly vidět čelospáneniny.</figcaption>
  </figure>
 

@@ -29,7 +29,7 @@ Na pátek se mi při zrušené hodině UNIXu podařilo aspoň trochu vyspat, tak
 Onen prodloužený výlet z Jugly má přece jenom do sebe - jízda autobusem a procházení Лицокнига zdi nám definuje program na sobotu. V Jelgavě  se hraje volejbalový zápas první lotyšské ligy. I splašili jsme lístky, svačinu a něco nepromokavého a už jsme se kodrcali s lotyšským národním dopravcem do asi padesátitisícové Jelgavy. Procházíme městečkem a všímáme si takového lotyšského standardu - půl města rozbitá a neudržovaná, třetina do pěkna spravená a šestina je prostě vesnice. Po cestě městem míjíme rozpadlé domy, pěkné kostely, parky s uměleckými instalacemi i prostorný starší amfík. Co nás ale velmi příjemně překvapuje, je okolí řeky protékající městem, vkusně zrekonstruovaná náplavka i velmi zajímavá lávka přes řeku. Po cestě k místní hale na volejbal potkáváme ještě lotyšskou zemědělskou univerzitu, nejspíš první akademické sídlo v Lotyšsku, který by u mne mělo šanci překonat kartuziánský klášter našeho VUT FIT. Ve volejbalové hale nás vítá příjemná paní, která sice neumí ani slovo anglicky, ale s mou mírnou znalostí Lotyštiny zjišťujeme, že vše je zdarma a stačí se jen posadit. Jelgava hostí Ventspils a po vyrovnaném druhém setu vyhrává své utkání 3:0. Během utkání, které společně s námi sleduje maximálně 25 fanoušků, si uvědomuji, že je to mé volejbalové poprvé na národní nejvyšší soutěži jakéhokoliv evropského státu. Závěrem dne nádražní Lido a hluboký spánek. 
 
  <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_1073.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_1073.jpg" alt="" class="img-center"> 
    <figcaption>Zemědělská univerzita v Jeglavě - první lotyšský konkurent naší krásné brněnské fakultě.</figcaption>
  </figure>
 
