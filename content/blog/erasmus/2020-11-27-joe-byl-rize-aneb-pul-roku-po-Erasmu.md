@@ -3,7 +3,7 @@ layout: post
 title:  "Joe byl v Rize aneb půl roku po Erasmu"
 date:   2020-11-27
 excerpt_separator: <!-- MORE -->
-published: true
+published: false
 ---
 
 <p class="intro"><i><span class="dropcap">P</span>íše se konec listopadu, kola mé alma mater VUT jsou opět roztočená a já mezi nimi opět kličkuji jako tomu bylo vždy u nás na Fakultě informačních technologií. Všechno neprodané a sbalené z Lotyšska je opět uklizeno včetně pár předmětů, které mi budou mou erasmovou destinaci připomínat už navždy.</i></p>

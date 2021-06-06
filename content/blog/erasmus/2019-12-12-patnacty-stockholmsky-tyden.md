@@ -16,14 +16,14 @@ _Aby mě to trochu bavilo, zkusím dnešní příspěvek napsat chronologicky po
 Neděli zakončujeme velmi pozdě v noci, nezanedbatelné části naší výletové party je dost blbě ze sekvencí zrychlení s různými směry vektorů a tak se, kromě toho, že mě houpání mega baví, snažím vylepšit náladu či pomoct přežít tyto nepříjemné chvíle okolí - i s pomocí výletů na venkovní paluby a koukáním do moře. Vzhledem k tomu, jak to houpe, jsme předtím ve třech téměř jediní účastníci lodního karaoke, kde se společně s partou nejspíše penzistů střídáme u mikrofonu. Příjemného chlapce u DJ pultu štve ovšem partička úplně vypnutých Lotyšů, koukám tedy do mé sbírky hlasů a společně s Hankou, která mé vystoupení ne zcela zvládá, mu vylepšujeme náladu za tónů _Aqua - Baby Girl_ (což je mimochodem písnička mladší jen o pár měsíců než já). Kromě toho si dáváme i sólo zpěvy, vybírám obtížné ale mi fakt blízké _Space Oddity_, Hanka poté _I Can't Help Falling in Love With You_ nejprve s chlapem u pultu a poté i s jedním z našich soupeřů z řad švédských penzistů na výletě do Rigy. Na druhé palubě, tedy devět pod námi, mezitím probíhá chodbovice s částí Slovanské party, Poláky, Uzbeky, Korejci i Lotyši, kteří se přidali z vedlejších kajut. Čas před karaoke trávíme na kajutách a prozkoumáváním omnoho prázdnější lodi. Večer začínající hudební kvíz absolvujeme v pěti lidech, houpe to na housenkové dráze opravdu velmi a jsou i momenty, kdy jezdí sklenice po stole. Faktograficky téměř neznalý v oblasti hudby popu osmdesátých let se připojuji do správného týmu a nakonec i vyhráváme, bez mého přispění řekl bych. Kvízem nás provází usměvavá a příjemná moderátorka-zpěvačka, HR oddělení Tallinku míří rozhodně pochvala.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2642.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2642.jpg" alt="" class="img-center"> 
    <figcaption>Možná buďte rádi, že jsou fotky bez pohybu, nemuselo by být dobře i vám.</figcaption>
  </figure>
 
 Stockholmské výletování zakončujeme projížďkou metrem na konečnou a pár stanicemi sem a tam. V metru také zjišťujeme že zrovna v tuto neděli se udělují Nobelovy ceny v budově, kterou jsme při cestě centrem míjeli. Před metrotoulkami stanicemi, které jsme očekávali krásnější a mírně nás tedy zklamaly, jsme na závěr prohlídky města zavítali do místní pobočky MCD, ve které nás toho mnoho netěší - ne příliš zdigitalizovaný přístup k objednávkám, vege/anská nabídka dost úzká, toalety na zeptání se nestíhající obsluhy a celkově takový jiný pocit, než jsme od Švédska čekali. Také nás v tomto podniku zastihuje čerstvý průzkum veřejného mínění k politických stranám, kde zjišťujeme, že ona strana tří barev, která měla nulu, teď roste a má šest a půl. Do tohoto podniku každopádně zaplouváme po propršeném stockholmském dni už mírně rozlámání z pochodování a moknutí. Předtím si procházíme historické centrum, tedy spíš švédské ostrovy, včetně švédského zámku. Kromě historického centra také zvládáme prohlížet všechny menší i větší přístavní místa, prakticky celý Stockholm je takový jeden velký přístav, lodě tam samozřejmě obsluhují i místní MHD. Pro cestu od přístavu do centra volíme vlastní nohy, ať si také můžeme projít kus města a vidíme i místní architekturu mimo samotné centrum města. Stockholm nás každopádně vítá dost rozpršeným počasím, ne že by nám to vadilo, ale pohled na ostrovní město to rozhodně změní. Při výstupu z trajektu vídáme desítky spolucestovníků s vozíky plnými alkoholu, to Švédové a další jezdí do Rigy nakupovat alkohol, protože cenová hladina prostě bezpochyby rozdílná je. Po dlouhé noci se v kajutě probouzíme do tiché lodi plující mezi švédskými ostrůvky před jeho hlavním městem. Pohled na přímořskou přírodu z tiše plující lodi je nádherný, bohužel z rozespalosti a ranních stavů je to bez fotek. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2616.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2616.jpg" alt="" class="img-center"> 
    <figcaption>Z jednoho téměř stockholmského rána mezi švédskými ostrovy - foukalo, ale nic výrazně studeného, spíš příjemného.</figcaption>
  </figure>
 
@@ -32,7 +32,7 @@ Sobotní večer zakončujeme samozřejmě na horní palubě připraveným karaok
 Pátek končíme na oblíbeném místě v Tallinas Pagalms, kde se kromě pár existenčních diskuzí večer neděje nic speciálního, hrají nám ovšem osmdesátkovou hudbu, na kterou si velice rádi zatančíme až do ranních hodin, kdy nás zbyde spočitetelně na jedné ruce nešikovného truhláře. Odpoledne si před slovensko-tatranskou předpárty dělám radost v podobně curry s rýží, pokrmu, na který mám chuť už celý týden (_a bratr, se kterým právě sdílím vlak domů už také, muhaha_). Vegevaření předchází velký dárkonákup v velké Maximě XXL - spousta věcí v předvánočních slevách včetně rižského balzámu přijde vhod, zvlášť s blížícím se vánočním odletem na výlet do Čech. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2560.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2560.jpg" alt="" class="img-center"> 
    <figcaption>Se musím pochlubit, curry s rýží, kterého bych snědl tuny.</figcaption>
  </figure>
 
@@ -57,7 +57,7 @@ Před tímto výletem zažíváme kopec srandy při odesílání zmíněných do
 Pondělí končí lotyštinou a poměrně okurkový den je tak u svého konce, jinak na něm není nic moc zajímavého, kromě čerstvého sněhu, vaření v kolejní kuchyni a psaní dopisů. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_2524.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_2524.jpg" alt="" class="img-center"> 
    <figcaption>Dopis, který samozřejmě chcete poslat vašim kamarádům a v mém případe kamarádce - překlad to myslím raději nepotřebuje.</figcaption>
  </figure>
 

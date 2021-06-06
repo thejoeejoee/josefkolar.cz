@@ -21,21 +21,21 @@ Pondělí, konečně se mi dostává rozvrhu anglicky učených předmětů na m
 Úterý, hned ráno nás čeká jedno loučení, tentokrát ne na letišti, ale na hlavním autobusovém nádraží nedaleko centrálního rižského trhu. Liberečanko-brňanka Míša odjíždí a před svým nástupem nám ještě svěřuje nachos, křen a plechovku kukuřice - říkáte si, proč tu zmiňuji takto nedůležitou věc, ale uvidíte. Následně se loučíme dočasně i s Holubem a tramvají české výroby, Škodou 15T (ano, ta, která zažila ten krásný [korupční skandál](https://www.lidovky.cz/byznys/doprava/lapalie-plzenske-skody-v-rize-manazer-sedi-ve-vazbe-a-obri-penale-na-krku.A190207_143809_ln-doprava_pave)), míříme na výlet - vzdálená Imanta čeká. V tento krásný slunečný den jsme se rozhodli pro výlet do nejspíše nejbohatší rižské čtvrti s parkem, téměř mrakodrapy i s krásným pískovo-borovicovým lesem s rozhlednou. Také si chceme prohlédnout místní fakultu University of Latvia, která na nás působí poněkud... nemoderně (abych někoho neurazil). Zato lesopark prosvícený dopoledním sluníčkem je jiná nádhera, navíc ta vůně - no rozhodně zpomaluji své cestovní tempo, abych si tento kousek přírody užil. Následný vstup do zastavěné části Imanty je poněkud rozporuplný, novostavby střídají rozpadlostavby, uklizené a nové ulice zase dost zaneřáděné ulice - ale Lotyšsko, zvykli jsme si. Náves, dalo-li by se tak označit centrum čtvrti, je opravdu zvláštní. Hlavní komunikaci lemují opravdu velké a architekturou zvláštní bytové domy. V Imantě také nacházíme tu rybu, teda.. vysokou školu TURIBA, tu ryba, tam ryba, chápete. Následně se Satiksme busíkem přesouváme do lesní části Imanty, kde nás čeká rozhledna na tu celou lotyšskou placku. Lotyšsky nadstandardním lesem pokračujeme k rozhledně, na jejímž vrcholu vytahujeme v šíleném větru a zimě nachos, křen a kukuřici a pomocí kartičky do školy konzumujeme vsedě tuto výbornou svačinku. Další návštěvníci hází divné pohledy, ale co, sranda musí být. Výlet zakončujeme neplánovaně návštěvou nejspíš největšího hřbitova, co jsme zde viděli. Nádherný sluníčkový, ale zmrzlý den zakončujeme v Lidečku, kde taky jinde, že.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_4963.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_4963.jpg" alt="" class="img-center"> 
    <figcaption>Míšoloučení aneb bude mi chybět Brno v Rize aneb děkuji Ti za všechno aneb děkujeme za svačinku aneb přijeď zase někdy!</figcaption>
  </figure>
 
 Středa, kolejní pohody, práce, vaření, ESNího setkávání, uvítacího týdne slavení a holubího loučení třeba.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5027.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5027.jpg" alt="" class="img-center"> 
    <figcaption>ESN si pogratulovalo k úspěšně zvládnutému uvítacímu týdnu pomocí dortu. Inu, v Čechách bychom zapíjeli, tu se jede jiná liga.</figcaption>
  </figure>
 
 Čtvrtek, letíme se na letiště rozloučit s Holubem, který to trochu přehnal s nabaleným zavazadlem, u kterého váha napoprvé svítí 27.60 kg, což je celých sedm kilo šedesát nad limitem. Začíná velké oblékání, rozdávání a sranda na letišti. V kiss&fly zóně poslední Holubí dům a pápá, Tome! 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5060.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5060.jpg" alt="" class="img-center"> 
    <figcaption>Poslední holubí loučení, měj se pěkně, Holube Tome a šťastně doleť!</figcaption>
  </figure>
 

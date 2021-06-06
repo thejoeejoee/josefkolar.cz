@@ -15,7 +15,7 @@ published: true
 Pondělí, v mém foto archivu se objevuje první meme o coroně, jinak je pondělí o dalším z výborných vege-menza obědů ve školním Daily, dějepisné a nudné ekonomice pobaltských států a nakonec i zábavného koncertu na kvaziflétny v rámci naší krásné pobaltské hudební výchovy. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5716.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5716.jpg" alt="" class="img-center"> 
    <figcaption>Joe se vyjímečně něco píše. P.S. Tento týden nebude obrazově příliš bohatý, připravte se.</figcaption>
  </figure>
 
@@ -50,14 +50,14 @@ Pátek, po roce opět o rok starší. Sláva, narozeniny, sláva, ohňostroje a 
 Sobota, Lotyši slaví svoji [Maslenici](https://cs.wikipedia.org/wiki/Maslenica), náboženský svátek se spoustou palačinek ve východoevropském podání - takový Masopust. Stánky s palačinkami ve starém městě v Rize jsou spojeny s řadou hudebních vystoupení, ke kterým se přidává tancem řada místních. Nuž, #suchejunor, na tanec s lotyšskýma bábinkama nemám ani náladu, ani dostatek alkoholu. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5834.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5834.jpg" alt="" class="img-center"> 
    <figcaption>Hromadné tance na jednom z menších rižských náměstí - zapojeni lidé všech věkových kategorií. Zatím bez kamarádky čínské chřipky, ale věci se rychle změní.</figcaption>
  </figure>
 
 Neděle začíná někdy po jedné ráno, kdy zapíjíme vzdáleně s mým oblíbeným Slovákem Timkem výsledky slovenských parlamentních voleb štamprlí domácí pálenky - tímto bych chtěl taktéž pozdravit pozdravit březen, ahoj měsíci! Slunečný den jinak trávíme přípravou prezentace do pobaltské muziky ke krtečkovým spojením mezi československou a lotyšskou hudební scénou. K podvečeru potom druhá část Maslenitse, u velkého Lida disko Kalinka, Lotyši jedou.  
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5862.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5862.jpg" alt="" class="img-center"> 
    <figcaption>Československý úlovek v Rize, jedno pekařské pápá do domoviny!</figcaption>
  </figure> 
 

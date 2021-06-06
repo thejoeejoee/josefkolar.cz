@@ -23,7 +23,11 @@ export default Vue.extend({
   components: {},
   async asyncData({$content}) {
     return {
-      posts: await $content({deep: true}).fetch()
+      posts: await $content({deep: true})
+        .sortBy('createdAt', 'desc')
+        .where({published: true})
+        .only(['title', 'path', 'description', 'createdAt'])
+        .fetch()
     }
   }
 

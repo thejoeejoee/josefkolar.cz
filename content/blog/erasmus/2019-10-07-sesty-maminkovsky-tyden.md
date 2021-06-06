@@ -24,14 +24,14 @@ Pondělí startuje týden se svojí Teorií her, lotyšským jazykem a večerní
 Středa, středa, domluvené spoluvaření, opět a konečně! Tentokrát bramboráky, ale nepředbíhejme den. Ten se line okolo přednášky z paralelních algoritmů, kde je mi konečně vysvětlen domácí úkol, který má zadání v Lotyštině - **clap, clap!**. Dopoledne k nám doputuje zpráva o úmrtí KG, takže jako cíťa utírám slzu či dvě a při tónech jeho písní zapíjíme s Hankou mistra posledními centimetry ze slivovice, kterou tu přesně pro tyto případy mám. Na oběd zkouším sladké dýňovo-banánové vegeplacky v Daily, nic, co by mě výrazně překvapilo, ale daly se za 3/5. K podvečeru lotyština s mnoha slovíčky, které už tak nějak známe, takže "autobuss pietura" byla fakt jednoduchá. A večer vaříme, veganské bramborplacky (co vlastně odlišuje bramborák od bramborové placky?) z brambor (vážně?), česneku (dobrý místní), mouky (sypká hladká), kopru (který mi není dovolen) a lásky k vaření (nejupřímnější) - vše se daří a my z kuchyně doručujeme druhé skupině, která se baví deskovkami, horké bramborplacky se zelím a fazolemi. A během toho ještě stíhám vyřizovat menší organizační Facetime hovor ke čtvrtečnímu příletu návštěvy, samozřejmě s rukama v brambortěstu, takže mobil podržela a hovor obsloužila Hanka, díky! Další ze super večerů - tentokrát bez afterparty.
 
  <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_0640.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_0640.jpg" alt="" class="img-center"> 
    <figcaption>Středeční slovanské večery a jejich výsledky - bylo to fakt dobré (i bez vajíčka)!</figcaption>
  </figure>
 
 Čtvrteeeek. Maminkaaaa. Všichni přece máme rádi své maminky. Jinak se volný čtvrtek vyvíjí spíš standardně, bereme vlajky, transparenty a jedeme vítat rodiče - 2x maminka, 1x tatínek. Po pár minutách se nacházíme v příletové hale místního letišťátka a pokračujeme po pozitivním přivítání pravým pruhem polobusem posazeni po pěticích popresovanými prdelemi pospojovaní. _Hoří Horní Heršpická Hospoda... a stačí myslím._ AirBnb v centru s názvem Green Cat Rooms můžeme jedině doporučit a Tallinas Pagalms (je to láska prostě) na deskovky rozhodně také. 
 
 <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_0651.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_0651.jpg" alt="" class="img-center"> 
    <figcaption>Téměř jako hokejisty vítáme na letišti dvě maminky a jednoho tatínka.</figcaption>
 </figure>
 

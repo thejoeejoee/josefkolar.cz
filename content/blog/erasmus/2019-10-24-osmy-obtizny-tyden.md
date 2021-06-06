@@ -29,7 +29,7 @@ Pátek, jdeme na to. Po přednášce z operačního systému UNIX vyrážím s H
 _Upřímně, už pár dní jsem přemýšlel, jak pojmout pátek tohoto týdne. Doufal jsem, že se mi to povede tak zcela taktně, jak je mou občanskou povinností, tak otevřeně, jak jsem chtěl, a tak taktně, jak jsem si přál. Zbytek pátku prakticky nestojí za zmínku, Salaspils mě paralyzoval na celý víkend._  
 
  <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_1381.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_1381.jpg" alt="" class="img-center"> 
    <figcaption>Jedno ze sousoší památníku, Solidarita.</figcaption>
  </figure>
 

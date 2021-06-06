@@ -47,7 +47,7 @@ Neděle je den úplně na houby. Teda jako že jedeme na houby. Vlakem - no chá
 S radostí otáčíme v domovech horkou sprchu a přes Rimi míříme ke Slovance do centra uvařit ty naše výtvory. _Roses are red, Violets are blue, na jídlo je super pohled, miska je plná salátů._ No ve zkratce super večer! 
 
  <figure>
- <img src="{{ site.baseurl }}/assets/img/IMG_0170.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_0170.jpg" alt="" class="img-center"> 
    <figcaption>Výborná veganská smaženice, salátek a prostě dobrotka!</figcaption>
  </figure>
 

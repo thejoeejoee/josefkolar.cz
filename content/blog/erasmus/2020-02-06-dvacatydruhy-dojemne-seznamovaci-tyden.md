@@ -15,7 +15,7 @@ published: true
 Další pondělí do kastlíku "neproubouzím se v Rize", teda vlastně "neprobouzím se vůbec" - nad ránem vyloďujeme tallinskou složku našeho výletu na nádraží v estonském hlavním městě, po čemž následuje asi hodině a půl stání s autobusem na temném parkovišti s ruským řidičem, protože jsme v Tallinu prostě moc brzo. Tmu a ticho v autobuse si užíváme, dáváme si pár koleček po autobuse a po prozkoumání předního i zadního skla alespoň synchronizujeme všechny petrohradské fotky mezi našimi telefony. Po dalších pár desítkách minut nabíráme naše nové spolucestující a vyrážíme směr Riga - dochází i k nějakému tomu spánku, stejně nás v brzkém dopoledni probouzí sluníčko, které začíná být v zimě dosti výjimkou, a my se tak aspoň můžeme pobalit a poklidit naše dočasně obydlené sedačky. Zbytek krásného dne plníme spánkem, protože přijíždíme fakt zničení, minimálně do večera, kdy se projdeme se oblíbeného Lidečka na večeři (_minimálně poučení pro další dny, víc bych si měl fotit a poznámkovat co dělám a kde jsem, tak pro příště_).
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_4397.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_4397.jpg" alt="" class="img-center"> 
    <figcaption>Vzkaz či přání, které zůstalo po Petrohradu nevyslyšeno. A bude nevyslyšeno ještě dalších deset dní až do středy dalšího týdne, kdy nového spolubydlu vzbudím ranním příchodem - ale nepředbíhejme.</figcaption>
  </figure>
 
@@ -31,21 +31,21 @@ Středa, co jsme dělali tak ve středu přes den, nevíte? Za důležitou zmín
 Moc toho ovšem nenaspíme, v rámci levných kinových čtvrtků máme koupené lístky na promítání v jedenáct hodin - do kina nás přivedl snímek 1917 s několika nominacemi na Oskara. Technická stránka tohoto snímku je opravdu nadstandardní, jeden dlouhý záběr prvních dvacet, možná dvacet pět minut filmu je dechberoucí, i následné měkké střihy spojující celý film jsou velmi zajímavé. Ovšem po nějaké hodince filmu si uvědomuji, že mi z toho vlastně není úplně nejlíp - měkký střih je příjemný obrazově, ovšem v rámci vyprávění příběhu k němu vůbec nepasují časové posuny příběhu. Příběh ve válečném filmu taky není žádná sláva, "dojdi odsud sem a tohle tam dones" je dost průměrné, řekl bych nudné. Ale díky technické stránce nakonec takové 3,5/5. Následně dáváme společnou menzu, abychom se rozloučili se Slovákem Patrikem, který to na východ své země nemá zase tak daleko, kdyby tam měl letecké spojení. Večer pak jen pozorování vlaků po standardních spotřebitelských nákupech a blogování. Večer se ovšem konečně rozhoupu k rozšíření mé foto výbavy (a logickému zúžení mých úspor) a ve spolupráci s Facebook tržištěm obepisuju nabídky na širokáč a blesk, abych byl plně vybaven na další týden, již vítací pro erasmové letňosemestrály. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_0011.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_0011.jpg" alt="" class="img-center"> 
    <figcaption>Seznamte se, Sigma a jeden z jejích/mých prvních počinů. Myslím, že budeme kamarádi.</figcaption>
  </figure>
 
 Pátek objíždím město, zjišťuji, že bezkontaktní ATM není zase tak bezkontaktní, využívám výběrových výhod jak fintechové aplikace Revolut, tak její sestřičky Curve, posouvám schůzky, poprvé zkouším šířku Sigma 10-20mm f/4,0-5,6 EX DC HSM i cvičně odpaluju párkrát můj nově koupený systémový blesk. Radost, myslím, že jsem připraven pomoci místnímu ESN s výrobou obsahu z jejich akcí. A večer první akce s novými Erasmáky, juchů! A kam také jinam než do Ježka, Avotu je sice trochu plný, ale s pár přestupy a návratem pro Slovenku Vierku se dostáváme do Hospitalu Ježka, kde už nás znají také. Tam poznáváme i další z nových tváří, Češku Stázku, a tak máme i spoustu nových témat k diskuzi na celý večer. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_4510.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_4510.jpg" alt="" class="img-center"> 
    <figcaption>Mix zcela čerstvých obyvatel Rigy, dočasného obyvatele Rigy, průběžných obyvatel Rigy a odjíždějící obyvatelky Rigy.</figcaption>
  </figure>
 
 Sobota, další den, kdy trpělivě očekávám mého nového spolubydlícího, který ovšem stále nepřichází. Jinak taková okurková sobota, která je zakončena dalším večerním loučením, tentokrát s převážně slovenskou částí erasmového osazenstva. A tak děláme jedno velké pápá Lucce, Erasmačce z Tallinu, která nám přirostla k srdcím i přesto, že byla na Erasmu úplně někde jinde. Noc pak obohacujeme po delší době opět tancem a také seznámením nových s krtečkem v Tallinas Pagalms, stálým obyvatelem tohoto oblíbeného obýváčkového prostoru. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_4550.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_4550.jpg" alt="" class="img-center"> 
    <figcaption>Poslední podrbání ve vlasech a pápá, zítra to letí. <i>(To ještě nevíme, že dostanu jako spolubydlícího dobrého kamaráda Lucky asi pět dní po loučení.)</i></figcaption>
  </figure>
 

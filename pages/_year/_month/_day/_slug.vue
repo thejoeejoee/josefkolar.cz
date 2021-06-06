@@ -20,10 +20,16 @@ export default Vue.extend({
 
     try {
 
-      const page = await $content(slug).fetch()
+      const post = await $content(slug).fetch()
+
+      /* const [prev, next] = await $content('articles')
+        .only(['title', 'slug'])
+        .sortBy('createdAt', 'asc')
+        .surround(slug)
+        .fetch() */
 
       return {
-        page
+        page: post
       }
     } catch (e) {
       error({message: 'Not found', statusCode: 404})

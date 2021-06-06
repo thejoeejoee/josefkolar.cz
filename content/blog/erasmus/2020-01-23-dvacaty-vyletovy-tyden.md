@@ -13,7 +13,7 @@ published: true
 V pondělí se zodpovědně, kromě pár seriálů, učím na odpolední zkoušku z mé milované Lotyštiny. Prolétávám pády, slovíčka, nakupování, časování sloves, číslovky, předložkové vazby a spousta dalšího - a na krásných 16.30 (škoda že naposled tento semestr) hurá na fakultu humanitních studií. Po cestě ještě využívám výhod místního dopravního podniku a snažím se si dobít jízdy na moji lítačkovou kartičku. Automat se asi blbě vyspal, protože jeho odezva na jakékoliv akce se pohybuje od 5 000 ms až k 20 000 ms, takže u něj trávím o dost víc času, než jsem odhadoval. Ale nic, co by vadilo, naše nejmilejší učitelka lotyštiny Laura si také dává načas a začínáme tak o trochu později. Test prolétávám celkem v klidu, esej o mém bytí v Rize zakončuji krásným _Rīga ir liela pilsēta, bet ļoti skaista._ Pak ještě vyjádření díků Lauře za perfektně vedený kurz a hurá na hokej. Finský Jokerit dorazil do Rigy a pokusí se zde uloupit do tabulky KHL nějaké bodíky. A že se mu daří, čtyři fíky do rižské branky během první třetiny a pak ještě tři. Ale bavíme se hokejem, kde nastupuje československá dvojice hráčů a večer poté zakončujeme, kde jinde než v Ježkovi - téměř centrálním, do kterého nám to vyšlo vlastně poprvé (a taky jsme museli ukazovat občanské identifikace, takže díky, díky). Můj večer každopádně pokračuje až do rána, učím se na zkoušku z paralelních algoritmů, protože dřív to nějak nešlo, no. 
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_3551.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_3551.jpg" alt="" class="img-center"> 
    <figcaption>Tohle se Rize nepovedlo, divácky atraktivní zápas končí 0-7 pro hostující Jokerit.</figcaption>
  </figure>
 
@@ -34,7 +34,7 @@ Středa, výletu třeba. A pro tuto středu můj vysněný výlet do, pravděpod
 Téměř prázdný čtvrtek čeří zodpovědná příprava na výlet do Ruska - u budovy se světlou fasádou fotíme pasové fotky na naše budoucí elektronická ruská víza a zároveň vybaveni spoustou rad zasíláme na ruské ministerstvo zahraničních věcí naše registrace. Pak cvičíme naše mozkové a znalostní závity a hrajeme Českou hudbu, kterou Hanka dovezla (děkujeme!) - a na tomto místě pochvala pro Slovenku Kiku, která zvládala českou hru lépe než nadprůměrně!
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_3637-1579813843290.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_3637-1579813843290.jpg" alt="" class="img-center"> 
    <figcaption>Nejspíš za foťákem vypadám až příliš směšně na to, abych mohl fotit vážné pasové fotky bez zubů s někým tak vysmátým jako je Kika - proto jsem dost výjimečně jinde než za strojem.</figcaption>
  </figure>
 
@@ -45,7 +45,7 @@ V sobotu nám uděluje Ruská federace vízum, juchů! Oslavujeme to v jinak kli
 Neděli využíváme k výletu do vlakem dostupného Lielvarde a protože mám hned od rána výbornou náladu, pozpěvuji si a letmo tančím už cestou na zastávku a pokračuji v tom i na ní. Jednou za čas mám prostě návaly šťastné nálady, které přichází dost náhodně a nepředpokládatelně. Starší paní na mě ovšem koukají celkem nedůvěřivě, jsem tedy ve své dobré a zpívající náladě dost srovnáván Hankou, ale co už. Neděle je prostě super den! Po chvíli ve vlaku dorážíme do Lielvarde a pomalu procházíme lotyšským městečkem (řekl bych skoro pomaleji než standardní výlety) - velmi nás především baví místní architektura a to nejspíš díky přizvané Terce, které společně s námi přijde vtipná spousta místních střech i architektonických řešení. Cirka v půlce procházky se dostáváme do místního muzea věnovanému eposu [Lāčplēsis](https://cs.wikipedia.org/wiki/L%C4%81%C4%8Dpl%C4%93sis) - národnímu dílu všech Lotyšů pocházejícímu z 19. století z pera Andrejse Pumpurse - do češtiny je toto dílo přeloženo jako *Souboj nad propastí*. Místní paní ovšem neumí ani slovo anglicky, takže po chvíli testování nás ve znalostech lotyštiny přecházíme společně do ruštiny, kde už se trochu vyznáme a ona se v tu chvíli vyzná i v naší češtině - velmi úsměvná a radostná situace, při které se krásně ukazuje, že není třeba úplného pochopení, aby si otevření lidé rozuměli, když chtějí. _A mimochodem, víte, že S. Feud pocházel z Příbora?_ Naše bytí v Lielvarde zakončujeme v motorestu na jídle, kde si celkem pochutnáme na velmi nadstandardně velkých porcích.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_3761.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_3761.jpg" alt="" class="img-center"> 
    <figcaption>Díky Terce, která přijala naše pozvání na výlet - vzniká tak jedno z mála sebefíček, kde nemám zuby nachystané jak u zubaře, jsme tam všichni a navíc ho nefotím ani já!</figcaption>
  </figure>
 

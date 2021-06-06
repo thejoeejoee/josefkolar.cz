@@ -29,7 +29,7 @@ published: true
 Středa, konečně se něco děje - ESN pořádá jeden z vrcholů svého programu, první beerpong turnaj. Předtím samozřejmě jako každou středu setkání a mimo jiné i nějaká ta práce do školy - sláva. ESN schůzka, jedna z posledních vůbec konaných a trochu produktivních končí mírně před osmou a můžeme se úspěšně přesunout do Sovičky (Pūce). Po cestě si s Renāte vysvětlujeme, proč se slečnám na valentýnské párty nezdálo, když jsem je při focení označil za "pretīga" - v překladu znechucený, i když jsem měl na mysli "prātíga", což je rozumný. Nuž, stane se - vyžehleno, doufejme. Beerpong začíná prvně mírně neorganizovaně, ale Danny se ujímá velení a rozřazuje týmy z košů do pavouka. Turnaj se nám nabírá na obrátkách, musím určitě poděkovat všem za ochotu se fotit, objektů je mnoho, což je super. Po pár kolech direktoriát turnaje usuzuje, že není třeba psaných pravidel, moderátor večera, toho času také prezident ESN Riga, Digmars tedy strhává s nadšením pravidla ze zdi a hraje se dle pravidel nepsaných. Všichni českoslovenští zástupci dost trapně vypadávají hned v první kole, což je propadák. Večer pokračuje a za hlasitého povzbuzování všech zúčastněných se čiště dámský tým probojovává až do horních pater pavouka, kde první příčku nakonec obsazuje dvojice velmi aktivně slavících záhraňáků. Digmars s Jesem a Dannym rozdávají ceny, beerpong stoly se uklízí a turnaj je úspěšně zakončen. Ještě chvíli užíváme tancem pozitivní náladu okolo a nakonec selfíčko a tradá do dočasných rižských domovů.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5578.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5578.jpg" alt="" class="img-center"> 
    <figcaption>Danny, který hájil na turnaji stranu rozhodčích a má maličkost, která mu do toho blýskala společně se cvakáním zrcadélka.</figcaption>
  </figure>
 
@@ -50,14 +50,14 @@ Pátek, rizotový den, dotahuji fotky ze středečního turnaje, společně s Ha
 Fakt nevím, co se dělo v sobotu přes den. Podvečer ovšem míříme ve Fantastické čtyřce Hanny, Danny, Joe a Kika do velkého Lida, abychom se pomalu začali společně těšit na chystaný výlet na Island a také jsme velmi nechtěně viděli uprostřed Lida dost nechutné vyprazdňování jednoho z elegantně vypadajících a okolo procházejících pánů. Večer pak rozlučka s exprezidentkou místní ESN sekce, která míří na pracovní stáž do Bruselu. V tu chvíli to navíc vypadá, že je reálné ji během dubna-května letět navštívit, společně s výletem za mým spolužákem Sonym, který je v Belgii na Erasmu - jakápak troufalost, přemýšlet tolik měsíců dopředu. Během večera opakujeme lotyšské hlášky, písničky, naše vědomosti o Evropě a vzpomínáme na zimní semestr a mladší léta nejen během Never Have I Ever. Domů polopěšo a polospěchem, ať se zvládneme před nedělí trošku prospat.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5669.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5669.jpg" alt="" class="img-center"> 
    <figcaption>Zdravíme právníka ze zPlzně Dannyho! Tady je svět ještě v pořádku, jen se potřeboval hluboce zamyslet.</figcaption>
  </figure>
 
 Ne že by byla neděle nějak náročná, ale domluvili jsme se společně s Terkou a jejíma spolubydlama na vaflové sezení v jednom z oblíbených ježků, tedy Avotu. Na těch slaných samozřejmě nacházíme kopr, co taky jiného - sladké varianty jsou taky poněkud lotyšsky zvláštní, ale proč ne. Večer pak doplňujeme chuťové pohárky dávkou těstovin, tentokrát mrkvových a diskutujeme o stavu kolejních dřezů v neděli večer.     
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_5693.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_5693.jpg" alt="" class="img-center"> 
    <figcaption>Ježkovy vafle! Dobré to bylo, i když nadmíra lískových ořechů mě mírně překvapila.</figcaption>
  </figure>
 

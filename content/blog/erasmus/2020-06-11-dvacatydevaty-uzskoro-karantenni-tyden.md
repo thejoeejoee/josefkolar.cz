@@ -29,7 +29,7 @@ Pondělí, při kterém vstáváme po nočním dosednutí na dráhu rižského l
 Středa, ESN třeba - dost možná poslední ESN schůzka za celou mou mikro rižskou ESN kariéru, ale ještě uvidíme. Přes den pravděpodobně škola, kdo ví po tolika měsících, ale zase si říkám, že bych opravdu byl takový zodpovědný student? Na tomto ESN je mi taktéž popřáno k narozeninám, tentokrát ne lotyšsky ale vítanou angličtinou, takže paldies, Draugi! Následně mířím v rižském dešti do oblíbeného Ježka, přece jenom už se to bez něj nedá vydržet. Nejprve obsazuji stůl sám a vyřizuji pracovní věci, poté mě pod stolem navštěvuje lotyšský suns a nakonec se sejdeme dokonce ve čtyřech. Večerem se line sladké ježčí víno a témata motající se okolo ukrajinské elektronické taneční hudby a jak se vlastně navrhují hadry, domů spíš nad pozdním večerem než nad brzkým ránem (a s ulovenou Tesličkou).
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_6156.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_6156.jpg" alt="" class="img-center"> 
    <figcaption>
     	Ježkové večerní posezení s táborovou prací, pizzou a mlékem milé dámy, tedy německým exportním kouskem. 
     </figcaption>
@@ -46,7 +46,7 @@ Tak, čtvrtek 12. března, nejspíš definující den pro celý letní erasmový
 Pátek, dosti napěchovaný týden se nám blíží ke konci. Nutno podotknout, že zdaleka neprázdná množina mezinárodních studentů dělá absurdní scény už minimálně třetí den na společném rižském WhatsApp chatu a my, Slované, se spíš bavíme. Dobrá, dobrá, možná není úplně vhodná doba si z toho dělat jen srandu, ale jak pomůžeme situaci dohady o tom, který výlet či akce budou zrušeny a diskuzemi, že tu všichni umřeme? Nijak, večer tedy svoláváme Slovany na 1Home, zakazujeme si po prvotní hodině vyslovovat to slovo a hrajeme do rána deskovky při vnitřní dezinfekci nejen lotyšskými alkoholovými destiláty.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_6265.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_6265.jpg" alt="" class="img-center"> 
    <figcaption>
     	Ve více lidech, než čtyřech, a s více rozšířeními, než žádným, to má celkem šťávu - zvlášť pro ty, kdo nechápou, kolik rolí tato karetní hra skrývá a kolik falešných náznaků je schopen její hráč vygenerovat. </figcaption>
  </figure>
@@ -54,7 +54,7 @@ Pátek, dosti napěchovaný týden se nám blíží ke konci. Nutno podotknout, 
 Sobota první z loučících dnů, kterých bude v příštích dnech mnoho. Danny, který má letenku na tuto sobotu už pěkných pár týdnů, ověřuje, zda se poletí, balí a loučí se s námi. Dostáváme pánvičku jako cenu útěchy, fotíme jedno rozlučkové selfíčko a dáváme v zasněženém, ale slunečném, dni poslední pápá. Pánvičku samozřejmě hned využíváme k míchaným vajíčkům s fazolemi a sýrem, což se nepopíratelně hodí ke sledování _guilty pleasure_ Výměny manželek. Večer další deskovky, tentokrát jen menší reznasské s borůvkovou Koskenkorvou, návštěvníkem z Polska a závěrem i tou _zvláštní-obrázkovo-asociační-hrou-která-mi-tak-strašně-nejde-protože-asociuji-jinak_.
 
 <figure>  
- <img src="{{ site.baseurl }}/assets/img/IMG_6301.JPG" alt="" class="img-center"> 
+ <img src="{{ site.baseurl }}/assets/img/IMG_6301.jpg" alt="" class="img-center"> 
    <figcaption>
     	Rozlučka s jedním moc fajnovým budoucím právníkem ze zPlzně za slov "já se vrátím, to bude cajk za chvíli". No, kdybychom nepředávali na konci května krabici s věcma jedné nejmenované přepravní společnosti, celkem bych těm slovům i věřil.	
     </figcaption>
