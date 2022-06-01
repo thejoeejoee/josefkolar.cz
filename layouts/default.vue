@@ -64,12 +64,13 @@ export default Vue.extend({
                 ' a fotím',
                 ', student',
                 ' a pořádám tábory',
-                ', erasmák',
+                // ', erasmák',
                 ' a píšu',
                 ', dobrovolník',
                 ', ESNer',
                 ', nadšenec',
-                ' a rád běhám',
+                ' a jsem ENTP-A',
+                // ' a rád běhám',
                 ' a su z Hané',
             ]
         }
