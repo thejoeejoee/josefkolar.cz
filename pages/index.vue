@@ -69,6 +69,17 @@
         <h3>Co dělám?</h3>
         <ul>
             <li>
+              <h4>NA Brno dobrý <small class="right">duben 2022</small></h4>
+              
+              <p>
+                V rámci organizace ESN jsem pro pro celonárodní zasedání <a href="https://na.brnodobry.cz/">NA Brno dobrý 2022</a>
+                postavil webstránky s plným informačním servisem pro zúčastněné – časový rozpis programu, časté pokládané otázky
+                i mapa se všemi důležitými místy. To vše zabalené v <Highlight>responzivním kabátu</Highlight> opepřeným pár
+                hříčkami pro návštěvníky – technicky projekt jistí Nuxt.js ve spolupráci s Tailwindem, všechna data pak drží Contentful.
+              </p>
+            </li>
+
+            <li>
               <h4>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h4>
 
               <p>
@@ -91,16 +102,6 @@
                 zautomatizovali několik vnitřních procesů a rozjeli projekt druhé verze
                 <a href="https://github.com/esnvutbrno/buena-fiesta">sociální sítě Buena Fiesta</a>
                 pro zahraniční studenty pro jejich párování s buddies jakožto lokálními studenty.
-              </p>
-            </li>
-            <li>
-              <h4>NA Brno dobrý <small class="right">duben 2022</small></h4>
-              
-              <p>
-                V rámci organizace ESN jsem pro pro celonárodní zasedání <a href="https://na.brnodobry.cz/">NA Brno dobrý 2022</a>
-                postavil webstránky s plným informačním servisem pro zúčastněné – časový rozpis programu, časté pokládané otázky
-                i mapa se všemi důležitými místy. To vše zabalené v responzivním kabátu opepřeným pár hříčkami pro návštěvníky –
-                technicky projekt jistí Nuxt.js ve spolupráci s Tailwindem, všechna data pak drží Contentful.
               </p>
             </li>
             <li>
