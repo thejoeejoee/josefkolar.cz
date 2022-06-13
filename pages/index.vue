@@ -21,7 +21,7 @@
             <li>
                 <strong>webový frontend</strong> – Vue.js ideálně s&nbsp;Typescriptem
                 <em>(s nostalgií vzpomínám na první verzi </em><kbd>ng-</kbd><em>Angularu)</em> – ale s Reactem fakt
-                problém nemám. Se styly si rozumím také, ale k&nbsp;webovému designu to nemám úplně blízko.
+                problém nemám. Oblíbenec Tailwind mi pomáhá se styly, ale k&nbsp;webovému designu to nemám úplně blízko.
             </li>
             <li>
                 <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár distribucí,
@@ -69,19 +69,6 @@
         <h3>Co dělám?</h3>
         <ul>
             <li>
-              <h4>Covid bez bariér <small class="right">duben 2021</small></h4>
-
-              <p>
-                V rámci školního projektu týkajícího se využívání veřejně dostupných API jsme s&nbsp;kolegou
-                vytvořili projekt <a href="https://covidbezbarier.cz">covidbezbarier.cz</a> – webovou aplikaci
-                umožňující vyhledávat na <Highlight>mapě bezbariérová místa pro Covid-19 testování a očkování</Highlight>.
-                SPA jsme postavili nad Nuxt.js, kterému pro stylování sekundoval Tailwind CSS, data poskytoval ÚZIS ČR
-                a jako mapové poklady posloužily OSM. Aplikací se <a
-                  href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739">pochlubilo i VUT</a>,
-                a díky kontaktům v komunitě hendikepovaných se povedlo o aplikaci informovat i tam.
-              </p>
-            </li>
-            <li>
               <h4>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h4>
 
               <p>
@@ -92,22 +79,41 @@
                 (především těm pražským, i když si tak neříkají) jsem začal pozorovat, že tohle by mě mohlo bavit a naplňovat.
               </p>
               <p>
-                Nyní to pokračuje <Highlight>dobrovolnictvím u ESN VUT Brno</Highlight>,
-                sekce mé <i>alma mater</i> – po mém nástupu
-                zaujal jsem promptně zaujal pozici <i>Knowledge Manager</i> (sekční Google Drive je můj nový domov),
-                starám se o vývoj systému <a href="https://github.com/ESNcz/Fiesta">Fiesta</a>, nástroje pro celobrněnský
-                <abbr title="zahraniční studenti si mohou zažádat o buddyho, tedy místního studenta, který jim pomůže s novým prostředím či papírováním">buddy systém</abbr>
-                a podílím se na online prezentaci a výsledcích celé sekce při VUT.
+                Na další dva roky jsem se hluboce ponořil do působení v mé domovské sekci ESN VUT Brno, 
+                ve které jsem zastával či zastávám rozličné množství pozic – od člověka starajícího se o sekční Google Drive,
+                přes režiséra přímých přenosů v době covidové a pořizovatele foto/video výstupů z našich akcí, až k působení
+                v radě spolku na pozici <Highlight>Events Manager</Highlight>, kdy jsem plánoval všechny akce pro zahraniční
+                studenty a řidil týmy tyto akce pořádající.
               </p>
               <p>
-                A protože online doba pokračuje, ujal jsem se pozice <Highlight><i>Multimedia Manager</i></Highlight>
-                a produkuji společně s celým <i>Communication</i> týmem přímé přenosy pro veřejnost,
-                ale i interní eventy s přenosem přímo do konferenční místnosti.
-                A s nadšením vzhlížím k době, kdy budu opět více řešit, kdo bude akce fotit, než to, kdo bude mít
-                pod palcem celou online událost.
+                Logicky mi náležela i spousta IT záležitostí, kterých jsem se chopil velmi rád – standardizovali jsme nástroje
+                pod <a href="https://github.com/esnvutbrno">GitHub organizaci</a>,
+                zautomatizovali několik vnitřních procesů a rozjeli projekt druhé verze
+                <a href="https://github.com/esnvutbrno/buena-fiesta">sociální sítě Buena Fiesta</a>
+                pro zahraniční studenty pro jejich párování s buddies jakožto lokálními studenty.
               </p>
-              <p class="center">
-                <Highlight><strong>Once Erasmus, always Erasmus.</strong></Highlight>
+            </li>
+            <li>
+              <h4>NA Brno dobrý <small class="right">duben 2022</small></h4>
+              
+              <p>
+                V rámci organizace ESN jsem pro pro celonárodní zasedání <a href="https://na.brnodobry.cz/">NA Brno dobrý 2022</a>
+                postavil webstránky s plným informačním servisem pro zúčastněné – časový rozpis programu, časté pokládané otázky
+                i mapa se všemi důležitými místy. To vše zabalené v responzivním kabátu opepřeným pár hříčkami pro návštěvníky –
+                technicky projekt jistí Nuxt.js ve spolupráci s Tailwindem, všechna data pak drží Contentful.
+              </p>
+            </li>
+            <li>
+              <h4>Covid bez bariér <small class="right">duben 2021</small></h4>
+
+              <p>
+                V rámci školního projektu týkajícího se využívání veřejně dostupných API jsme s&nbsp;kolegou
+                vytvořili projekt <a href="https://covidbezbarier.cz">covidbezbarier.cz</a> – webovou aplikaci
+                umožňující vyhledávat na <Highlight>mapě bezbariérová místa pro Covid-19 testování a očkování</Highlight>.
+                SPA jsme postavili nad Nuxt.js, kterému pro stylování sekundoval Tailwind CSS, data poskytoval ÚZIS ČR
+                a jako mapové poklady posloužily OSM. Aplikací se <a
+                  href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739">pochlubilo i VUT</a>,
+                a díky kontaktům v komunitě hendikepovaných se povedlo o aplikaci informovat i tam.
               </p>
             </li>
             <li>
@@ -149,7 +155,7 @@
 
               <p>
                 <em>Pro litovelský Tatran to není zdaleka jediný projekt, který realizuji – také například spravuji
-                  infrastrukturu pro běh webových prezentací či se starám o vizuál a realizaci přímých přenosů.</em>
+                  infrastrukturu pro běh webových prezentací či jsem se staral o realizaci přímých přenosů.</em>
               </p>
             </li>
             <li>
