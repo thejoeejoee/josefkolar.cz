@@ -29,6 +29,12 @@ export default Vue.extend({
         .only(['title', 'path', 'description', 'createdAt'])
         .fetch()
     }
+  },
+  head() {
+    return {
+      // @ts-ignore
+      title: 'píšu',
+    }
   }
 
 })

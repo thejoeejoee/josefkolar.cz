@@ -5,12 +5,19 @@
     <hr>
     <p class="description" v-text="page.description"></p>
     <nuxt-content :document="page"/>
+    <div v-if="prev || next" class="center">
+      <hr>
+      <NuxtLink v-if="prev" :to="'/' + prev.slug">⬅️ {{ prev.title }}</NuxtLink>
+      <br>
+      <NuxtLink v-if="next" :to="'/' + next.slug">➡️ {{ next.title }}</NuxtLink>
+    </div>
   </article>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import _ from 'underscore'
+import { IContentDocument } from '@nuxt/content/types/content'
 
 // TODO: OGs
 export default Vue.extend({
@@ -20,19 +27,23 @@ export default Vue.extend({
 
     try {
 
-      const post = await $content(slug).fetch()
+      const page = await $content(slug).fetch()
 
-      /* const [prev, next] = await $content('articles')
+      const [prev = null, next = null] = (await $content('/', {deep: true})
         .only(['title', 'slug'])
         .sortBy('createdAt', 'asc')
         .surround(slug)
-        .fetch() */
+        .fetch()) as IContentDocument[];
 
-      return {
-        page: post
-      }
+      return {page, prev, next}
     } catch (e) {
       error({message: 'Not found', statusCode: 404})
+    }
+  },
+  head() {
+    return {
+      // @ts-ignore
+      title: this.page.title,
     }
   }
 })

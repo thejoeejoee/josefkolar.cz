@@ -26,16 +26,16 @@
         <thead>
         <tr>
           <th>
-            <nuxt-link to="/">O mně</nuxt-link>
+            <nuxt-link to="/">existuju</nuxt-link>
           </th>
           <th>
-            <nuxt-link to="/photos">Fotím</nuxt-link>
+            <nuxt-link to="/photos">tvořím</nuxt-link>
           </th>
           <th>
             <nuxt-link
               to="/blog"
               :class="{'nuxt-link-exact-active': $route.name.startsWith('year')}"
-            >Bloguju</nuxt-link>
+            >píšu</nuxt-link>
           </th>
         </tr>
         </thead>

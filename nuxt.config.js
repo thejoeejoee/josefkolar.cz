@@ -1,6 +1,7 @@
 export default {
     head: {
-        title: 'Josef Kolář',
+        title: 'Jsem Josef Kolář',
+        titleTemplate: '%s | Jsem Josef Kolář',
         htmlAttrs: {
             lang: 'cs'
         },
