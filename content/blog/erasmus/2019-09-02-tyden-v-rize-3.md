@@ -29,7 +29,7 @@ Po příchodu tam (až zpětně zjišťuji, že to bylo ve čtyři, a ne v jednu
 Pak tu také máme hru "Co umí tvoje propiska?" jako alternaci k mi známé hře "Co vidíš skrz ucho tohoto hrníčku?". Vzhledem k tomu, že ji známe v partě jen dva, je velmi zábavné hrát s dalšími šesti lidmi, kteří netuší. :-D Zajímavý poznatek si také odnáším v tom, že slovenské části Slovanů trvá uhodnutí v zásadě déle, než té české. Každopádně princip nebudu prozrazovat, vše by ztratilo své kouzlo. Počínaje půl šestou a rozedníváním si začínáme uvědomovat, že tahle noc jen tak neskončí.
 
  <figure>
- <img src="{{ '/assets/img/apoteka.jpg' | prepend: site.baseurl }}" alt="" class="img-center"> 
+ <img src="@/assets/img/apoteka.jpg" alt="" class="img-center"/>
    <figcaption>Jedna z ranních a publikovatelných oslavných fotek.</figcaption>
  </figure>
 

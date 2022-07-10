@@ -18,6 +18,7 @@ function replaceImages() {
     }
 
     function visitor(node: Node, index: number | null, parent: Node | null) {
+        // @ts-ignore
         const props = (node.properties as any);
         const src: string = props.src;
 
@@ -29,6 +30,7 @@ function replaceImages() {
 
         props.src = '~/assets/' + src.slice(12);
         props.title = '~/assets/' + src.slice(12);
+        // @ts-ignore
         node.tagName = 'blog-img';
     }
 }
@@ -39,10 +41,12 @@ module.exports = function unJekyllImages() {
 
         function visitor(node: Node) {
             const rendered = liquidEngine.parseAndRenderSync(
+                // @ts-ignore
                 (node.value as string),
                 {site: {baseurl: ''}}
             )
-
+            
+            // @ts-ignore
             node.value = unifiedEngine.processSync(rendered).toString();
         }
     }

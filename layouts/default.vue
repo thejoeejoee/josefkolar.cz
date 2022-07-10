@@ -42,7 +42,8 @@
       </table>
     </header>
     <div>
-      <nuxt keep-alive/>
+<!--      <nuxt keep-alive/>-->
+      <slot />
     </div>
     <footer>
       <div class="footnotes">

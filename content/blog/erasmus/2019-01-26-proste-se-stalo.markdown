@@ -11,7 +11,7 @@ published: true
  <!-- MORE -->
  
  <figure>
- <img src="{{ '/assets/img/2018-01-26-messenger.png' | prepend: site.baseurl }}" alt="" class="img-center"> 
+ <img src="@/assets/img/2018-01-26-messenger.png" alt="" class="img-center"/>
    <figcaption>O emoce vyjádřených pomocí peprných slovíček není v našem kanále nouze.</figcaption>
  </figure>
  

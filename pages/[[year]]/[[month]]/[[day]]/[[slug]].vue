@@ -5,10 +5,12 @@
     <hr>
     <p class="description" v-text="page.description"></p>
     <nuxt-content :document="page"/>
+    <hr>
+
   </article>
 </template>
 
-<script lang="ts">
+<script lang="js">
 import Vue from 'vue'
 import _ from 'underscore'
 
@@ -16,21 +18,17 @@ import _ from 'underscore'
 export default Vue.extend({
   // layout: 'blog',
   async asyncData({$content, params, error}) {
-    const slug = `${params.year}/${params.month}/${params.day}/${params.slug}`
-
+    const path = `${params.year}/${params.month}/${params.day}/${params.slug}`
     try {
+      const page = await $content(path).fetch()
 
-      const post = await $content(slug).fetch()
-
-      /* const [prev, next] = await $content('articles')
+      const [prev = null, next = null] = await $content('/', {deep: true})
         .only(['title', 'slug'])
         .sortBy('createdAt', 'asc')
-        .surround(slug)
-        .fetch() */
+        .surround(path)
+        .fetch()
 
-      return {
-        page: post
-      }
+      return {page, prev, next}
     } catch (e) {
       error({message: 'Not found', statusCode: 404})
     }

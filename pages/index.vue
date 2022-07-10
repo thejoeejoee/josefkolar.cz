@@ -257,7 +257,7 @@
         <h2>Kde mě najdete?</h2>
 
         <ul class="big">
-            <li>určitě na mém e-mailu <strong><Mailto :mail='email' subject="Dotaz z~webu"/></strong></li>
+<!--            <li>určitě na mém e-mailu <strong><Mailto :mail='email' subject="Dotaz z~webu"/></strong></li>-->
             <li>či na <a href="https://t.me/thejoeejoee">Telegramu</a></li>
             <li>na profilu na  <a href="https://github.com/thejoeejoee">Githubu</a>
                 (či stručné <a href="https://resume.github.io/?thejoeejoee">GH resumé</a>)
@@ -273,24 +273,12 @@
     </article>
 </template>
 
-<script lang="ts">
-    import Vue from 'vue'
-    import Highlight from "~/components/Highlight.vue";
+<script setup lang="js">
+import {useAsyncData} from "nuxt/app";
+import Highlight from "~/components/Highlight.vue";
 
-    export default Vue.extend({
-        components: {Highlight},
-        data() {
-            return {
-                email: 'mail@josefkolar.cz',
-                compileTimestamp: new Date(),
-            }
-        },
-        async asyncData({env}) {
-            return {
-                compileTimestamp: env.compileTimestamp || new Date(),
-            }
-        }
-    })
+const email = 'mail@josefkolar.cz';
+const compileTimestamp = new Date();
 </script>
 
 <style lang="scss">

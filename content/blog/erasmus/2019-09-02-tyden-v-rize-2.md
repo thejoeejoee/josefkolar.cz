@@ -31,7 +31,7 @@ Velký den pro všechny zdejší kulináře. Čekala nás ESN Mezinárodní več
 Nejdřív to tedy vypadalo jako totální ghetto, po čase se ukázalo, že to bude vedle, takže uff. Dostali jsme stůl i povolení si spojit Slovanské stolky a všechno, včetně vlajek, jsme si nachystali, v areálu zatím nebyl téměř nikdo. Postupně začaly přicházet první skupinky a pouze na nás koukaly. Komická situace, spousta jídla a nic od nich, no uvidíme, jak tohle dopadne. Jako správní hostitelé jsme nabídli z našeho repertoáru, rádi si vzali a nakonec i oni rozložili své národní pokrmy. Velmi příjemně strávený podvečer, musím říct. Kromě Týmu halušky a Týmu chlebíčky přinesli i další Slované něco, takže se na stole sešly Hašlerky, bramsalát, veganské řízky a výborný perník. Teda, výborný... no počtěte si sami, jak urbanistka [Káťa pekla v Rize](https://katanacestach.wordpress.com/2019/09/02/peceme-v-lotyssku/), holt stane se :-D. 
 
  <figure>
- <img src="{{ '/assets/img/halusky.jpg' | prepend: site.baseurl }}" alt="" class="img-center"> 
+ <img src="@/assets/img/halusky.jpg" alt="" class="img-center"/>
    <figcaption>Malý spoiler ze soboty, každopádně jsme si naše jídla oblíbili dost.</figcaption>
  </figure>
 

@@ -1,4 +1,8 @@
-export default {
+import { defineNuxtConfig } from 'nuxt'
+
+
+export default defineNuxtConfig({
+    vite: false,
     head: {
         title: 'Josef Kolář',
         htmlAttrs: {
@@ -40,34 +44,28 @@ export default {
     ],
 
     plugins: [
-        {src: './plugins/vue-typer.client.ts', mode: 'client'},
-        {src: './plugins/vue-rough-notation.client.ts', mode: 'client'},
-        {src: './plugins/vue-intersection-observer.client.ts', mode: 'client'},
+        {src: '@/plugins/vue-typer.client.ts', mode: 'client'},
+        {src: '@/plugins/vue-rough-notation.client.ts', mode: 'client'},
+        {src: '@/plugins/vue-intersection-observer.client.ts', mode: 'client'},
+        {src: '@/plugins/vue-gtag.client.js', mode: 'client'},
     ],
 
     buildModules: [
-        '@nuxt/typescript-build',
-        '@nuxtjs/pwa',
-        ['@nuxtjs/google-analytics', {
-            id: 'UA-108072995-4'
-        }]
+        // '@nuxt/typescript-build',
+        '@nuxtjs/pwa'
     ],
 
     modules: [
         '@nuxtjs/pwa',
         '@nuxtjs/style-resources',
         "@nuxt/content",
-        'nuxt-protected-mailto',
-        'nuxt-responsive-loader',
+        // 'nuxt-protected-mailto',
+        // 'nuxt-responsive-loader',
+        '@nuxtjs/tailwindcss',
+
     ],
     styleResources: {
-        scss: [
-        ]
-    },
-
-    build: {
-        extend(config, ctx) {
-        }
+        scss: []
     },
 
     pwa: {
@@ -76,12 +74,12 @@ export default {
         }
     },
 
-    responsiveLoader: {
-        min: 540,
-        max: 1080,
-        steps: 3,
-        quality: 65,
-    },
+    // responsiveLoader: {
+    //     min: 540,
+    //     max: 1080,
+    //     steps: 3,
+    //     quality: 65,
+    // },
 
     content: {
         liveEdit: false,
@@ -104,14 +102,6 @@ export default {
             document.path = `/${slug}`
             document.createdAt = new Date(year, month, day)
         },
-        'content:options': (opts/*: IContentOptions*/) => {
-            opts.markdown.remarkPlugins.push(  {
-                instance: require('./utils/remark-unjekyll-images'),
-                name: 'remark-unjekyll-images',
-                options: undefined
-            })
-
-            return opts;
-        },
-    }
-}
+    },
+    devServerHandlers: [],
+})
