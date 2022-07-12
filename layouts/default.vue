@@ -29,7 +29,7 @@
             <nuxt-link to="/">existuju</nuxt-link>
           </th>
           <th>
-            <nuxt-link to="/photos">tvořím</nuxt-link>
+            <nuxt-link to="/tvorim">tvořím</nuxt-link>
           </th>
           <th>
             <nuxt-link
@@ -108,7 +108,7 @@ export default Vue.extend({
     created() {
         setTimeout(() => {
             // @ts-ignore
-            this.roles = [...this.roles, ' a jsem vegan']
+            this.roles = [...this.roles, ' a jsem vegetarián']
         }, 1000 * 60 * 5); // 5 minutes
     }
 })
