@@ -1,19 +1,22 @@
 <template>
   <main>
     <header>
-      <h1><!-- @formatter:off -->
-        Jsem Joe<client-only><vue-typer
-          :text="formattedRoles"
-          :repeat="Infinity"
-          initial-action="typing"
-          :pre-type-delay="70"
-          :type-delay="70"
-          :pre-erase-delay="2000"
-          :erase-delay="eraseDelay"
-          erase-style="backspace"
-          caret-animation="smooth"
-          @typed="onTyped"
-        /></client-only>
+      <h1>
+        <!-- @formatter:off -->
+        Jsem Joe<client-only>
+          <vue-typer
+            :text="formattedRoles"
+            :repeat="Infinity"
+            initial-action="typing"
+            :pre-type-delay="70"
+            :type-delay="70"
+            :pre-erase-delay="2000"
+            :erase-delay="eraseDelay"
+            erase-style="backspace"
+            caret-animation="smooth"
+            @typed="onTyped"
+          />
+        </client-only>
         <!-- @formatter:on -->
       </h1>
 
@@ -24,25 +27,31 @@
 
       <table>
         <thead>
-        <tr>
-          <th>
-            <nuxt-link to="/">existuju</nuxt-link>
-          </th>
-          <th>
-            <nuxt-link to="/tvorim">tvořím</nuxt-link>
-          </th>
-          <th>
-            <nuxt-link
-              to="/blog"
-              :class="{'nuxt-link-exact-active': $route.name.startsWith('year')}"
-            >píšu</nuxt-link>
-          </th>
-        </tr>
+          <tr>
+            <th>
+              <nuxt-link to="/">
+                existuju
+              </nuxt-link>
+            </th>
+            <th>
+              <nuxt-link to="/tvorim">
+                tvořím
+              </nuxt-link>
+            </th>
+            <th>
+              <nuxt-link
+                to="/blog"
+                :class="{'nuxt-link-exact-active': $route.name.startsWith('year')}"
+              >
+                píšu
+              </nuxt-link>
+            </th>
+          </tr>
         </thead>
       </table>
     </header>
     <div>
-      <nuxt keep-alive/>
+      <nuxt keep-alive />
     </div>
     <footer>
       <div class="footnotes">
@@ -60,57 +69,57 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-    data() {
-        return {
-            compileTimestamp: new Date(),
-            eraseDelay: 70,
-            roles: [
-                ', vývojář',
-                ' a fotím',
-                ', student',
-                ' a pořádám tábory',
-                // ', erasmák',
-                ' a píšu',
-                ', dobrovolník',
-                ', ESNer',
-                ', nadšenec',
-                ' a jsem ENTP-A',
-                // ' a rád běhám',
-                ' a su z Hané',
-            ]
-        }
-    },
-    async fetch({env}) {
-        this.compileTimestamp = env.compileTimestamp || new Date();
-    },
-    computed: {
-        formattedRoles() {
-            // @ts-ignore
-            return this.roles.map((v: string) => `${v}.`);
-        }
-    },
-    methods: {
-        onTyped(what: string) {
-            // @ts-ignore
-            this.eraseDelay = what.indexOf(' ') >= 0 ? 40 : 70;
-        }
-    },
-    head() {
-        // TODO: should be absolute URL
-        const ogImageUrl = require('assets/jk.jpg');
-        return {
-            meta: [
-                {hid: 'og:image', property: 'og:image', content: ogImageUrl},
-                {hid: 'twitter:image', name: 'twitter:image', content: ogImageUrl},
-            ]
-        }
-    },
-    created() {
-        setTimeout(() => {
-            // @ts-ignore
-            this.roles = [...this.roles, ' a jsem vegetarián']
-        }, 1000 * 60 * 5); // 5 minutes
+  data () {
+    return {
+      compileTimestamp: new Date(),
+      eraseDelay: 70,
+      roles: [
+        ', vývojář',
+        ' a fotím',
+        // ', student',
+        // ' a pořádám tábory',
+        // ', erasmák',
+        ' a píšu',
+        ', dobrovolník',
+        ', ESNer',
+        ', nadšenec',
+        ' a jsem ENTP-A',
+        // ' a rád běhám',
+        ' a su z Hané'
+      ]
     }
+  },
+  async fetch ({ env }) {
+    this.compileTimestamp = env.compileTimestamp || new Date()
+  },
+  head () {
+    // TODO: should be absolute URL
+    const ogImageUrl = require('assets/jk.jpg')
+    return {
+      meta: [
+        { hid: 'og:image', property: 'og:image', content: ogImageUrl },
+        { hid: 'twitter:image', name: 'twitter:image', content: ogImageUrl }
+      ]
+    }
+  },
+  computed: {
+    formattedRoles () {
+      // @ts-ignore
+      return this.roles.map((v: string) => `${v}.`)
+    }
+  },
+  created () {
+    setTimeout(() => {
+      // @ts-ignore
+      this.roles = [...this.roles, ' a jsem vegetarián']
+    }, 1000 * 60 * 5) // 5 minutes
+  },
+  methods: {
+    onTyped (what: string) {
+      // @ts-ignore
+      this.eraseDelay = what.includes(' ') ? 40 : 70
+    }
+  }
 })
 </script>
 

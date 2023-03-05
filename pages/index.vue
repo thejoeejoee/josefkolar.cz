@@ -6,7 +6,7 @@
     </div>
 
     <figure>
-      <img :srcset="require('~/assets/jk.jpg').srcSet" alt="má maličkost"/>
+      <img :srcset="require('~/assets/jk.jpg').srcSet" alt="má maličkost">
       <!-- <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption> -->
     </figure>
 
@@ -14,10 +14,16 @@
 
     <ul>
       <li>
-        <strong>Python</strong> – můj denní chleba už víc jak osm let – především ve spojení
-        s&nbsp;<Highlight>frameworkem Django</Highlight>
-        ,
-        ale rozhodně se neztratím ve Flasku, numpy, PyQt či Kerasu.
+        <strong>Python</strong> – můj denní chleba už víc jak deset let – Django, Flask, numpy, keras, co zrovna přijde.
+        Hadí jazyk je pro mě kladivo, ducktape i WD40 zároveň.
+      </li>
+      <li>
+        <strong>Kubernetes a Golang</strong> – DevOps dvojice jako Bonnie a Clyde, která mě baví; od základních
+        <Highlight>deploymentů až k vlastním operátorům</Highlight>, to vše s Helmem, Kustomize anebo ArgoCD.
+      </li>
+      <li>
+        <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár distribucí,
+        administátorsky ovládám a sám provozuji Ubuntu, Debian i CentOS.
       </li>
       <li>
         <strong>webový frontend</strong> – Vue.js ideálně s&nbsp;Typescriptem
@@ -25,30 +31,33 @@
         problém nemám. Oblíbenec Tailwind mi pomáhá se styly, ale k&nbsp;webovému designu to nemám úplně blízko.
       </li>
       <li>
-        <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár distribucí,
-        administátorsky ovládám a sám provozuji Ubuntu, Debian i CentOS.
-      </li>
-      <li>
-        <strong>databáze</strong> – relačně mám nejvíc zkušeností s&nbsp;<Highlight>PostgreSQL</Highlight>
-        ,
+        <strong>databáze</strong> – nejvíc radosti mám s&nbsp;<Highlight>PostgreSQL</Highlight>,
         ale s&nbsp;MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
       </li>
-      <li>
-        <strong>PHP</strong> – než jsem se definitině zamiloval do Djanga, stavěl jsem projekty na Nette,
-        které mají můj servis stále.
-      </li>
+      <!--      <li>-->
+      <!--        <strong>PHP</strong> – než jsem se definitině zamiloval do Djanga, stavěl jsem projekty na Nette,-->
+      <!--        které mají můj servis stále.-->
+      <!--      </li>-->
       <li>
         <strong>C/Cpp</strong> – nejsou to úplně mé primární jazyky, ale vyznám se a pár projektů už mám také
-        za sebou; znalost C se pro psaní Python programů hodí.
+        za sebou; znalost C se pro psaní Pythonu hodí.
       </li>
       <li>
-        <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, Git, Docker,
-        zkušenosti s&nbsp;VHDL, ASMx86, Qt či
+        <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, Rust,
+        zkušenosti s&nbsp;VHDL, ASMx86, Qt
         <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
       </li>
     </ul>
 
     <h2>Co je za mnou?</h2>
+
+    <h3>Seznam.cz</h3>
+
+    <p>
+      Od září 2022 řeším v interním týmu CDNky české internetové jedničky úložiště pro hromady dat, encoding VOD i živých
+      videí a v poslední době pak infrastrukturu pro chystaný projekt IPTV. Streamovaná úložiště, přehabování se
+      v softwarovém i hardwarovém encodingu či hot-swapping vstupních zdrojů, to vše v samostatných k8s clusterech.
+    </p>
 
     <h3>OLC Systems</h3>
     <p>
@@ -78,7 +87,7 @@
 
         <p>
           V rámci organizace ESN jsem pro pro celonárodní zasedání <a href="https://na.brnodobry.cz/">NA Brno dobrý
-          2022</a>
+            2022</a>
           postavil webstránky s plným informačním servisem pro zúčastněné – časový rozpis programu, časté pokládané
           otázky
           i mapa se všemi důležitými místy. To vše zabalené v
@@ -90,8 +99,11 @@
       </li>
 
       <li>
-        <h4>ESN VUT Brno, ESN Riga<small class="right">2020-<abbr
-          title="kdo ví, kam až se to natáhne">&mldr;</abbr></small></h4>
+        <h4>
+          ESN VUT Brno, ESN Riga<small class="right">2020-<abbr
+            title="kdo ví, kam až se to natáhne"
+          >&mldr;</abbr></small>
+        </h4>
 
         <p>
           <i>Ich bin ein ESNer</i>, tedy jsem ESNer, člen Erasmus Student Network, největší evropské studentské
@@ -130,8 +142,9 @@
           .
           SPA jsme postavili nad Nuxt.js, kterému pro stylování sekundoval Tailwind CSS, data poskytoval ÚZIS ČR
           a jako mapové poklady posloužily OSM. Aplikací se <a
-          href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739">pochlubilo
-          i VUT</a>,
+            href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739"
+          >pochlubilo
+            i VUT</a>,
           a díky kontaktům v komunitě hendikepovaných se povedlo o aplikaci informovat i tam.
         </p>
       </li>
@@ -151,7 +164,7 @@
           výstupním rozhraním.
           Další ročník jsme chtěli zachovat bezdrátovost a zároveň přidat informační grafiku,
           vyvinuli jsme tedy <a href="https://github.com/litovel-minicup/camera-stream-transmitter">iOS
-          aplikaci</a>
+            aplikaci</a>
           pro bezdrátový přenos obrazu a s&nbsp;pomocí <kbd>ffmpeg</kbd>u a OBS stříhali živáky.
         </p>
         <p>
@@ -184,7 +197,7 @@
         <p>
           Během projektu vývoje kompilátoru na FIT VUT jsme se rozhodli v&nbsp;týmu
           stvořit i volně <a href="https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit">
-          dostupnou sadu nástrojů</a> pro podporu vývoje těchto kompilátorů.
+            dostupnou sadu nástrojů</a> pro podporu vývoje těchto kompilátorů.
           Vzniklo tak
           <Highlight>IDE s&nbsp;debuggerem</Highlight>
           pro zadaný jazyk, množina více
@@ -198,17 +211,17 @@
 
     <h3>Studia</h3>
     <ul>
-      <li>
-        <h4>Magisterské studium na FIT VUT v&nbsp;Brně <small class="right">2019-<abbr
-          title="plánovaně">2022</abbr></small></h4>
-        <p>
-          Po úspěšně dokončeném bakalářském studiu jsem se rozhodl pokračovat do magisterského studia
-          ve specializaci
-          <Highlight><em>Počítačové sítě</em></Highlight>
-          a hned první akademický ročník vyjel na Erasmus na
-          <em>University of Latvia</em>; předpokládané dokončení je v&nbsp;roce 2022.
-        </p>
-      </li>
+      <!--      <li>-->
+      <!--        <h4>-->
+      <!--          Magisterské studium na FIT VUT v&nbsp;Brně <small class="right">2019-2022</small>-->
+      <!--        </h4>-->
+      <!--        <p>-->
+      <!--          Pokračoval jsem do magisterského studia-->
+      <!--          ve specializaci <Highlight><em>Počítačové sítě</em></Highlight>-->
+      <!--          a hned první akademický ročník vyjel na Erasmus na-->
+      <!--          <em>University of Latvia</em>.-->
+      <!--        </p>-->
+      <!--      </li>-->
       <li>
         <h4>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize <small class="right">2019-2020</small></h4>
         <!-- TODO: add link to blog with Erasmus tag -->
@@ -233,7 +246,7 @@
         </p>
         <p>
           V&nbsp;rámci mé <a href="https://www.vutbr.cz/studenti/zav-prace/detail/121991?zp_id=121991">
-          bakalářské práce</a> jsem se věnoval vývoji
+            bakalářské práce</a> jsem se věnoval vývoji
           <Highlight>otevřené&nbsp;platformy</Highlight>
           pro koordinaci IoT uzlů v&nbsp;nástroji vizuálního programování Node-RED, jejíž součástí byl
           i firmware pro mikropočítače ESP32.
@@ -274,8 +287,8 @@
       Fotím a fotodokumentuji, nejčastěji z&nbsp;radosti ze samotné údálosti či dobrovolnického
       <Highlight>nadšení</Highlight>
       . Kromě vlastních výletů a uspořádaných akcí taky například studentsky
-      pro ESN – k&nbsp;nahlédnutí ne příliš zodpovědně udržovaný <a href="https://blog.josefkolar.cz/photos/">seznam
-      výtvorů</a>.
+      pro ESN – k&nbsp;nahlédnutí ne příliš zodpovědně udržovaný
+      <a href="https://blog.josefkolar.cz/photos/">seznam výtvorů</a>.
     </p>
 
     <p>
@@ -292,11 +305,14 @@
     <h2>Kde mě najdete?</h2>
 
     <ul class="big">
-      <li>určitě na mém e-mailu <strong>
-        <Mailto :mail='email' subject="Dotaz z~webu"/>
-      </strong></li>
+      <li>
+        určitě na mém e-mailu <strong>
+          <Mailto :mail="email" subject="Dotaz z~webu" />
+        </strong>
+      </li>
       <li>či na <a href="https://t.me/thejoeejoee">Telegramu</a></li>
-      <li>na profilu na <a href="https://github.com/thejoeejoee">Githubu</a>
+      <li>
+        na profilu na <a href="https://github.com/thejoeejoee">Githubu</a>
       </li>
       <li>občas <a href="https://twitter.com/thejoeejoee">twítuju</a></li>
       <li>jsem i na <a href="https://www.linkedin.com/in/josef-kol%C3%A1%C5%99-69b988133/">LinkedInu</a></li>
@@ -310,25 +326,25 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Highlight from "~/components/Highlight.vue";
+import Highlight from '~/components/Highlight.vue'
 
 export default Vue.extend({
-  components: {Highlight},
-  data() {
+  components: { Highlight },
+  async asyncData ({ env }) {
+    return {
+      compileTimestamp: env.compileTimestamp || new Date()
+    }
+  },
+  data () {
     return {
       email: 'mail@josefkolar.cz',
-      compileTimestamp: new Date(),
+      compileTimestamp: new Date()
     }
   },
-  async asyncData({env}) {
-    return {
-      compileTimestamp: env.compileTimestamp || new Date(),
-    }
-  },
-  head() {
+  head () {
     return {
       // @ts-ignore
-      title: 'jsem',
+      title: 'jsem'
     }
   }
 })
