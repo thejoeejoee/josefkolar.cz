@@ -51,15 +51,22 @@
 
     <h2>Co je za mnou?</h2>
 
-    <h3>Seznam.cz</h3>
+    <h3>
+      Seznam.cz
+      <small class="right">Senior Developer, od září 2022</small>
+    </h3>
 
     <p>
-      Od září 2022 řeším v interním týmu CDNky české internetové jedničky úložiště pro hromady dat, encoding VOD i živých
+      Od září 2022 řeším v interním týmu CDN české internetové jedničky úložiště pro hromady dat, encoding VOD i živých
       videí a v poslední době pak infrastrukturu pro chystaný projekt IPTV. Streamovaná úložiště, přehabování se
-      v softwarovém i hardwarovém encodingu či hot-swapping vstupních zdrojů, to vše v samostatných k8s clusterech.
+      v softwarovém i hardwarovém encodingu či hot-swapping vstupních zdrojů, to vše ve vlastních k8s clusterech
+      pro zajištění HA.
     </p>
 
-    <h3>OLC Systems</h3>
+    <h3>
+      OLC Systems
+      <small class="right">Fullstack Developer, 2014 – 2019</small>
+    </h3>
     <p>
       Původně brigáda v&nbsp;této <a href="https://www.olc.cz/">olomoucké společnosti</a> se rozrostla do dlouhodobé
       spolupráce, během které jsem čerpal zkušenosti v&nbsp;oblastech informačních systémů včetně těch sportovních,
@@ -82,6 +89,16 @@
 
     <h3>Co dělám?</h3>
     <ul>
+      <li>
+        <h4>Erasmus Festival 2022<small class="right">září 2022</small></h4>
+
+        <p>
+          S partou nadšenců jsme se rozhodli zorganizovat festival pro pětistovku zahraničních účastníků –
+          dvě stage, tři kapely, DJs, Flag Parade centrem Brna a hromada doprovodného programu.
+          Staral jsem se o promo, festivalové stránky, pro koncerty pak navrhnul stage a light design,
+          který jsem si na místě i pohlídal od světelného pultu.
+        </p>
+      </li>
       <li>
         <h4>NA Brno dobrý <small class="right">duben 2022</small></h4>
 
