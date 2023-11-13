@@ -143,9 +143,9 @@
         <p>
           Logicky mi náležela i spousta IT záležitostí, kterých jsem se chopil velmi rád – standardizovali jsme nástroje
           pod <a href="https://github.com/esnvutbrno">GitHub organizaci</a>,
-          zautomatizovali několik vnitřních procesů a rozjeli projekt druhé verze
-          <a href="https://github.com/esnvutbrno/buena-fiesta">sociální sítě Buena Fiesta</a>
-          pro zahraniční studenty pro jejich párování s buddies jakožto lokálními studenty.
+          zautomatizovali vnitřní procesy a rozjeli projekt nové generace
+          <a href="https://github.com/esnvutbrno/buena-fiesta">sociální sítě Fiesta+</a>
+          pro sekce ESN jakožto jediného jejich IT asistenta pro správu členů, párování zahraničních studentů s buddies a dalších pro sekci nutných aktivit.
         </p>
       </li>
       <li>
