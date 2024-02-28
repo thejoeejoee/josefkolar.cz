@@ -75,6 +75,7 @@ export default Vue.extend({
       eraseDelay: 70,
       roles: [
         ', vývojář',
+        ', mám narozeniny',
         ' a fotím',
         // ', student',
         // ' a pořádám tábory',
