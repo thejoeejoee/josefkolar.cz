@@ -2,125 +2,126 @@
   <main>
     <header>
       <h1>
-        <!-- @formatter:off -->
-        Jsem Joe<client-only>
-          <vue-typer
-            :text="formattedRoles"
-            :repeat="Infinity"
-            initial-action="typing"
-            :pre-type-delay="70"
-            :type-delay="70"
-            :pre-erase-delay="2000"
-            :erase-delay="eraseDelay"
-            erase-style="backspace"
-            caret-animation="smooth"
-            @typed="onTyped"
-          />
-        </client-only>
-        <!-- @formatter:on -->
+        Jsem Joe<ClientOnly>
+          <span ref="typerContainer"></span>
+        </ClientOnly>
       </h1>
 
       <p class="author">
         Josef Kolář |
-        {{ (new Date(compileTimestamp)).toLocaleDateString(undefined, {year: 'numeric', month: 'long'}) }}
+        {{ formatDate(compileTimestamp) }}
       </p>
 
       <table>
         <thead>
           <tr>
             <th>
-              <nuxt-link to="/">
+              <NuxtLink to="/">
                 existuju
-              </nuxt-link>
+              </NuxtLink>
             </th>
             <th>
-              <nuxt-link to="/tvorim">
+              <NuxtLink to="/tvorim">
                 tvořím
-              </nuxt-link>
+              </NuxtLink>
             </th>
             <th>
-              <nuxt-link
-                to="/blog"
-                :class="{'nuxt-link-exact-active': $route.name.startsWith('year')}"
-              >
+              <span class="nav-disabled">
                 píšu
-              </nuxt-link>
+              </span>
             </th>
           </tr>
         </thead>
       </table>
     </header>
     <div>
-      <nuxt keep-alive />
+      <slot />
     </div>
     <footer>
       <div class="footnotes">
         <p>
           Sestaveno z&nbsp;repozitáře <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
-          a nasazeno {{ (new Date(compileTimestamp)).toLocaleString().replace(/ /g, '&nbsp;') }} pomocí
-          služby <a href="https://vercel.com">Vercel</a>.
+          a nasazeno {{ formatDateTime(compileTimestamp) }} pomocí
+          <a href="https://pages.github.com">GitHub Pages</a>.
         </p>
       </div>
     </footer>
   </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script setup lang="ts">
+const route = useRoute()
+const config = useRuntimeConfig()
 
-export default Vue.extend({
-  data () {
-    return {
-      compileTimestamp: new Date(),
-      eraseDelay: 70,
-      roles: [
-        ', vývojář',
-        ', mám narozeniny',
-        ' a fotím',
-        // ', student',
-        // ' a pořádám tábory',
-        // ', erasmák',
-        ' a píšu',
-        ', dobrovolník',
-        ', ESNer',
-        ', nadšenec',
-        ' a jsem ENTP-A',
-        // ' a rád běhám',
-        ' a su z Hané'
-      ]
+const compileTimestamp = ref(config.public.compileTimestamp)
+const typerContainer = ref<HTMLElement | null>(null)
+
+const roles = ref([
+  ', vývojář',
+  ', mám narozeniny',
+  ' a fotím',
+  ' a píšu',
+  ', dobrovolník',
+  ', ESNer',
+  ', nadšenec',
+  ' a jsem ENTP-A',
+  ' a su z Hané'
+])
+
+const formatDate = (timestamp: string) => {
+  return new Date(timestamp).toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long' })
+}
+
+const formatDateTime = (timestamp: string) => {
+  return new Date(timestamp).toLocaleString('cs-CZ').replace(/ /g, '\u00A0')
+}
+
+onMounted(() => {
+  if (!typerContainer.value) return
+
+  let currentRoleIndex = 0
+  let currentText = ''
+  let isDeleting = false
+  let charIndex = 0
+
+  const type = () => {
+    const currentRole = roles.value[currentRoleIndex] + '.'
+    
+    if (!isDeleting && charIndex < currentRole.length) {
+      currentText += currentRole[charIndex]
+      charIndex++
+      setTimeout(type, 70)
+    } else if (isDeleting && charIndex > 0) {
+      currentText = currentText.slice(0, -1)
+      charIndex--
+      const delay = currentRole.includes(' ') ? 40 : 70
+      setTimeout(type, delay)
+    } else if (!isDeleting) {
+      isDeleting = true
+      setTimeout(type, 2000)
+    } else {
+      isDeleting = false
+      currentRoleIndex = (currentRoleIndex + 1) % roles.value.length
+      setTimeout(type, 70)
     }
-  },
-  async fetch ({ env }) {
-    this.compileTimestamp = env.compileTimestamp || new Date()
-  },
-  head () {
-    // TODO: should be absolute URL
-    const ogImageUrl = require('assets/jk.jpg')
-    return {
-      meta: [
-        { hid: 'og:image', property: 'og:image', content: ogImageUrl },
-        { hid: 'twitter:image', name: 'twitter:image', content: ogImageUrl }
-      ]
-    }
-  },
-  computed: {
-    formattedRoles () {
-      // @ts-ignore
-      return this.roles.map((v: string) => `${v}.`)
-    }
-  },
-  created () {
-    setTimeout(() => {
-      // @ts-ignore
-      this.roles = [...this.roles, ' a jsem vegetarián']
-    }, 1000 * 60 * 5) // 5 minutes
-  },
-  methods: {
-    onTyped (what: string) {
-      // @ts-ignore
-      this.eraseDelay = what.includes(' ') ? 40 : 70
+
+    if (typerContainer.value) {
+      typerContainer.value.textContent = currentText
     }
   }
+
+  setTimeout(() => type(), 70)
+
+  setTimeout(() => {
+    roles.value = [...roles.value, ' a jsem vegetarián']
+  }, 1000 * 60 * 5)
+})
+
+useHead({
+  meta: [
+    { property: 'og:image', content: '/jk.jpg' },
+    { name: 'twitter:image', content: '/jk.jpg' }
+  ]
 })
 </script>
 
@@ -133,6 +134,7 @@ main {
 
 header, footer {
   width: 80ch;
+  max-width: 100%;
 }
 
 header table {
@@ -143,7 +145,7 @@ header table {
     text-decoration: none;
     color: black !important;
 
-    &.nuxt-link-exact-active, &:hover {
+    &.router-link-exact-active, &:hover {
       color: #a00 !important;
     }
 
@@ -151,6 +153,11 @@ header table {
       text-decoration: underline;
     }
   }
-}
 
+  .nav-disabled {
+    color: #999 !important;
+    cursor: default;
+    text-decoration: none;
+  }
+}
 </style>

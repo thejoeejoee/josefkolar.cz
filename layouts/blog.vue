@@ -1,9 +1,13 @@
 <template>
   <main>
-    <nuxt/>
+    <slot />
   </main>
 </template>
 
-<script>
-export default {}
-</script>
+<style lang="scss">
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>

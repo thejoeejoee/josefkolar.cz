@@ -1,12 +1,12 @@
 <template>
   <article>
     <div class="abstract strong">
-      Ahoj! Jsem Joe a jsem z&nbsp;Generace Z. <br>
+      Ahoj! Jsem Joe a&nbsp;jsem z&nbsp;Generace Z. <br>
       Počítače, internety, aplikace, online prostor, to je můj svět.
     </div>
 
     <figure>
-      <img :srcset="require('~/assets/jk.jpg').srcSet" alt="má maličkost">
+      <img src="~/assets/jk.jpg" alt="má maličkost">
       <!-- <figcaption>Ne zcela přirozené prostředí pro geeka.</figcaption> -->
     </figure>
 
@@ -14,16 +14,29 @@
 
     <ul>
       <li>
-        <strong>Python</strong> – můj denní chleba už víc jak deset let – Django, Flask, numpy, keras, co zrovna přijde.
-        Hadí jazyk je pro mě kladivo, ducktape i WD40 zároveň.
+        <strong>Golang</strong> – od služeb nad CDN přes vlastní Kubernetes operátory až po contributions
+        do open-source projektů jako ArgoCD, Kueue či Watermill.
       </li>
       <li>
-        <strong>Kubernetes a Golang</strong> – DevOps dvojice jako Bonnie a Clyde, která mě baví; od základních
-        <Highlight>deploymentů až k vlastním operátorům</Highlight>, to vše s Helmem, Kustomize anebo ArgoCD.
+        <strong>Kubernetes</strong> – návrh a provoz clusterů, Helm, Kustomize, Jsonnet/Tanka,
+        <Highlight>ArgoCD GitOps</Highlight>, custom operátory (kopf, controller-runtime),
+        VPA/HPA tuning, DRA pro HW transcoding akcelerátory.
+      </li>
+      <li>
+        <strong>Python</strong> – můj denní chleba už víc jak deset let – Django, Flask, FastAPI, numpy,
+        co zrovna přijde. Hadí jazyk je pro mě kladivo, ducktape i WD40 zároveň.
+      </li>
+      <li>
+        <strong>infrastructure</strong> – OpenStack, NATS, Kafka, OpenTelemetry, Prometheus,
+        Grafana, CI/CD pipelines (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
+      </li>
+      <li>
+        <strong>media &amp; streaming</strong> – VOD/LIVE transcoding (SW i HW), adaptivní streaming (HLS/DASH),
+        <Highlight>DRM, media kontejnery a kodeky</Highlight>, ffmpeg, RTMP, SRT.
       </li>
       <li>
         <strong>Linux</strong> – uživatelsky jsem za víc jak pět let vystřídal už pár distribucí,
-        administátorsky ovládám a sám provozuji Ubuntu, Debian i CentOS.
+        administrátorsky ovládám a sám provozuji Ubuntu, Debian i CentOS.
       </li>
       <li>
         <strong>webový frontend</strong> – Vue.js ideálně s&nbsp;Typescriptem
@@ -34,16 +47,16 @@
         <strong>databáze</strong> – nejvíc radosti mám s&nbsp;<Highlight>PostgreSQL</Highlight>,
         ale s&nbsp;MariaDB/MySQL nemám žádný problém; nerelačně pak Mongo i Redis.
       </li>
-      <!--      <li>-->
-      <!--        <strong>PHP</strong> – než jsem se definitině zamiloval do Djanga, stavěl jsem projekty na Nette,-->
-      <!--        které mají můj servis stále.-->
-      <!--      </li>-->
       <li>
-        <strong>C/Cpp</strong> – nejsou to úplně mé primární jazyky, ale vyznám se a pár projektů už mám také
+        <strong>C/C++</strong> – nejsou to úplně mé primární jazyky, ale vyznám se a pár projektů už mám také
         za sebou; znalost C se pro psaní Pythonu hodí.
       </li>
       <li>
-        <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>, Rust,
+        <strong>Rust</strong> – fascinuje mě svou bezpečností a výkonem, používám ho pro osobní projekty
+        i při řešení <abbr title="Advent of Code">AoC</abbr>.
+      </li>
+      <li>
+        <em>ještě něco?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>,
         zkušenosti s&nbsp;VHDL, ASMx86, Qt
         <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
       </li>
@@ -53,15 +66,47 @@
 
     <h3>
       Seznam.cz
-      <small class="right">Senior Developer, od září 2022</small>
+      <small class="right">Senior Developer, od května 2023</small>
     </h3>
 
     <p>
-      Od září 2022 řeším v interním týmu CDN české internetové jedničky úložiště pro hromady dat, encoding VOD i živých
-      videí a v poslední době pak infrastrukturu pro chystaný projekt IPTV. Streamovaná úložiště, přehabování se
-      v softwarovém i hardwarovém encodingu či hot-swapping vstupních zdrojů, to vše ve vlastních k8s clusterech
-      pro zajištění HA.
+      V interním CDN týmu české internetové jedničky řeším služby pro zpracování médií –
+      úložiště pro hromady dat, encoding VOD i živých videí, infrastrukturu pro distribuci obsahu a IPTV.
+      Streamovaná úložiště, softwarový i
+      <Highlight>hardwarový encoding</Highlight>, hot-swapping vstupních zdrojů,
+      to vše ve vlastních k8s clusterech nad OpenStackem pro zajištění HA.
     </p>
+    <p>
+      Předtím (od září 2022) jsem na pozici Python Developera nastartoval v témže týmu.
+    </p>
+
+    <h3>
+      Open Source
+    </h3>
+    <p>
+      Aktivně přispívám do upstream projektů:
+    </p>
+    <ul>
+      <li>
+        <a href="https://github.com/argoproj/argo-cd"><strong>ArgoCD</strong></a> – deklarativní
+        continuous delivery pro Kubernetes (22k+ stars)
+      </li>
+      <li>
+        <a href="https://github.com/kubernetes-sigs/kueue"><strong>Kubernetes Kueue</strong></a> –
+        Kubernetes-nativní job queueing (2.4k+ stars)
+      </li>
+      <li>
+        <a href="https://github.com/ThreeDotsLabs/watermill"><strong>Watermill</strong></a> –
+        event-driven aplikace v Go (9.6k+ stars)
+      </li>
+      <li>
+        <a href="https://github.com/spegel-org/spegel"><strong>Spegel</strong></a> –
+        stateless cluster-local OCI registry mirror (3.5k+ stars)
+      </li>
+      <li>
+        a další – <Highlight>NATS, OpenTelemetry</Highlight>, Knative Serving
+      </li>
+    </ul>
 
     <h3>
       OLC Systems
@@ -89,6 +134,16 @@
 
     <h3>Co dělám?</h3>
     <ul>
+      <li>
+        <h4>Český orienťák – livestream grafika <small class="right">2023-&mldr;</small></h4>
+        <p>
+          Pro České sdružení orientačních sportů vyvíjím a provozuji
+          <a href="https://github.com/thejoeejoee/co-stream-gfx">webovou aplikaci pro livestream grafiku</a>
+          – real-time zobrazení průběžných výsledků, map tras a dalších údajů pro televizní přenosy závodů.
+          Aplikace běží na ostrých přenosech ČO.
+          <Highlight>Nuxt.js s Tailwindem</Highlight>, nasazení v Kubernetes clusteru.
+        </p>
+      </li>
       <li>
         <h4>Erasmus Festival 2022<small class="right">září 2022</small></h4>
 
@@ -228,17 +283,6 @@
 
     <h3>Studia</h3>
     <ul>
-      <!--      <li>-->
-      <!--        <h4>-->
-      <!--          Magisterské studium na FIT VUT v&nbsp;Brně <small class="right">2019-2022</small>-->
-      <!--        </h4>-->
-      <!--        <p>-->
-      <!--          Pokračoval jsem do magisterského studia-->
-      <!--          ve specializaci <Highlight><em>Počítačové sítě</em></Highlight>-->
-      <!--          a hned první akademický ročník vyjel na Erasmus na-->
-      <!--          <em>University of Latvia</em>.-->
-      <!--        </p>-->
-      <!--      </li>-->
       <li>
         <h4>Magisterské studium na <em>University of Latvia</em> v&nbsp;Rize <small class="right">2019-2020</small></h4>
         <!-- TODO: add link to blog with Erasmus tag -->
@@ -331,8 +375,7 @@
       <li>
         na profilu na <a href="https://github.com/thejoeejoee">Githubu</a>
       </li>
-      <li>občas <a href="https://twitter.com/thejoeejoee">twítuju</a></li>
-      <li>jsem i na <a href="https://www.linkedin.com/in/josef-kol%C3%A1%C5%99-69b988133/">LinkedInu</a></li>
+      <li>jsem i na <a href="https://www.linkedin.com/in/josef-kolar/">LinkedInu</a></li>
       <li>
         souhrně pak v <a href="https://thejoeejoee.github.io/resume/kolar-josef-cv-cs.pdf">CV</a>
         (<a href="https://thejoeejoee.github.io/resume/kolar-josef-cv-en.pdf">english CV</a>)
@@ -341,37 +384,13 @@
   </article>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import Highlight from '~/components/Highlight.vue'
+<script setup lang="ts">
+const email = 'mail@josefkolar.cz'
 
-export default Vue.extend({
-  components: { Highlight },
-  async asyncData ({ env }) {
-    return {
-      compileTimestamp: env.compileTimestamp || new Date()
-    }
-  },
-  data () {
-    return {
-      email: 'mail@josefkolar.cz',
-      compileTimestamp: new Date()
-    }
-  },
-  head () {
-    return {
-      // @ts-ignore
-      title: 'jsem'
-    }
-  }
+useHead({
+  title: 'jsem',
 })
 </script>
-
-<style lang="scss">
-.vue-typer .custom.char.typed {
-  color: #4A148C;
-}
-</style>
 
 <style lang="scss" scoped>
 article {

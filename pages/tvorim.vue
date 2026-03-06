@@ -1,10 +1,11 @@
 <template>
   <div class="Photos__container Photos">
     <div
-      v-for="photo in items"
+      v-for="(photo, index) in items"
+      :key="index"
       class="Photos__photo"
     >
-      <img v-if="photo.srcSet" :srcset="photo.srcSet" :src="photo.src">
+      <img v-if="typeof photo === 'object'" :src="photo.src" :alt="`foto ${index + 1}`">
       <iframe
         v-else
         :src="photo + '?modestbranding=1&autohide=1&showinfo=0&controls=0'" frameborder="0"
@@ -14,48 +15,54 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script setup lang="ts">
+import photo01 from '@/assets/photos/01.jpg'
+import photo05 from '@/assets/photos/05.jpg'
+import photo11 from '@/assets/photos/11.jpg'
+import photo14 from '@/assets/photos/14.jpg'
+import photo17 from '@/assets/photos/17.jpg'
+import photo19 from '@/assets/photos/19.jpg'
+import photo22 from '@/assets/photos/22.jpg'
+import photoNy01 from '@/assets/photos/ny-01.jpg'
+import photo03 from '@/assets/photos/03.jpg'
+import photo25 from '@/assets/photos/25.jpg'
+import photo26 from '@/assets/photos/26.jpg'
+import photoNfg01 from '@/assets/photos/nfg-01.jpg'
+import photoNy02 from '@/assets/photos/ny-02.jpg'
+import photo27 from '@/assets/photos/27.jpg'
+import photo34 from '@/assets/photos/34.jpg'
+import photo36 from '@/assets/photos/36.jpg'
+import photoNy03 from '@/assets/photos/ny-03.jpg'
 
-export default Vue.extend({
-  head() {
-    return {
-      // @ts-ignore
-      title: 'tvořím',
-    }
-  },
-  /*
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gVqTARmmooo" title="YouTube video player" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   */
-  data() {
-    return {
-      items: [
-        require('@/assets/photos/01.jpg'),
-        "https://www.youtube.com/embed/AqnBwoS6Mfc",
-        require('@/assets/photos/05.jpg'),
-        require('@/assets/photos/11.jpg'),
-        "https://www.youtube.com/embed/TUepUJlMUFQ",
-        require('@/assets/photos/14.jpg'),
-        require('@/assets/photos/17.jpg'),
-        "https://www.youtube.com/embed/gVqTARmmooo",
-        require('@/assets/photos/19.jpg'),
-        require('@/assets/photos/22.jpg'),
-        require('@/assets/photos/ny-01.jpg'),
-        require('@/assets/photos/03.jpg'),
-        require('@/assets/photos/25.jpg'),
-        "https://www.youtube.com/embed/AJNlJ6eSXOI",
-        require('@/assets/photos/26.jpg'),
-        require('@/assets/photos/nfg-01.jpg'),
-        require('@/assets/photos/ny-02.jpg'),
-        require('@/assets/photos/27.jpg'),
-        require('@/assets/photos/34.jpg'),
-        "https://www.youtube.com/embed/pMPFoxjdXOI",
-        require('@/assets/photos/36.jpg'),
-        require('@/assets/photos/ny-03.jpg'),
-      ]
-    }
-  }
+type PhotoItem = { src: string } | string
+
+const items: PhotoItem[] = [
+  { src: photo01 },
+  'https://www.youtube.com/embed/AqnBwoS6Mfc',
+  { src: photo05 },
+  { src: photo11 },
+  'https://www.youtube.com/embed/TUepUJlMUFQ',
+  { src: photo14 },
+  { src: photo17 },
+  'https://www.youtube.com/embed/gVqTARmmooo',
+  { src: photo19 },
+  { src: photo22 },
+  { src: photoNy01 },
+  { src: photo03 },
+  { src: photo25 },
+  'https://www.youtube.com/embed/AJNlJ6eSXOI',
+  { src: photo26 },
+  { src: photoNfg01 },
+  { src: photoNy02 },
+  { src: photo27 },
+  { src: photo34 },
+  'https://www.youtube.com/embed/pMPFoxjdXOI',
+  { src: photo36 },
+  { src: photoNy03 },
+]
+
+useHead({
+  title: 'tvořím',
 })
 </script>
 
