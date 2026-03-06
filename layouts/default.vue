@@ -25,11 +25,6 @@
                 tvořím
               </NuxtLink>
             </th>
-            <th>
-              <span class="nav-disabled">
-                píšu
-              </span>
-            </th>
           </tr>
         </thead>
       </table>
@@ -50,7 +45,6 @@
 </template>
 
 <script setup lang="ts">
-const route = useRoute()
 const config = useRuntimeConfig()
 
 const compileTimestamp = ref(config.public.compileTimestamp)
@@ -79,6 +73,8 @@ const formatDateTime = (timestamp: string) => {
   return new Date(timestamp).toLocaleString('cs-CZ').replace(/ /g, '\u00A0')
 }
 
+let typingTimer: ReturnType<typeof setTimeout> | null = null
+
 onMounted(() => {
   const stop = watch(typerContainer, (el) => {
     if (!el) return
@@ -95,30 +91,34 @@ onMounted(() => {
       if (!isDeleting && charIndex < currentRole.length) {
         currentText += currentRole[charIndex]
         charIndex++
-        setTimeout(type, 70)
+        typingTimer = setTimeout(type, 70)
       } else if (isDeleting && charIndex > 0) {
         currentText = currentText.slice(0, -1)
         charIndex--
-        setTimeout(type, 40)
+        typingTimer = setTimeout(type, 40)
       } else if (!isDeleting) {
         isDeleting = true
-        setTimeout(type, 2000)
+        typingTimer = setTimeout(type, 2000)
       } else {
         isDeleting = false
         currentRoleIndex = (currentRoleIndex + 1) % roles.value.length
         charIndex = 0
-        setTimeout(type, 70)
+        typingTimer = setTimeout(type, 70)
       }
 
       el.textContent = currentText
     }
 
-    setTimeout(() => type(), 70)
+    typingTimer = setTimeout(() => type(), 70)
 
-    setTimeout(() => {
+    typingTimer = setTimeout(() => {
       roles.value = [...roles.value, ' a jsem vegetarián']
     }, 1000 * 60 * 5)
   }, { immediate: true })
+})
+
+onBeforeUnmount(() => {
+  if (typingTimer) clearTimeout(typingTimer)
 })
 
 useHead({
@@ -156,12 +156,6 @@ header table {
     &:hover {
       text-decoration: underline;
     }
-  }
-
-  .nav-disabled {
-    color: #999 !important;
-    cursor: default;
-    text-decoration: none;
   }
 }
 

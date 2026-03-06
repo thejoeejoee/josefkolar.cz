@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
 
   app: {
     head: {
@@ -54,19 +53,7 @@ export default defineNuxtConfig({
     '@/assets/main.scss'
   ],
 
-  modules: [
-    '@nuxt/content',
-  ],
-
-  content: {
-    build: {
-      markdown: {
-        highlight: {
-          theme: 'github-dark'
-        }
-      }
-    }
-  },
+  modules: [],
 
   runtimeConfig: {
     public: {
@@ -80,9 +67,6 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'static',
-    prerender: {
-      failOnError: false,
-    }
+    preset: 'static'
   }
 })

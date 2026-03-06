@@ -10,16 +10,13 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "assets:resize": "mogrify -resize 960x assets/blog/* && mogrify -resize 1080x assets/photos/*"
+    "assets:resize": "mogrify -resize 1080x assets/photos/*"
   },
   "dependencies": {
-    "@nuxt/content": "^3.11.2",
     "@vueuse/core": "^14.2.0",
-    "better-sqlite3": "^12.6.2",
     "latex.css": "^1.1.0",
     "lodash-es": "^4.17.23",
     "nuxt": "^4.3.1",
-
     "sass": "^1.97.3"
   },
   "devDependencies": {
