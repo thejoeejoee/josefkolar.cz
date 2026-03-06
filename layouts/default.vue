@@ -3,7 +3,7 @@
     <header>
       <h1>
         Jsem Joe<ClientOnly>
-          <span ref="typerContainer"></span>
+          <span ref="typerContainer"></span><span class="typer-cursor">|</span>
         </ClientOnly>
       </h1>
 
@@ -60,10 +60,13 @@ const roles = ref([
   ', vývojář',
   ', mám narozeniny',
   ' a fotím',
+  ', přispívám do open source',
+  ', stavím infrastrukturu',
   ' a píšu',
   ', dobrovolník',
   ', ESNer',
   ', nadšenec',
+  ', běhám mezi lampiony',
   ' a jsem ENTP-A',
   ' a su z Hané'
 ])
@@ -77,44 +80,45 @@ const formatDateTime = (timestamp: string) => {
 }
 
 onMounted(() => {
-  if (!typerContainer.value) return
+  const stop = watch(typerContainer, (el) => {
+    if (!el) return
+    stop()
 
-  let currentRoleIndex = 0
-  let currentText = ''
-  let isDeleting = false
-  let charIndex = 0
+    let currentRoleIndex = 0
+    let currentText = ''
+    let isDeleting = false
+    let charIndex = 0
 
-  const type = () => {
-    const currentRole = roles.value[currentRoleIndex] + '.'
-    
-    if (!isDeleting && charIndex < currentRole.length) {
-      currentText += currentRole[charIndex]
-      charIndex++
-      setTimeout(type, 70)
-    } else if (isDeleting && charIndex > 0) {
-      currentText = currentText.slice(0, -1)
-      charIndex--
-      const delay = currentRole.includes(' ') ? 40 : 70
-      setTimeout(type, delay)
-    } else if (!isDeleting) {
-      isDeleting = true
-      setTimeout(type, 2000)
-    } else {
-      isDeleting = false
-      currentRoleIndex = (currentRoleIndex + 1) % roles.value.length
-      setTimeout(type, 70)
+    const type = () => {
+      const currentRole = roles.value[currentRoleIndex] + '.'
+
+      if (!isDeleting && charIndex < currentRole.length) {
+        currentText += currentRole[charIndex]
+        charIndex++
+        setTimeout(type, 70)
+      } else if (isDeleting && charIndex > 0) {
+        currentText = currentText.slice(0, -1)
+        charIndex--
+        setTimeout(type, 40)
+      } else if (!isDeleting) {
+        isDeleting = true
+        setTimeout(type, 2000)
+      } else {
+        isDeleting = false
+        currentRoleIndex = (currentRoleIndex + 1) % roles.value.length
+        charIndex = 0
+        setTimeout(type, 70)
+      }
+
+      el.textContent = currentText
     }
 
-    if (typerContainer.value) {
-      typerContainer.value.textContent = currentText
-    }
-  }
+    setTimeout(() => type(), 70)
 
-  setTimeout(() => type(), 70)
-
-  setTimeout(() => {
-    roles.value = [...roles.value, ' a jsem vegetarián']
-  }, 1000 * 60 * 5)
+    setTimeout(() => {
+      roles.value = [...roles.value, ' a jsem vegetarián']
+    }, 1000 * 60 * 5)
+  }, { immediate: true })
 })
 
 useHead({
@@ -159,5 +163,16 @@ header table {
     cursor: default;
     text-decoration: none;
   }
+}
+
+.typer-cursor {
+  display: inline;
+  animation: blink 1s step-end infinite;
+  color: #4a148c;
+  font-weight: normal;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
 }
 </style>
