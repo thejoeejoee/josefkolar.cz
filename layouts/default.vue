@@ -74,6 +74,7 @@ const formatDateTime = (timestamp: string) => {
 }
 
 let typingTimer: ReturnType<typeof setTimeout> | null = null
+let rolesUpdateTimer: ReturnType<typeof setTimeout> | null = null
 
 onMounted(() => {
   const stop = watch(typerContainer, (el) => {
@@ -111,7 +112,7 @@ onMounted(() => {
 
     typingTimer = setTimeout(() => type(), 70)
 
-    typingTimer = setTimeout(() => {
+    rolesUpdateTimer = setTimeout(() => {
       roles.value = [...roles.value, ' a jsem vegetarián']
     }, 1000 * 60 * 5)
   }, { immediate: true })
@@ -119,6 +120,7 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   if (typingTimer) clearTimeout(typingTimer)
+  if (rolesUpdateTimer) clearTimeout(rolesUpdateTimer)
 })
 
 useHead({
