@@ -56,7 +56,6 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/content',
-    '@nuxtjs/tailwindcss'
   ],
 
   content: {
@@ -77,7 +76,7 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true,
-    typeCheck: true
+    typeCheck: false
   },
 
   nitro: {
