@@ -41,7 +41,7 @@ const isVisible = useElementVisibility(target)
 const animOffset = ref(1000)
 
 const color = sample([
-  '#4a148c', '#8D0981', '#637B00', '#807600', '#19c476', '#eb4300'
+  '#4a148c', '#8D0981', '#00897B', '#FF8F00', '#19c476', '#eb4300'
 ])
 
 watch(isVisible, (visible) => {

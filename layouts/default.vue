@@ -150,6 +150,7 @@ header table {
   a {
     text-decoration: none;
     color: black !important;
+    transition: color 0.2s ease;
 
     &.router-link-exact-active, &:hover {
       color: #a00 !important;
@@ -170,5 +171,20 @@ header table {
 
 @keyframes blink {
   50% { opacity: 0; }
+}
+
+// #7 — Footer refinement
+footer {
+  margin-top: 3rem;
+
+  .footnotes {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 1rem;
+
+    p {
+      color: #666;
+      font-size: 0.85em;
+    }
+  }
 }
 </style>

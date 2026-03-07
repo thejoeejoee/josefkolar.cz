@@ -1,3 +1,19 @@
+// #8 — Smooth scroll
+html {
+  scroll-behavior: smooth;
+}
+
+// #9 — Selection color (purple accent)
+::selection {
+  background-color: rgba(74, 20, 140, 0.15);
+  color: inherit;
+}
+
+// #5 — Global link hover transitions
+a {
+  transition: color 0.2s ease;
+}
+
 article {
   min-width: 40ch;
 }
@@ -53,4 +69,31 @@ small, .small {
 
 .center {
   text-align: center;
+}
+
+// #1 — Scroll-triggered fade-up animation
+.fade-up-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// #6 — Section dividers (typographic dinkus)
+.dinkus {
+  text-align: center;
+  margin: 2rem 0;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 1.2em;
+  letter-spacing: 0.5em;
+  border: none;
+  overflow: visible;
+
+  &::before {
+    content: '* * *';
+  }
 }

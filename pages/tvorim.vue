@@ -1,16 +1,23 @@
 <template>
-  <div class="Photos__container Photos">
+  <div>
+    <h2 class="Photos__title">
+      <Highlight>Fotím.</Highlight>
+    </h2>
     <div
-      v-for="(photo, index) in items"
-      :key="index"
-      class="Photos__photo"
+      class="Photos__container Photos"
     >
-      <img v-if="typeof photo === 'object'" :src="photo.src" :alt="`foto ${index + 1}`">
-      <iframe
-        v-else
-        :src="photo + '?modestbranding=1&autohide=1&showinfo=0&controls=0'" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-      ></iframe>
+      <div
+        v-for="(photo, index) in items"
+        :key="index"
+        class="Photos__photo"
+      >
+        <img v-if="typeof photo === 'object'" :src="photo.src" :alt="`foto ${index + 1}`">
+        <iframe
+          v-else
+          :src="photo + '?modestbranding=1&autohide=1&showinfo=0&controls=0'" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </div>
 </template>
@@ -84,6 +91,12 @@ useHead({
   margin-top: .5rem;
   margin-bottom: .5rem;
 
+  // #10 — Photo page title
+  &__title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
   &__container {
     margin-top: 1rem;
   }
@@ -91,12 +104,14 @@ useHead({
   &__photo {
     transition: all 400ms ease;
     overflow: hidden;
+    border-radius: 4px;
 
     transform: scale(1);
 
     &:hover {
       z-index: 100;
       transform: scale(1);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 
       img {
         transform: scale(1.05);
@@ -111,11 +126,13 @@ useHead({
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 4px;
   }
 
   iframe {
     width: 100%;
     aspect-ratio: 16/9;
+    border-radius: 4px;
   }
 }
 
