@@ -1,3 +1,14 @@
+// Color palette — derived from the purple accent
+:root {
+  --c-accent: #4a148c;
+  --c-accent-light: rgba(74, 20, 140, 0.12);
+  --c-accent-subtle: rgba(74, 20, 140, 0.06);
+  --c-text: #1a1a1a;
+  --c-text-muted: #555;
+  --c-border: rgba(0, 0, 0, 0.1);
+  --c-bg: #fffff8;
+}
+
 // #8 — Smooth scroll
 html {
   scroll-behavior: smooth;
@@ -5,17 +16,45 @@ html {
 
 // #9 — Selection color (purple accent)
 ::selection {
-  background-color: rgba(74, 20, 140, 0.15);
+  background-color: var(--c-accent-light);
   color: inherit;
 }
 
 // #5 — Global link hover transitions
 a {
   transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--c-accent);
+  }
+}
+
+// External link indicator — subtle arrow for outbound links
+// Excludes nav, contact list, and footer
+article a[href^="http"] {
+  &::after {
+    content: '\2197'; // ↗
+    display: inline-block;
+    font-size: 0.65em;
+    margin-left: 0.15em;
+    opacity: 0.4;
+    vertical-align: super;
+    transition: opacity 0.2s ease;
+  }
+
+  &:hover::after {
+    opacity: 0.7;
+  }
+}
+
+// Suppress arrow on contact list links (too cluttered)
+.big a[href^="http"]::after,
+.contact-section a[href^="http"]::after {
+  display: none;
 }
 
 article {
-  min-width: 40ch;
+  min-width: 0;
 }
 
 @media (max-width: 960px) {
@@ -30,18 +69,29 @@ article {
   }
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
 article, body {
   max-width: 60vw;
-  @media (max-width: 960px) {
-    max-width: 90vw;
+
+  @media (max-width: 1920px) {
+    max-width: 70vw;
   }
 
   @media (max-width: 1440px) {
     max-width: 80vw;
   }
 
-  @media (max-width: 1920px) {
-    max-width: 70vw;
+  @media (max-width: 960px) {
+    max-width: 90vw;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 95vw;
   }
 }
 
@@ -61,6 +111,14 @@ small, .small {
 
 .right {
   float: right;
+
+  @media (max-width: 720px) {
+    float: none;
+    display: block;
+    font-size: 0.85em;
+    color: var(--c-text-muted);
+    margin-top: 0.15em;
+  }
 }
 
 .hidden {
@@ -71,11 +129,19 @@ small, .small {
   text-align: center;
 }
 
+// Abbreviation styling
+abbr[title] {
+  text-decoration-color: var(--c-accent);
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+  cursor: help;
+}
+
 // #1 — Scroll-triggered fade-up animation
 .fade-up-section {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 
   &.is-visible {
     opacity: 1;
@@ -86,8 +152,9 @@ small, .small {
 // #6 — Section dividers (typographic dinkus)
 .dinkus {
   text-align: center;
-  margin: 2rem 0;
-  color: rgba(0, 0, 0, 0.25);
+  margin: 2.5rem 0;
+  color: var(--c-accent);
+  opacity: 0.3;
   font-size: 1.2em;
   letter-spacing: 0.5em;
   border: none;

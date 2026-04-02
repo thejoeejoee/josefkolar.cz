@@ -1,18 +1,19 @@
 <template>
   <article>
-    <div ref="section0" class="fade-up-section abstract strong" :class="{ 'is-visible': visible0 }">
-      Ahoj! Jsem Joe a&nbsp;jsem z&nbsp;Generace Z. <br>
-      Počítače, internety, aplikace, online prostor, to je můj svět.
+    <div ref="section0" class="hero fade-up-section" :class="{ 'is-visible': visible0 }">
+      <div class="hero__text abstract strong">
+        Ahoj! Jsem Joe a&nbsp;jsem z&nbsp;Generace Z. <br>
+        Počítače, internety, aplikace, online prostor, to je můj svět.
+      </div>
+      <figure ref="section1" class="hero__photo" :class="{ 'is-visible': visible1 }">
+        <img src="~/assets/jk.jpg" alt="má maličkost">
+      </figure>
     </div>
 
-    <figure ref="section1" class="fade-up-section" :class="{ 'is-visible': visible1 }">
-      <img src="~/assets/jk.jpg" alt="má maličkost">
-    </figure>
-
-    <div ref="section2" class="fade-up-section" :class="{ 'is-visible': visible2 }">
+    <div ref="section2" class="fade-up-section section--major" :class="{ 'is-visible': visible2 }">
       <h2>Co umím?</h2>
 
-      <ul>
+      <ul class="skills-grid">
         <li>
           <strong>Golang</strong> – služby nad CDN, Kubernetes operátory, contributions
           do open-source (ArgoCD, Kueue, Watermill).
@@ -58,13 +59,14 @@
 
     <div class="dinkus"></div>
 
-    <div ref="section3" class="fade-up-section" :class="{ 'is-visible': visible3 }">
+    <div ref="section3" class="fade-up-section section--major" :class="{ 'is-visible': visible3 }">
       <h2>Co je za mnou?</h2>
 
-      <h3>
-        Seznam.cz
-        <small class="right">Senior Developer, od května 2023</small>
-      </h3>
+      <div class="timeline-entry">
+        <h3>
+          Seznam.cz
+          <small class="right">Senior Developer, od května 2023</small>
+        </h3>
 
       <p>
         V CDN týmu české internetové jedničky řeším služby pro zpracování médií –
@@ -76,41 +78,49 @@
       <p>
         Předtím (od září 2022) jsem na pozici Python Developera nastartoval v témže týmu.
       </p>
+      </div>
 
-      <h3>
-        Open Source
-      </h3>
+      <div class="timeline-entry">
+        <h3>
+          Open Source
+        </h3>
       <p>
         Aktivně přispívám do upstream projektů:
       </p>
-      <ul>
+      <ul class="oss-list">
         <li>
-          <a href="https://github.com/argoproj/argo-cd"><strong>ArgoCD</strong></a> – deklarativní
-          continuous delivery pro Kubernetes (22k+ stars)
+          <a href="https://github.com/argoproj/argo-cd"><strong>ArgoCD</strong></a>
+          <small class="oss-stars">22k+ ★</small>
+          <span class="oss-desc">deklarativní continuous delivery pro Kubernetes</span>
         </li>
         <li>
-          <a href="https://github.com/kubernetes-sigs/kueue"><strong>Kubernetes Kueue</strong></a> –
-          Kubernetes-nativní job queueing (2.4k+ stars)
+          <a href="https://github.com/kubernetes-sigs/kueue"><strong>Kubernetes Kueue</strong></a>
+          <small class="oss-stars">2.4k+ ★</small>
+          <span class="oss-desc">Kubernetes-nativní job queueing</span>
         </li>
         <li>
-          <a href="https://github.com/ThreeDotsLabs/watermill"><strong>Watermill</strong></a> –
-          event-driven aplikace v Go (9.6k+ stars)
+          <a href="https://github.com/ThreeDotsLabs/watermill"><strong>Watermill</strong></a>
+          <small class="oss-stars">9.6k+ ★</small>
+          <span class="oss-desc">event-driven aplikace v Go</span>
         </li>
         <li>
-          <a href="https://github.com/spegel-org/spegel"><strong>Spegel</strong></a> –
-          stateless cluster-local OCI registry mirror (3.5k+ stars)
+          <a href="https://github.com/spegel-org/spegel"><strong>Spegel</strong></a>
+          <small class="oss-stars">3.5k+ ★</small>
+          <span class="oss-desc">stateless cluster-local OCI registry mirror</span>
         </li>
         <li>
           a další – <Highlight>NATS, OpenTelemetry</Highlight>, Knative Serving
         </li>
       </ul>
+      </div>
     </div>
 
     <div ref="section4" class="fade-up-section" :class="{ 'is-visible': visible4 }">
-      <h3>
-        OLC Systems
-        <small class="right">Fullstack Developer, 2014 – 2019</small>
-      </h3>
+      <div class="timeline-entry">
+        <h3>
+          OLC Systems
+          <small class="right">Fullstack Developer, 2014 – 2019</small>
+        </h3>
       <p>
         Dlouhodobá spolupráce s <a href="https://www.olc.cz/">olomouckou firmou</a>
         na informačních systémech – sportovní, matriční, výrobní.
@@ -119,6 +129,7 @@
         <Highlight>integrace moderních JS nástrojů</Highlight>
         – Webpack a Vue.js.
       </p>
+      </div>
 
       <h3>Co dělám?</h3>
       <ul>
@@ -130,7 +141,7 @@
             Autoškoly, cestovní agentury, zakázková výroba. Vždy na míru, s administrací i servisem.
           </p>
         </li>
-        <li>
+        <li class="project--featured">
           <h4>Český orienťák – livestream grafika <small class="right">2023-&mldr;</small></h4>
           <p>
             Pro České sdružení orientačních sportů vyvíjím
@@ -176,7 +187,7 @@
             – sociální sítě pro párování zahraničních studentů s buddies.
           </p>
         </li>
-        <li>
+        <li class="project--featured">
           <h4>Covid bez bariér <small class="right">duben 2021</small></h4>
 
           <p>
@@ -186,7 +197,7 @@
             <a href="https://www.vutbr.cz/vut/aktuality-f19528/nova-aplikace-studentu-fit-pomaha-najit-bezbarierova-mista-pro-ockovani-a-testovani-d212739">Pochlubilo se i VUT.</a>
           </p>
         </li>
-        <li>
+        <li class="project--featured">
           <h4>Litovel MINICUP <small class="right">2013-2019</small></h4>
           <p>
             Informační systém pro turnaj v miniházené – od stránek s výsledky přes
@@ -258,7 +269,7 @@
 
     <div class="dinkus"></div>
 
-    <div ref="section6" class="fade-up-section" :class="{ 'is-visible': visible6 }">
+    <div ref="section6" class="fade-up-section section--major" :class="{ 'is-visible': visible6 }">
       <h2>Co dělám ve volném čase?</h2>
       <p>
         Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro mládež –
@@ -287,7 +298,7 @@
 
     <div class="dinkus"></div>
 
-    <div ref="section7" class="fade-up-section" :class="{ 'is-visible': visible7 }">
+    <div ref="section7" class="fade-up-section contact-section" :class="{ 'is-visible': visible7 }">
       <h2>Kde mě najdete?</h2>
 
       <ul class="big">
@@ -354,5 +365,154 @@ useHead({
 <style lang="scss" scoped>
 article {
   max-width: 80ch;
+}
+
+// Hero — intro text + photo side by side on wide screens
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+
+  &__text {
+    flex: 1;
+    font-size: 1.35em;
+    line-height: 1.6;
+    border-left: 3px solid var(--c-accent);
+    padding-left: 1.25rem;
+  }
+
+  &__photo {
+    flex: 0 0 auto;
+    max-width: 220px;
+    margin: 0;
+    // Stagger: photo fades in 250ms after the hero container
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.5s ease-out 0.25s, transform 0.5s ease-out 0.25s;
+
+    img {
+      border-radius: 4px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &.is-visible &__photo {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    gap: 1.5rem;
+
+    &__text {
+      font-size: 1.15em;
+    }
+
+    &__photo {
+      max-width: 180px;
+    }
+  }
+}
+
+// Major sections — more breathing room for h2 sections
+.section--major {
+  margin-top: 1rem;
+}
+
+// Skills — two-column grid on wider screens
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 2rem;
+  padding-left: 1.25rem;
+
+  li {
+    break-inside: avoid;
+  }
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
+
+// Timeline entries — subtle left border accent
+.timeline-entry {
+  border-left: 2px solid var(--c-accent);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+
+  h3 {
+    margin-bottom: 0.25rem;
+  }
+
+  p, ul {
+    margin-top: 0.25rem;
+  }
+}
+
+// Open source contributions — distinct layout with star badges
+.oss-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.6rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--c-border);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.oss-stars {
+  display: inline-block;
+  font-size: 0.75em;
+  color: var(--c-accent);
+  background: var(--c-accent-subtle);
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.oss-desc {
+  color: var(--c-text-muted);
+  font-size: 0.9em;
+}
+
+// Contact section — subtle background highlight
+.contact-section {
+  background-color: var(--c-accent-subtle);
+  padding: 1.5rem 2rem;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+
+  @media (max-width: 720px) {
+    padding: 1rem 1.25rem;
+  }
+}
+
+// Featured projects — subtle card treatment
+.project--featured {
+  border-left: 2px solid var(--c-accent);
+  padding-left: 1rem;
+  margin-left: -1rem;
+  background: linear-gradient(90deg, var(--c-accent-subtle) 0%, transparent 70%);
+  border-radius: 0 3px 3px 0;
+
+  @media (max-width: 720px) {
+    margin-left: 0;
+    padding-left: 0.75rem;
+  }
 }
 </style>

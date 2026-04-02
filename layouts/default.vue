@@ -7,32 +7,27 @@
         </ClientOnly>
       </h1>
 
-      <p class="author">
-        Josef Kolář |
-        {{ formatDate(compileTimestamp) }}
-      </p>
+      <p class="author"><span>Josef Kolář</span></p>
 
-      <table>
-        <thead>
-          <tr>
-            <th>
-              <NuxtLink to="/">
-                existuju
-              </NuxtLink>
-            </th>
-            <th>
-              <NuxtLink to="/tvorim">
-                tvořím
-              </NuxtLink>
-            </th>
-          </tr>
-        </thead>
-      </table>
+      <nav class="site-nav">
+        <NuxtLink to="/">existuju</NuxtLink>
+        <span class="site-nav__sep">·</span>
+        <a href="https://blog.josefkolar.cz/">blog</a>
+      </nav>
     </header>
     <div>
       <slot />
     </div>
     <footer>
+      <nav class="footer-links">
+        <a href="https://github.com/thejoeejoee">GitHub</a>
+        <span class="footer-links__sep">·</span>
+        <a href="https://www.linkedin.com/in/josef-kolar/">LinkedIn</a>
+        <span class="footer-links__sep">·</span>
+        <a href="https://t.me/thejoeejoee">Telegram</a>
+        <span class="footer-links__sep">·</span>
+        <a href="#" class="footer-links__top" @click.prevent="scrollToTop">↑ nahoru</a>
+      </nav>
       <div class="footnotes">
         <p>
           Sestaveno z&nbsp;repozitáře <a href="https://github.com/thejoeejoee/josefkolar.cz">thejoeejoee/jk.cz</a>
@@ -65,12 +60,12 @@ const roles = ref([
   ' a su z Hané'
 ])
 
-const formatDate = (timestamp: string) => {
-  return new Date(timestamp).toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long' })
-}
-
 const formatDateTime = (timestamp: string) => {
   return new Date(timestamp).toLocaleString('cs-CZ').replace(/ /g, '\u00A0')
+}
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
 let typingTimer: ReturnType<typeof setTimeout> | null = null
@@ -143,9 +138,36 @@ header, footer {
   max-width: 100%;
 }
 
-header table {
-  margin: 0 auto;
+// Header
+header {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.author {
+  text-align: center;
+  margin: 0.15rem 0 0;
+  font-size: 0.9em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+  font-weight: normal;
+
+  span {
+    font-weight: 400;
+  }
+}
+
+// Nav styling
+.site-nav {
+  text-align: center;
   font-size: 1.25em;
+  margin-top: 0.25rem;
+
+  @media (max-width: 480px) {
+    font-size: 1.1em;
+  }
 
   a {
     text-decoration: none;
@@ -153,19 +175,24 @@ header table {
     transition: color 0.2s ease;
 
     &.router-link-exact-active, &:hover {
-      color: #a00 !important;
+      color: var(--c-accent) !important;
     }
 
     &:hover {
       text-decoration: underline;
     }
   }
+
+  &__sep {
+    margin: 0 0.5em;
+    color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .typer-cursor {
   display: inline;
   animation: blink 1s step-end infinite;
-  color: #4a148c;
+  color: var(--c-accent);
   font-weight: normal;
 }
 
@@ -178,13 +205,40 @@ footer {
   margin-top: 3rem;
 
   .footnotes {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid var(--c-border);
     padding-top: 1rem;
 
     p {
-      color: #666;
+      color: var(--c-text-muted);
       font-size: 0.85em;
     }
+  }
+}
+
+// Footer social links row
+.footer-links {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.95em;
+
+  a {
+    text-decoration: none;
+    color: var(--c-text-muted) !important;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--c-accent) !important;
+      text-decoration: underline;
+    }
+  }
+
+  &__sep {
+    margin: 0 0.5em;
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  &__top {
+    font-size: 0.9em;
   }
 }
 </style>

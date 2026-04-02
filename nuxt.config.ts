@@ -17,7 +17,8 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://josefkolar.cz/' },
         { property: 'og:title', content: 'Josef Kolář' },
         { property: 'og:description', content: 'Senior Developer @ Seznam.cz, Golang & Kubernetes, open-source contributor' },
-        { name: 'twitter:card', content: 'summary_large_image' }
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'theme-color', content: '#4a148c' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
