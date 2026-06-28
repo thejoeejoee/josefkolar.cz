@@ -18,6 +18,10 @@
           do open-source (ArgoCD, Kueue, Watermill).
         </li>
         <li>
+          <strong>media &amp; streaming</strong> – VOD/LIVE transcoding (SW i HW), adaptivní streaming (HLS/DASH),
+          <Highlight>DRM, media kontejnery a kodeky</Highlight>, ffmpeg, RTMP, SRT.
+        </li>
+        <li>
           <strong>Kubernetes</strong> – návrh a provoz clusterů, Helm, Kustomize, Jsonnet/Tanka,
           <Highlight>ArgoCD GitOps</Highlight>, custom Kubernetes operátory,
           VPA/HPA tuning, DRA pro HW transcoding akcelerátory.
@@ -31,10 +35,6 @@
           Grafana, CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
         </li>
         <li>
-          <strong>media &amp; streaming</strong> – VOD/LIVE transcoding (SW i HW), adaptivní streaming (HLS/DASH),
-          <Highlight>DRM, media kontejnery a kodeky</Highlight>, ffmpeg, RTMP, SRT.
-        </li>
-        <li>
           <strong>Linux</strong> – uživatelsky i administrátorsky. Ubuntu, Debian, CentOS.
         </li>
         <li>
@@ -45,8 +45,12 @@
           ale i MariaDB/MySQL; nerelačně Mongo a Redis.
         </li>
         <li>
-          <strong>C/C++, Rust</strong> – ne primární jazyky, ale vyznám se. Rust mě fascinuje
-          bezpečností a výkonem, používám ho i při řešení <abbr title="Advent of Code">AoC</abbr>.
+          <strong>AI &amp; coding agents</strong> – <a href="https://github.com/nicepkg/opencode">OpenCode</a>,
+          <Highlight>sandboxing a izolace</Highlight> agentů,
+          integrace LLM do vývojářských workflow.
+        </li>
+        <li>
+          <strong>C/C++, Rust</strong> – ne primární jazyky, ale vyznám se.
         </li>
         <li>
           <em>a dál?</em> – <span class="latex">L<span>a</span>T<span>e</span>X</span>,
@@ -72,6 +76,13 @@
         Streamovaná úložiště, softwarový i
         <Highlight>hardwarový encoding</Highlight>, hot-swapping vstupních zdrojů,
         to vše ve vlastních k8s clusterech nad OpenStackem.
+      </p>
+      <p>
+        Vedu vývoj open-source projektu
+        <a href="https://github.com/seznam/jailoc">jailoc</a> –
+        sandboxovaná Docker prostředí s&nbsp;síťovou izolací pro bezpečný běh
+        <Highlight>AI agentů</Highlight>.
+        Go, embedded Compose SDK, iptables firewall, zero-config spuštění.
       </p>
       <p>
         Předtím (od září 2022) jsem na pozici Python Developera nastartoval v témže týmu.
@@ -208,15 +219,7 @@
             Vizuální stránku grafiky realizoval S. H. Nguyen v QML.
           </p>
         </li>
-        <li>
-          <h4>IFJ2017-toolkit</h4>
-          <p>
-            <a href="https://github.com/thejoeejoee/VUT-FIT-IFJ-2017-toolkit">Sada nástrojů</a>
-            pro vývoj kompilátorů na FIT VUT –
-            <Highlight>IDE s&nbsp;debuggerem</Highlight>, 800+ integračních testů
-            a plugin pro zvýrazňování syntaxe. Díky nim jsme zvítězili v optimalizační soutěži.
-          </p>
-        </li>
+
       </ul>
     </div>
 
@@ -261,12 +264,9 @@
     <div ref="section6" class="fade-up-section" :class="{ 'is-visible': visible6 }">
       <h2>Co dělám ve volném čase?</h2>
       <p>
-        Pořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro mládež –
-        malé kapacitou, velké zážitkem. Výběr tábořiště, organizace, komunikace s rodiči,
-        spoluautorství příběhu a her –
-        <Highlight>to mě baví a naplňuje</Highlight>
-        už pět let. Pokračuji ve více jak dvacetileté tradici táborů, na které
-        jsem sám jezdil.
+        Běhám – po silnici i po lese s <Highlight>buzolou a mapou</Highlight>.
+        Orientační běh mě baví kombinací fyzické zátěže a rozhodování v terénu.
+        Závodím rekreačně a trénuji pravidelně.
       </p>
 
       <p>
@@ -277,11 +277,14 @@
       </p>
 
       <p>
-        Seriály a filmy (hlavně
-        <a href="https://www.csfd.cz/uzivatel/726493-thejoeejoee/hodnoceni/">drama a scifi</a>),
-        <a href="https://open.spotify.com/user/11147151576?si=f-6UCuBoSaCyYsT51-mteg">rock všech typů</a> na Spotify,
-        kryptoměny, běhání a občas i
-        <abbr title="orientační běh">lampiony</abbr>.
+        Spolupořádám <a href="https://rytirskytabor.cz/">rytířské tábory</a> pro mládež –
+        pokračuji ve více jak dvacetileté tradici táborů, na které jsem sám jezdil.
+      </p>
+
+      <p>
+        Seriály a filmy (hlavně drama a scifi),
+        rock všech typů na Spotify,
+        kryptoměny.
       </p>
     </div>
 
