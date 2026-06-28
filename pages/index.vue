@@ -134,14 +134,6 @@
       <h3>Co dělám?</h3>
       <ul>
         <li>
-          <h4>Prezentační weby</h4>
-          <p>
-            Řada prezentačních webů pro klienty – od návrhu přes grafický design po realizaci
-            a <Highlight>správu obsahu</Highlight>.
-            Autoškoly, cestovní agentury, zakázková výroba. Vždy na míru, s administrací i servisem.
-          </p>
-        </li>
-        <li>
           <h4>Český orienťák – livestream grafika <small class="right">2023-&mldr;</small></h4>
           <p>
             Pro České sdružení orientačních sportů vyvíjím

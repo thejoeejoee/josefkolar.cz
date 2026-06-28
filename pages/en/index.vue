@@ -134,14 +134,6 @@
       <h3>Projects</h3>
       <ul>
         <li>
-          <h4>Presentation websites</h4>
-          <p>
-            Multiple presentation websites for clients &ndash; from concept through graphic design to implementation
-            and <Highlight>content management</Highlight>.
-            Driving schools, travel agencies, custom manufacturing. Always bespoke, with CMS and support.
-          </p>
-        </li>
-        <li>
           <h4>Czech orienteering &ndash; livestream graphics <small class="right">2023&ndash;&mldr;</small></h4>
           <p>
             For the Czech Orienteering Association I develop a
