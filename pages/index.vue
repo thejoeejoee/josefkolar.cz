@@ -136,7 +136,7 @@
         <li>
           <h4>Český orienťák – livestream grafika <small class="right">2023-&mldr;</small></h4>
           <p>
-            Pro České sdružení orientačních sportů vyvíjím
+            Pro Český orienťák vyvíjím
             <a href="https://github.com/thejoeejoee/co-stream-gfx">webovou aplikaci pro livestream grafiku</a>
             – real-time výsledky, mapy tras a data pro televizní přenosy.
             Běží na ostrých přenosech ČO.
