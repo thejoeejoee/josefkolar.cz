@@ -51,9 +51,8 @@
           co zrovna přijde. Kladivo, ducktape i WD40 zároveň.
         </li>
         <li>
-          <strong>observability</strong> – <Highlight>OpenTelemetry</Highlight> pro metriky,
-          trasování i logy; Prometheus a Grafana rodina – Mimir na dlouhodobé metriky,
-          Tempo na tracing. Dashboardy, alerting a instrumentace služeb.
+          <strong>observability</strong> – <Highlight>OpenTelemetry</Highlight> stack,
+          Prometheus, Grafana, Mimir, Tempo.
         </li>
         <li>
           <strong>infrastructure</strong> – OpenStack, NATS, Kafka,

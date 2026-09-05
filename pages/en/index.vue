@@ -51,9 +51,8 @@
           whatever's needed. Hammer, duct tape &amp; WD-40 all in one.
         </li>
         <li>
-          <strong>observability</strong> &ndash; <Highlight>OpenTelemetry</Highlight> for metrics,
-          traces and logs; Prometheus and the Grafana family &ndash; Mimir for long-term metrics,
-          Tempo for tracing. Dashboards, alerting and instrumenting services.
+          <strong>observability</strong> &ndash; <Highlight>OpenTelemetry</Highlight> stack,
+          Prometheus, Grafana, Mimir, Tempo.
         </li>
         <li>
           <strong>infrastructure</strong> &ndash; OpenStack, NATS, Kafka,
