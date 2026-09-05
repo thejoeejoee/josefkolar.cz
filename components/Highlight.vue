@@ -1,18 +1,10 @@
 <template>
-  <ClientOnly>
-    <span ref="target" :style="{ position: 'relative', display: 'inline-block' }">
-      <slot />
-      <svg
-        v-if="isVisible"
-        :style="{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          pointerEvents: 'none'
-        }"
-      >
+  <span ref="target" class="highlight">
+    <slot />
+    <!-- Only the decoration is client-side; the text itself must be server-rendered
+         so it exists for crawlers and readers without JavaScript. -->
+    <ClientOnly>
+      <svg v-if="isVisible" class="highlight__box">
         <rect
           x="2"
           y="2"
@@ -28,8 +20,8 @@
           }"
         />
       </svg>
-    </span>
-  </ClientOnly>
+    </ClientOnly>
+  </span>
 </template>
 
 <script setup lang="ts">
@@ -52,3 +44,25 @@ watch(isVisible, (visible) => {
   }
 }, { once: true })
 </script>
+
+<style lang="scss" scoped>
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highlight__box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .highlight__box rect {
+    transition: none;
+  }
+}
+</style>

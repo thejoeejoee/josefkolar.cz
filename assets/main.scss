@@ -71,8 +71,10 @@ small, .small {
   text-align: center;
 }
 
-// #1 — Scroll-triggered fade-up animation
-.fade-up-section {
+// #1 — Scroll-triggered fade-up animation.
+// Gated behind `.js` so that without JavaScript (and before hydration) the
+// content stays readable instead of sitting at opacity 0 forever.
+.js .fade-up-section {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
@@ -80,6 +82,22 @@ small, .small {
   &.is-visible {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .js .fade-up-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .typer-cursor {
+    animation: none;
   }
 }
 
