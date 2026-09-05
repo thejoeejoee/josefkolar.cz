@@ -39,7 +39,8 @@
         </li>
         <li>
           <strong>media &amp; streaming</strong> – VOD/LIVE transcoding (SW i HW), adaptivní streaming (HLS/DASH),
-          <Highlight>DRM, media kontejnery a kodeky</Highlight>, ffmpeg, RTMP, SRT.
+          <Highlight>DRM, media kontejnery a kodeky</Highlight>, ffmpeg, MediaMTX,
+          RTMP, SRT a SRTLA, hardwarově akcelerovaný encoding na NETINT.
         </li>
         <li>
           <strong>Kubernetes</strong> – návrh a provoz clusterů, Helm, Kustomize, Jsonnet/Tanka,
@@ -150,6 +151,10 @@
           continuous delivery pro Kubernetes (22k+ stars)
         </li>
         <li>
+          <a href="https://github.com/bluenviron/mediamtx"><strong>MediaMTX</strong></a> –
+          live media server pro SRT, RTMP, WebRTC i RTSP (20k+ stars)
+        </li>
+        <li>
           <a href="https://github.com/kubernetes-sigs/kueue"><strong>Kubernetes Kueue</strong></a> –
           Kubernetes-nativní job queueing (2.4k+ stars)
         </li>
@@ -163,8 +168,9 @@
         </li>
         <li>
           a další – NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
-          <a href="https://github.com/grafana/tanka">Tanka</a> a
-          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
+          <a href="https://github.com/grafana/tanka">Tanka</a>,
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a> a
+          <a href="https://github.com/e04/go-irl">go-irl</a>
         </li>
       </ul>
     </FadeUp>
@@ -186,13 +192,19 @@
       <h3>Co dělám?</h3>
       <ul>
         <li>
-          <h4>Český orienťák – livestream grafika <small class="right">2023-&mldr;</small></h4>
+          <h4>Český orienťák – livestreamy <small class="right">2023-&mldr;</small></h4>
           <p>
             Pro Český orienťák vyvíjím
             <a href="https://github.com/thejoeejoee/co-stream-gfx">webovou aplikaci pro livestream grafiku</a>
             – real-time výsledky, mapy tras a data pro televizní přenosy.
             Běží na ostrých přenosech ČO.
             <Highlight>Nuxt.js s Tailwindem</Highlight>, Kubernetes.
+          </p>
+          <p>
+            K tomu i <a href="https://github.com/thejoeejoee/co-ansible">infrastruktura přenosů</a>
+            v Ansible – MediaMTX stream proxy s&nbsp;nativní
+            <Highlight>SRTLA</Highlight> pro bondované mobilní připojení,
+            Prometheus a Grafana.
           </p>
         </li>
         <li>

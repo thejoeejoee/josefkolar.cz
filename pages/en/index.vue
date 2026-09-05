@@ -39,7 +39,8 @@
         </li>
         <li>
           <strong>media &amp; streaming</strong> &ndash; VOD/LIVE transcoding (SW &amp; HW), adaptive streaming (HLS/DASH),
-          <Highlight>DRM, media containers &amp; codecs</Highlight>, ffmpeg, RTMP, SRT.
+          <Highlight>DRM, media containers &amp; codecs</Highlight>, ffmpeg, MediaMTX,
+          RTMP, SRT and SRTLA, hardware-accelerated encoding on NETINT.
         </li>
         <li>
           <strong>Kubernetes</strong> &ndash; cluster design &amp; operations, Helm, Kustomize, Jsonnet/Tanka,
@@ -150,6 +151,10 @@
           continuous delivery for Kubernetes (22k+ stars)
         </li>
         <li>
+          <a href="https://github.com/bluenviron/mediamtx"><strong>MediaMTX</strong></a> &ndash;
+          live media server for SRT, RTMP, WebRTC and RTSP (20k+ stars)
+        </li>
+        <li>
           <a href="https://github.com/kubernetes-sigs/kueue"><strong>Kubernetes Kueue</strong></a> &ndash;
           Kubernetes-native job queueing (2.4k+ stars)
         </li>
@@ -163,8 +168,9 @@
         </li>
         <li>
           and more &ndash; NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
-          <a href="https://github.com/grafana/tanka">Tanka</a> and
-          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
+          <a href="https://github.com/grafana/tanka">Tanka</a>,
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a> and
+          <a href="https://github.com/e04/go-irl">go-irl</a>
         </li>
       </ul>
     </FadeUp>
@@ -186,13 +192,19 @@
       <h3>Projects</h3>
       <ul>
         <li>
-          <h4>Czech orienteering &ndash; livestream graphics <small class="right">2023&ndash;&mldr;</small></h4>
+          <h4>Czech orienteering &ndash; livestreams <small class="right">2023&ndash;&mldr;</small></h4>
           <p>
             For the Czech Orienteering Association I develop a
             <a href="https://github.com/thejoeejoee/co-stream-gfx">web app for livestream graphics</a>
             &ndash; real-time results, course maps, and data for TV broadcasts.
             Runs on live Czech orienteering events.
             <Highlight>Nuxt.js with Tailwind</Highlight>, Kubernetes.
+          </p>
+          <p>
+            Plus the <a href="https://github.com/thejoeejoee/co-ansible">broadcast infrastructure</a>
+            in Ansible &ndash; a MediaMTX stream proxy with native
+            <Highlight>SRTLA</Highlight> for bonded mobile uplinks,
+            Prometheus and Grafana.
           </p>
         </li>
         <li>
