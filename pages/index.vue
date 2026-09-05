@@ -40,7 +40,7 @@
         <li>
           <strong>media &amp; streaming</strong> – VOD/LIVE transcoding (SW i HW), adaptivní streaming (HLS/DASH),
           <Highlight>DRM, media kontejnery a kodeky</Highlight>, ffmpeg, MediaMTX,
-          RTMP, SRT a SRTLA, hardwarově akcelerovaný encoding na NETINT.
+          RTMP, SRT a SRTLA.
         </li>
         <li>
           <strong>Kubernetes</strong> – návrh a provoz clusterů, Helm, Kustomize, Jsonnet/Tanka,
@@ -168,9 +168,8 @@
         </li>
         <li>
           a další – NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
-          <a href="https://github.com/grafana/tanka">Tanka</a>,
-          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a> a
-          <a href="https://github.com/e04/go-irl">go-irl</a>
+          <a href="https://github.com/grafana/tanka">Tanka</a> a
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
         </li>
       </ul>
     </FadeUp>

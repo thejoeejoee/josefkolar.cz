@@ -40,7 +40,7 @@
         <li>
           <strong>media &amp; streaming</strong> &ndash; VOD/LIVE transcoding (SW &amp; HW), adaptive streaming (HLS/DASH),
           <Highlight>DRM, media containers &amp; codecs</Highlight>, ffmpeg, MediaMTX,
-          RTMP, SRT and SRTLA, hardware-accelerated encoding on NETINT.
+          RTMP, SRT and SRTLA.
         </li>
         <li>
           <strong>Kubernetes</strong> &ndash; cluster design &amp; operations, Helm, Kustomize, Jsonnet/Tanka,
@@ -168,9 +168,8 @@
         </li>
         <li>
           and more &ndash; NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
-          <a href="https://github.com/grafana/tanka">Tanka</a>,
-          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a> and
-          <a href="https://github.com/e04/go-irl">go-irl</a>
+          <a href="https://github.com/grafana/tanka">Tanka</a> and
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
         </li>
       </ul>
     </FadeUp>
