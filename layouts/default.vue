@@ -130,10 +130,21 @@ onBeforeUnmount(() => {
   if (typingTimer) clearTimeout(typingTimer)
 })
 
+// CS and EN are near-duplicate content — pair them with canonical + hreflang so
+// search engines index both instead of picking one and suppressing the other.
+const siteUrl = config.public.siteUrl
+const canonical = computed(() => isEn.value ? `${siteUrl}/en` : `${siteUrl}/`)
+
 useHead({
+  link: [
+    { rel: 'canonical', href: canonical },
+    { rel: 'alternate', hreflang: 'cs', href: `${siteUrl}/` },
+    { rel: 'alternate', hreflang: 'en', href: `${siteUrl}/en` },
+    { rel: 'alternate', hreflang: 'x-default', href: `${siteUrl}/` }
+  ],
   meta: [
-    { property: 'og:image', content: '/jk.jpg' },
-    { name: 'twitter:image', content: '/jk.jpg' }
+    { property: 'og:url', content: canonical },
+    { property: 'og:locale', content: () => isEn.value ? 'en_US' : 'cs_CZ' }
   ]
 })
 </script>
