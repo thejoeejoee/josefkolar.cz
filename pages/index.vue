@@ -51,8 +51,13 @@
           co zrovna přijde. Kladivo, ducktape i WD40 zároveň.
         </li>
         <li>
-          <strong>infrastructure</strong> – OpenStack, NATS, Kafka, OpenTelemetry, Prometheus,
-          Grafana, CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
+          <strong>observability</strong> – <Highlight>OpenTelemetry</Highlight> pro metriky,
+          trasování i logy; Prometheus a Grafana rodina – Mimir na dlouhodobé metriky,
+          Tempo na tracing. Dashboardy, alerting a instrumentace služeb.
+        </li>
+        <li>
+          <strong>infrastructure</strong> – OpenStack, NATS, Kafka,
+          CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
         </li>
         <li>
           <strong>Linux</strong> – uživatelsky i administrátorsky. Ubuntu, Debian, CentOS.
@@ -158,13 +163,9 @@
           stateless cluster-local OCI registry mirror (3.5k+ stars)
         </li>
         <li>
-          projekty z <Highlight>Grafana rodiny</Highlight> –
-          <a href="https://github.com/grafana/tanka"><strong>Tanka</strong></a> a
-          <a href="https://github.com/jsonnet-libs/k8s"><strong>jsonnet-libs</strong></a>,
-          kam jsem přidal podporu Kueue a NATS
-        </li>
-        <li>
-          a další – NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf
+          a další – NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
+          <a href="https://github.com/grafana/tanka">Tanka</a> a
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
         </li>
       </ul>
     </FadeUp>

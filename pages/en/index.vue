@@ -51,8 +51,13 @@
           whatever's needed. Hammer, duct tape &amp; WD-40 all in one.
         </li>
         <li>
-          <strong>infrastructure</strong> &ndash; OpenStack, NATS, Kafka, OpenTelemetry, Prometheus,
-          Grafana, CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
+          <strong>observability</strong> &ndash; <Highlight>OpenTelemetry</Highlight> for metrics,
+          traces and logs; Prometheus and the Grafana family &ndash; Mimir for long-term metrics,
+          Tempo for tracing. Dashboards, alerting and instrumenting services.
+        </li>
+        <li>
+          <strong>infrastructure</strong> &ndash; OpenStack, NATS, Kafka,
+          CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
         </li>
         <li>
           <strong>Linux</strong> &ndash; user and admin. Ubuntu, Debian, CentOS.
@@ -158,13 +163,9 @@
           stateless cluster-local OCI registry mirror (3.5k+ stars)
         </li>
         <li>
-          the <Highlight>Grafana family</Highlight> &ndash;
-          <a href="https://github.com/grafana/tanka"><strong>Tanka</strong></a> and
-          <a href="https://github.com/jsonnet-libs/k8s"><strong>jsonnet-libs</strong></a>,
-          where I added Kueue and NATS support
-        </li>
-        <li>
-          and more &ndash; NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf
+          and more &ndash; NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
+          <a href="https://github.com/grafana/tanka">Tanka</a> and
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
         </li>
       </ul>
     </FadeUp>
