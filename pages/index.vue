@@ -104,11 +104,10 @@
 
       <h3>OpenCode a agentní workflow</h3>
       <p>
-        Denně jedu na <a href="https://opencode.ai">OpenCode</a>. Svoje nastavení mám
-        <a href="https://github.com/thejoeejoee/dots/tree/master/.config/opencode">veřejně v dotfiles</a>
-        – vlastní skills (plan protocol, systematic debugging, TDD, code review)
-        a sada <Highlight>rules</Highlight> pro bezpečnost, scope a git workflow.
-        Agenty jedou i na tomhle webu – má svůj vlastní
+        Denně jedu na <a href="https://opencode.ai">OpenCode</a>. Mám nad ním postavené
+        vlastní skills – plan protocol, systematic debugging, TDD, code review –
+        a sadu <Highlight>rules</Highlight> pro bezpečnost, scope a git workflow.
+        Agenty jedou i na tomhle webu: má svůj vlastní
         <a href="https://github.com/thejoeejoee/josefkolar.cz/blob/master/AGENTS.md">AGENTS.md</a>.
       </p>
     </FadeUp>

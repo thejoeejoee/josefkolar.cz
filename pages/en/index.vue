@@ -104,11 +104,10 @@
 
       <h3>OpenCode and agent workflows</h3>
       <p>
-        I use <a href="https://opencode.ai">OpenCode</a> daily. My setup lives
-        <a href="https://github.com/thejoeejoee/dots/tree/master/.config/opencode">publicly in my dotfiles</a>
-        &ndash; custom skills (plan protocol, systematic debugging, TDD, code review)
+        I use <a href="https://opencode.ai">OpenCode</a> daily, with my own skills built on top
+        &ndash; plan protocol, systematic debugging, TDD, code review &ndash;
         and a set of <Highlight>rules</Highlight> for security, scope and git workflow.
-        Agents run on this site too &ndash; it has its own
+        Agents run on this site too: it has its own
         <a href="https://github.com/thejoeejoee/josefkolar.cz/blob/master/AGENTS.md">AGENTS.md</a>.
       </p>
     </FadeUp>
