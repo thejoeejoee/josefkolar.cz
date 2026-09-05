@@ -1,21 +1,41 @@
 <template>
   <article>
-    <div ref="section0" class="fade-up-section abstract strong" :class="{ 'is-visible': visible0 }">
+    <FadeUp class="abstract strong">
       Ahoj! Jsem Joe a&nbsp;jsem z&nbsp;Generace Z. <br>
       Počítače, internety, aplikace, online prostor, to je můj svět.
-    </div>
+    </FadeUp>
 
-    <figure ref="section1" class="fade-up-section" :class="{ 'is-visible': visible1 }">
-      <img src="~/assets/jk.jpg" alt="má maličkost">
-    </figure>
+    <FadeUp as="figure">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="/img/jk-640.webp 640w, /img/jk-1280.webp 1280w"
+          sizes="(max-width: 719px) 90vw, 640px"
+        >
+        <img
+          src="/img/jk-640.jpg"
+          srcset="/img/jk-640.jpg 640w, /img/jk-1280.jpg 1280w"
+          sizes="(max-width: 719px) 90vw, 640px"
+          width="640"
+          height="427"
+          alt="má maličkost"
+          fetchpriority="high"
+        >
+      </picture>
+    </FadeUp>
 
-    <div ref="section2" class="fade-up-section" :class="{ 'is-visible': visible2 }">
+    <FadeUp>
       <h2>Co umím?</h2>
 
       <ul>
         <li>
           <strong>Golang</strong> – služby nad CDN, Kubernetes operátory, contributions
           do open-source (ArgoCD, Kueue, Watermill).
+        </li>
+        <li>
+          <strong>AI &amp; coding agents</strong> – <a href="https://opencode.ai">OpenCode</a>,
+          <Highlight>sandboxing a izolace</Highlight> agentů – síťové allowlisty,
+          rootless Docker, iptables – a integrace LLM do vývojářských workflow.
         </li>
         <li>
           <strong>media &amp; streaming</strong> – VOD/LIVE transcoding (SW i HW), adaptivní streaming (HLS/DASH),
@@ -45,11 +65,6 @@
           ale i MariaDB/MySQL; nerelačně Mongo a Redis.
         </li>
         <li>
-          <strong>AI &amp; coding agents</strong> – <a href="https://github.com/nicepkg/opencode">OpenCode</a>,
-          <Highlight>sandboxing a izolace</Highlight> agentů,
-          integrace LLM do vývojářských workflow.
-        </li>
-        <li>
           <strong>C/C++, Rust</strong> – ne primární jazyky, ale vyznám se.
         </li>
         <li>
@@ -58,11 +73,49 @@
           <abbr title="teoreticky cokoliv, poznávání nových technologií je super">TODO</abbr>.
         </li>
       </ul>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section3" class="fade-up-section" :class="{ 'is-visible': visible3 }">
+    <FadeUp>
+      <h2>Čím se zabývám teď?</h2>
+
+      <p>
+        Poslední rok trávím hlavně nad <strong>coding agenty</strong> – a hlavně nad tím,
+        jak je pustit na ostrý kód tak, aby to nebolelo. Znamená to sandboxing,
+        síťovou izolaci a <Highlight>reprodukovatelné prostředí</Highlight>,
+        ne slepou důvěru v model.
+      </p>
+
+      <h3>
+        jailoc
+        <small class="right">Go, od března 2026</small>
+      </h3>
+      <p>
+        <a href="https://github.com/seznam/jailoc">jailoc</a> zavírá AI agenty do
+        sandboxovaného Docker prostředí – síťový allowlist přes
+        <Highlight>iptables</Highlight>, rootless Docker daemon odolný vůči tamperingu,
+        embedded Compose SDK a spuštění bez konfigurace.
+        Vedu vývoj tohohle open-source projektu Seznamu: průběžně
+        <a href="https://github.com/seznam/jailoc/releases">releasujeme</a>,
+        má <a href="https://seznam.github.io/jailoc/">dokumentaci</a> a je i v seznamu
+        <a href="https://github.com/awesome-opencode/awesome-opencode">awesome-opencode</a>.
+      </p>
+
+      <h3>OpenCode a agentní workflow</h3>
+      <p>
+        Denně jedu na <a href="https://opencode.ai">OpenCode</a>. Svoje nastavení mám
+        <a href="https://github.com/thejoeejoee/dots/tree/master/.config/opencode">veřejně v dotfiles</a>
+        – vlastní skills (plan protocol, systematic debugging, TDD, code review)
+        a sada <Highlight>rules</Highlight> pro bezpečnost, scope a git workflow.
+        Agenty jedou i na tomhle webu – má svůj vlastní
+        <a href="https://github.com/thejoeejoee/josefkolar.cz/blob/master/AGENTS.md">AGENTS.md</a>.
+      </p>
+    </FadeUp>
+
+    <div class="dinkus"></div>
+
+    <FadeUp>
       <h2>Co je za mnou?</h2>
 
       <h3>
@@ -76,13 +129,7 @@
         Streamovaná úložiště, softwarový i
         <Highlight>hardwarový encoding</Highlight>, hot-swapping vstupních zdrojů,
         to vše ve vlastních k8s clusterech nad OpenStackem.
-      </p>
-      <p>
-        Vedu vývoj open-source projektu
-        <a href="https://github.com/seznam/jailoc">jailoc</a> –
-        sandboxovaná Docker prostředí s&nbsp;síťovou izolací pro bezpečný běh
-        <Highlight>AI agentů</Highlight>.
-        Go, embedded Compose SDK, iptables firewall, zero-config spuštění.
+        Vedle toho vedu vývoj <a href="https://github.com/seznam/jailoc">jailoc</a>.
       </p>
       <p>
         Předtím (od září 2022) jsem na pozici Python Developera nastartoval v témže týmu.
@@ -112,12 +159,13 @@
           stateless cluster-local OCI registry mirror (3.5k+ stars)
         </li>
         <li>
-          a další – <Highlight>NATS, OpenTelemetry</Highlight>, Knative Serving
+          a další – <Highlight>NATS, OpenTelemetry</Highlight>, Knative Serving,
+          Apache Airflow, werf, Grafana Tanka
         </li>
       </ul>
-    </div>
+    </FadeUp>
 
-    <div ref="section4" class="fade-up-section" :class="{ 'is-visible': visible4 }">
+    <FadeUp>
       <h3>
         OLC Systems
         <small class="right">Fullstack Developer, 2014 – 2019</small>
@@ -213,11 +261,11 @@
         </li>
 
       </ul>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section5" class="fade-up-section" :class="{ 'is-visible': visible5 }">
+    <FadeUp>
       <h3>Studia</h3>
       <ul>
         <li>
@@ -249,11 +297,11 @@
           </p>
         </li>
       </ul>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section6" class="fade-up-section" :class="{ 'is-visible': visible6 }">
+    <FadeUp>
       <h2>Co dělám ve volném čase?</h2>
       <p>
         Běhám – po silnici i po lese s <Highlight>buzolou a mapou</Highlight>.
@@ -278,11 +326,11 @@
         rock všech typů na Spotify,
         kryptoměny.
       </p>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section7" class="fade-up-section" :class="{ 'is-visible': visible7 }">
+    <FadeUp>
       <h2>Kde mě najdete?</h2>
 
       <ul class="big">
@@ -301,45 +349,12 @@
           (<a href="https://thejoeejoee.github.io/resume/kolar-josef-cv-en.pdf">english CV</a>)
         </li>
       </ul>
-    </div>
+    </FadeUp>
   </article>
 </template>
 
 <script setup lang="ts">
-import { useElementVisibility } from '@vueuse/core'
-
 const email = 'mail@josefkolar.cz'
-
-// "Once visible, stays visible" — latches true on first intersection
-function useVisibleOnce(target: Ref<HTMLElement | null>) {
-  const isVisible = useElementVisibility(target)
-  const hasBeenVisible = ref(false)
-
-  watch(isVisible, (val) => {
-    if (val) hasBeenVisible.value = true
-  })
-
-  return hasBeenVisible
-}
-
-// #1 — Scroll-triggered fade-up sections
-const section0 = ref<HTMLElement | null>(null)
-const section1 = ref<HTMLElement | null>(null)
-const section2 = ref<HTMLElement | null>(null)
-const section3 = ref<HTMLElement | null>(null)
-const section4 = ref<HTMLElement | null>(null)
-const section5 = ref<HTMLElement | null>(null)
-const section6 = ref<HTMLElement | null>(null)
-const section7 = ref<HTMLElement | null>(null)
-
-const visible0 = useVisibleOnce(section0)
-const visible1 = useVisibleOnce(section1)
-const visible2 = useVisibleOnce(section2)
-const visible3 = useVisibleOnce(section3)
-const visible4 = useVisibleOnce(section4)
-const visible5 = useVisibleOnce(section5)
-const visible6 = useVisibleOnce(section6)
-const visible7 = useVisibleOnce(section7)
 
 useHead({
   title: 'jsem',
@@ -349,5 +364,10 @@ useHead({
 <style lang="scss" scoped>
 article {
   max-width: 80ch;
+}
+
+figure :deep(img) {
+  max-width: 100%;
+  height: auto;
 }
 </style>
