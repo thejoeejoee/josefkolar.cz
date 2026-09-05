@@ -1,22 +1,23 @@
 # josefkolar.cz
 
-> My personal website.
+> My personal website. Nuxt 4, statically generated, deployed to GitHub Pages.
 
 ## Build Setup
 
 ```bash
-# install dependencies
-$ yarn install
+# install dependencies (package manager: bun)
+$ bun install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ bun run dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+# generate the static site into .output/public
+$ bun run generate
 
-# generate static project
-$ yarn generate
+# regenerate responsive image variants from assets/jk.jpg
+$ bun run images
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Pushes to `master` are built and deployed by `.github/workflows/deploy.yml`.
+
+See [AGENTS.md](AGENTS.md) for conventions and pitfalls.

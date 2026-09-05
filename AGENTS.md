@@ -22,7 +22,7 @@ bunx vue-tsc --noEmit                # Run type checker (strict: true)
 # No test framework configured — no test commands available.
 
 # Assets
-bun run assets:resize                # Resize photos to 1080px width (requires ImageMagick)
+bun run images                       # Regenerate responsive image variants from assets/jk.jpg (sharp)
 ```
 
 ## CI/CD
@@ -35,9 +35,10 @@ bun run assets:resize                # Resize photos to 1080px width (requires I
 
 ```
 app.vue                  # Root — NuxtLayout > NuxtPage, no script block
-pages/                   # File-based routes (index.vue, tvorim.vue)
+pages/                   # File-based routes (index.vue, en/index.vue)
 layouts/                 # default.vue (script setup), error.vue (legacy Options API)
-components/              # Auto-imported (Highlight, Mailto)
+components/              # Auto-imported (FadeUp, Highlight, Mailto)
+scripts/                 # Build-time helpers (generate-images.mjs)
 components/global/       # Global components for Nuxt Content (BlogImg — legacy Options API)
 content/blog/erasmus/    # Markdown blog posts (Czech, ~36 posts)
 assets/                  # SCSS, photos (jpg), blog images
@@ -58,6 +59,11 @@ static/                  # Legacy static dir
 - Timer types: `ReturnType<typeof setTimeout>` — never use `number` or `NodeJS.Timeout`.
 - Nuxt auto-imports: `ref`, `computed`, `watch`, `onMounted`, `useHead()`, `useRuntimeConfig()`, `useRoute()` — do NOT import from `vue` or `nuxt/app`.
 - Prefer `<ClientOnly>` wrapper for browser-only rendering (e.g., animations, intersection observers).
+- **Never put slot content inside `<ClientOnly>`** — anything wrapped that way is missing from the
+  prerendered HTML, so crawlers and no-JS readers lose the text. Wrap only the decoration
+  (see `Highlight.vue`, which server-renders its slot and client-renders just the SVG box).
+- Wrap scroll-animated sections in `<FadeUp>` (`as="figure"` for figures) rather than hand-rolling
+  refs and `useElementVisibility` per section.
 
 ### TypeScript
 
@@ -74,6 +80,8 @@ static/                  # Legacy static dir
 - Global styles in `assets/main.scss` — utility classes (`.small`, `.abstract`, `.big`, `.center`, `.hidden`).
 - BEM-like naming for component blocks: `.Photos__photo`, `.Photos__container`.
 - Responsive breakpoints used: `960px`, `720px`, `1440px`, `1920px`.
+- Scroll animations are gated behind a `.js` class set on `<html>` before first paint, so the page
+  stays readable without JavaScript. Honour `prefers-reduced-motion` for anything that moves.
 - External CSS: `latex.css` for typography base — do not fight its styles, extend them.
 
 ### Naming Conventions
@@ -86,7 +94,9 @@ static/                  # Legacy static dir
 
 ### Content & i18n
 
-- All user-facing content is in **Czech** — maintain Czech language in templates, meta tags, and content files.
+- Two language versions: Czech at `/` (`pages/index.vue`) and English at `/en` (`pages/en/index.vue`).
+  **Content changes must be mirrored in both** — they are near-duplicates paired by `canonical` +
+  `hreflang` set in `layouts/default.vue`.
 - SEO meta is set in `nuxt.config.ts` (app.head) and per-page via `useHead()`.
 - Blog posts are Markdown files in `content/blog/erasmus/` — use Nuxt Content conventions.
 
@@ -123,12 +133,19 @@ static/                  # Legacy static dir
 | `latex.css` ^1.1.0 | Typography / document-style CSS base |
 | `sass` ^1.97.3 | SCSS preprocessing |
 | `vue-tsc` ^3.2.5 | TypeScript type checking for Vue SFCs |
+| `sharp` (dev) | Build-time image variant generation (`bun run images`) |
 
 ## Common Pitfalls
 
 - **No test suite exists** — do not reference or try to run tests.
+- **`bunx eslint` is broken** — `.eslintrc.js` extends `@nuxtjs/eslint-config-typescript`, which is not
+  installed (and the pinned ESLint is 7.x). Type-check with `bunx vue-tsc --noEmit` instead.
+- **Do not add `@nuxt/image`** — its static path routes through `ipx`, and prerendering `/_ipx/**`
+  silently aborts `nuxt generate` before assets are copied (reproduced on ipx 3.1.1 and 4.0.0-beta.1,
+  under both bun and node). Responsive variants are pre-baked by `scripts/generate-images.mjs`
+  into `public/img/` and committed; the page uses a plain `<picture>` with a static srcset.
 - `BlogImg.vue` uses legacy `require()` and `path` module (webpack-era) — avoid this pattern in new code.
 - `types/types.d.ts` has stale Vue 2 module declaration — update if touching this file.
-- The `static/` directory is legacy — use `public/` for new static assets.
-- `README.md` references `yarn` but the project uses `bun` — ignore README's package manager instructions.
+- `static/` is dead (Nuxt 4 does not serve it) — `public/` is the only served static dir. Anything
+  referenced from `nuxt.config.ts` head (favicon, icons, robots.txt, sitemap.xml) must live in `public/`.
 - Nitro preset is `static` — there is no server runtime. No API routes, no server middleware.
