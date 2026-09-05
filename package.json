@@ -10,7 +10,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "assets:resize": "mogrify -resize 1080x assets/photos/*"
+    "images": "node scripts/generate-images.mjs"
   },
   "dependencies": {
     "@vueuse/core": "^14.2.0",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",
+    "sharp": "^0.35.4",
     "vue-tsc": "^3.2.5"
   }
 }

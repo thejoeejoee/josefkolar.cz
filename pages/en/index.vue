@@ -1,15 +1,30 @@
 <template>
   <article>
-    <div ref="section0" class="fade-up-section abstract strong" :class="{ 'is-visible': visible0 }">
+    <FadeUp class="abstract strong">
       Hi! I'm Joe and&nbsp;I'm from Gen&nbsp;Z. <br>
       Computers, the internet, apps, the online world &mdash; that's my thing.
-    </div>
+    </FadeUp>
 
-    <figure ref="section1" class="fade-up-section" :class="{ 'is-visible': visible1 }">
-      <img src="~/assets/jk.jpg" alt="yours truly">
-    </figure>
+    <FadeUp as="figure">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="/img/jk-640.webp 640w, /img/jk-1280.webp 1280w"
+          sizes="(max-width: 719px) 90vw, 640px"
+        >
+        <img
+          src="/img/jk-640.jpg"
+          srcset="/img/jk-640.jpg 640w, /img/jk-1280.jpg 1280w"
+          sizes="(max-width: 719px) 90vw, 640px"
+          width="640"
+          height="427"
+          alt="yours truly"
+          fetchpriority="high"
+        >
+      </picture>
+    </FadeUp>
 
-    <div ref="section2" class="fade-up-section" :class="{ 'is-visible': visible2 }">
+    <FadeUp>
       <h2>What can I do?</h2>
 
       <ul>
@@ -18,8 +33,14 @@
           to open source (ArgoCD, Kueue, Watermill).
         </li>
         <li>
+          <strong>AI &amp; coding agents</strong> &ndash; <a href="https://opencode.ai">OpenCode</a>,
+          <Highlight>sandboxing &amp; isolation</Highlight> of agents &ndash; network allowlists,
+          rootless Docker, iptables &ndash; and integrating LLMs into developer workflows.
+        </li>
+        <li>
           <strong>media &amp; streaming</strong> &ndash; VOD/LIVE transcoding (SW &amp; HW), adaptive streaming (HLS/DASH),
-          <Highlight>DRM, media containers &amp; codecs</Highlight>, ffmpeg, RTMP, SRT.
+          <Highlight>DRM, media containers &amp; codecs</Highlight>, ffmpeg, MediaMTX,
+          RTMP, SRT and SRTLA.
         </li>
         <li>
           <strong>Kubernetes</strong> &ndash; cluster design &amp; operations, Helm, Kustomize, Jsonnet/Tanka,
@@ -31,8 +52,12 @@
           whatever's needed. Hammer, duct tape &amp; WD-40 all in one.
         </li>
         <li>
-          <strong>infrastructure</strong> &ndash; OpenStack, NATS, Kafka, OpenTelemetry, Prometheus,
-          Grafana, CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
+          <strong>observability</strong> &ndash; <Highlight>OpenTelemetry</Highlight> stack,
+          Prometheus, Grafana, Mimir, Tempo.
+        </li>
+        <li>
+          <strong>infrastructure</strong> &ndash; OpenStack, NATS, Kafka,
+          CI/CD (GitLab CI, GitHub Actions), Docker, Werf, Ansible.
         </li>
         <li>
           <strong>Linux</strong> &ndash; user and admin. Ubuntu, Debian, CentOS.
@@ -45,11 +70,6 @@
           but also MariaDB/MySQL; non-relational: Mongo and Redis.
         </li>
         <li>
-          <strong>AI &amp; coding agents</strong> &ndash; <a href="https://github.com/nicepkg/opencode">OpenCode</a>,
-          <Highlight>sandboxing &amp; isolation</Highlight> of agents,
-          integrating LLMs into developer workflows.
-        </li>
-        <li>
           <strong>C/C++, Rust</strong> &ndash; not my primary languages, but I know my way around.
         </li>
         <li>
@@ -58,11 +78,48 @@
           <abbr title="theoretically anything, learning new tech is great">TODO</abbr>.
         </li>
       </ul>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section3" class="fade-up-section" :class="{ 'is-visible': visible3 }">
+    <FadeUp>
+      <h2>What I'm working on now</h2>
+
+      <p>
+        I have spent the past year mostly on <strong>coding agents</strong> &ndash; and
+        specifically on how to let them loose on real code without it hurting.
+        That means sandboxing, network isolation and a
+        <Highlight>reproducible environment</Highlight>, not blind trust in the model.
+      </p>
+
+      <h3>
+        jailoc
+        <small class="right">Go, since March 2026</small>
+      </h3>
+      <p>
+        <a href="https://github.com/seznam/jailoc">jailoc</a> locks AI agents into a
+        sandboxed Docker environment &ndash; a network allowlist enforced through
+        <Highlight>iptables</Highlight>, a rootless Docker daemon resistant to tampering,
+        an embedded Compose SDK, and zero-config startup.
+        I lead development of this Seznam open-source project: we
+        <a href="https://github.com/seznam/jailoc/releases">release regularly</a>,
+        it has <a href="https://seznam.github.io/jailoc/">documentation</a>, and it is listed in
+        <a href="https://github.com/awesome-opencode/awesome-opencode">awesome-opencode</a>.
+      </p>
+
+      <h3>OpenCode and agent workflows</h3>
+      <p>
+        I use <a href="https://opencode.ai">OpenCode</a> daily, with my own skills built on top
+        &ndash; plan protocol, systematic debugging, TDD, code review &ndash;
+        and a set of <Highlight>rules</Highlight> for security, scope and git workflow.
+        Agents run on this site too: it has its own
+        <a href="https://github.com/thejoeejoee/josefkolar.cz/blob/master/AGENTS.md">AGENTS.md</a>.
+      </p>
+    </FadeUp>
+
+    <div class="dinkus"></div>
+
+    <FadeUp>
       <h2>Background</h2>
 
       <h3>
@@ -76,13 +133,7 @@
         Streamed storage, software &amp;
         <Highlight>hardware encoding</Highlight>, hot-swapping input sources,
         all running on our own k8s clusters on top of OpenStack.
-      </p>
-      <p>
-        I lead development of the open-source project
-        <a href="https://github.com/seznam/jailoc">jailoc</a> &ndash;
-        sandboxed Docker environments with network isolation for secure
-        <Highlight>AI agent</Highlight> execution.
-        Go, embedded Compose SDK, iptables firewall, zero-config startup.
+        Alongside that, I lead development of <a href="https://github.com/seznam/jailoc">jailoc</a>.
       </p>
       <p>
         Previously (since September 2022) I started in the same team as a Python Developer.
@@ -100,6 +151,10 @@
           continuous delivery for Kubernetes (22k+ stars)
         </li>
         <li>
+          <a href="https://github.com/bluenviron/mediamtx"><strong>MediaMTX</strong></a> &ndash;
+          live media server for SRT, RTMP, WebRTC and RTSP (20k+ stars)
+        </li>
+        <li>
           <a href="https://github.com/kubernetes-sigs/kueue"><strong>Kubernetes Kueue</strong></a> &ndash;
           Kubernetes-native job queueing (2.4k+ stars)
         </li>
@@ -112,12 +167,14 @@
           stateless cluster-local OCI registry mirror (3.5k+ stars)
         </li>
         <li>
-          and more &ndash; <Highlight>NATS, OpenTelemetry</Highlight>, Knative Serving
+          and more &ndash; NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf,
+          <a href="https://github.com/grafana/tanka">Tanka</a> and
+          <a href="https://github.com/jsonnet-libs/k8s">jsonnet-libs</a>
         </li>
       </ul>
-    </div>
+    </FadeUp>
 
-    <div ref="section4" class="fade-up-section" :class="{ 'is-visible': visible4 }">
+    <FadeUp>
       <h3>
         OLC Systems
         <small class="right">Fullstack Developer, 2014&ndash;2019</small>
@@ -134,13 +191,19 @@
       <h3>Projects</h3>
       <ul>
         <li>
-          <h4>Czech orienteering &ndash; livestream graphics <small class="right">2023&ndash;&mldr;</small></h4>
+          <h4>Czech orienteering &ndash; livestreams <small class="right">2023&ndash;&mldr;</small></h4>
           <p>
             For the Czech Orienteering Association I develop a
             <a href="https://github.com/thejoeejoee/co-stream-gfx">web app for livestream graphics</a>
             &ndash; real-time results, course maps, and data for TV broadcasts.
             Runs on live Czech orienteering events.
             <Highlight>Nuxt.js with Tailwind</Highlight>, Kubernetes.
+          </p>
+          <p>
+            Plus the <a href="https://github.com/thejoeejoee/co-ansible">broadcast infrastructure</a>
+            in Ansible &ndash; a MediaMTX stream proxy with native
+            <Highlight>SRTLA</Highlight> for bonded mobile uplinks,
+            Prometheus and Grafana.
           </p>
         </li>
         <li>
@@ -213,11 +276,11 @@
         </li>
 
       </ul>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section5" class="fade-up-section" :class="{ 'is-visible': visible5 }">
+    <FadeUp>
       <h3>Education</h3>
       <ul>
         <li>
@@ -249,11 +312,11 @@
           </p>
         </li>
       </ul>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section6" class="fade-up-section" :class="{ 'is-visible': visible6 }">
+    <FadeUp>
       <h2>Free time</h2>
       <p>
         I run &ndash; on roads and through forests with a <Highlight>compass and map</Highlight>.
@@ -278,11 +341,11 @@
         rock of all kinds on Spotify,
         crypto.
       </p>
-    </div>
+    </FadeUp>
 
     <div class="dinkus"></div>
 
-    <div ref="section7" class="fade-up-section" :class="{ 'is-visible': visible7 }">
+    <FadeUp>
       <h2>Get in touch</h2>
 
       <ul class="big">
@@ -301,56 +364,32 @@
           (<a href="https://thejoeejoee.github.io/resume/kolar-josef-cv-cs.pdf">české CV</a>)
         </li>
       </ul>
-    </div>
+    </FadeUp>
   </article>
 </template>
 
 <script setup lang="ts">
-import { useElementVisibility } from '@vueuse/core'
-
 const email = 'mail@josefkolar.cz'
-
-// "Once visible, stays visible" — latches true on first intersection
-function useVisibleOnce(target: Ref<HTMLElement | null>) {
-  const isVisible = useElementVisibility(target)
-  const hasBeenVisible = ref(false)
-
-  watch(isVisible, (val) => {
-    if (val) hasBeenVisible.value = true
-  })
-
-  return hasBeenVisible
-}
-
-// Scroll-triggered fade-up sections
-const section0 = ref<HTMLElement | null>(null)
-const section1 = ref<HTMLElement | null>(null)
-const section2 = ref<HTMLElement | null>(null)
-const section3 = ref<HTMLElement | null>(null)
-const section4 = ref<HTMLElement | null>(null)
-const section5 = ref<HTMLElement | null>(null)
-const section6 = ref<HTMLElement | null>(null)
-const section7 = ref<HTMLElement | null>(null)
-
-const visible0 = useVisibleOnce(section0)
-const visible1 = useVisibleOnce(section1)
-const visible2 = useVisibleOnce(section2)
-const visible3 = useVisibleOnce(section3)
-const visible4 = useVisibleOnce(section4)
-const visible5 = useVisibleOnce(section5)
-const visible6 = useVisibleOnce(section6)
-const visible7 = useVisibleOnce(section7)
 
 useHead({
   title: "I'm",
   htmlAttrs: {
     lang: 'en'
-  }
+  },
+  meta: [
+    { name: 'description', content: 'Josef Kolář – Senior Developer @ Seznam.cz, Golang & Kubernetes, AI agent sandboxing, open-source contributor' },
+    { property: 'og:description', content: 'Senior Developer @ Seznam.cz, Golang & Kubernetes, AI agent sandboxing, open-source contributor' }
+  ]
 })
 </script>
 
 <style lang="scss" scoped>
 article {
   max-width: 80ch;
+}
+
+figure :deep(img) {
+  max-width: 100%;
+  height: auto;
 }
 </style>
