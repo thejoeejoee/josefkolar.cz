@@ -158,8 +158,13 @@
           stateless cluster-local OCI registry mirror (3.5k+ stars)
         </li>
         <li>
-          a další – <Highlight>NATS, OpenTelemetry</Highlight>, Knative Serving,
-          Apache Airflow, werf, Grafana Tanka
+          projekty z <Highlight>Grafana rodiny</Highlight> –
+          <a href="https://github.com/grafana/tanka"><strong>Tanka</strong></a> a
+          <a href="https://github.com/jsonnet-libs/k8s"><strong>jsonnet-libs</strong></a>,
+          kam jsem přidal podporu Kueue a NATS
+        </li>
+        <li>
+          a další – NATS, OpenTelemetry, Knative Serving, Apache Airflow, werf
         </li>
       </ul>
     </FadeUp>
